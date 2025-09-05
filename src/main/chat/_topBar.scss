@@ -1,0 +1,19 @@
+@use '../../var' as *;
+
+.visual-refresh .title_f75fb0 {
+    border: none;
+    background: var($main);
+}
+
+.theme-dark .children__9293f:after {background: none}
+
+.visual-refresh .chat_f75fb0[data-has-border=true] {border: none;}
+
+.visual-refresh .searchBar__97492 {border: none;} //search bar
+
+//--------------#channel--------------//
+.wrapper_f61d60 {
+    color: var(--FO-mentionCol);
+    background: var(--FO-mentionColBg);
+}
+//------------------------------------//

@@ -1,0 +1,46 @@
+:root {
+    --background-tertiary: #ff0000;
+    --background-secondary: #00ff00;
+    --background-primary: #0000ff;
+    --background-secondary-alt: #ffffff;
+    --bg-overlay-1: #00ffff;
+    --bg-overlay-3: #ffff00;
+
+    /*BG*/
+    --background-base-lower: #000 !important;
+
+    /*Top Bar*/
+    --bg-overlay-2: #000;
+
+    /*Msg Bar*/
+    --chat-background-default: #050505 !important;
+
+    
+}
+
+/*Title Bar*/
+.title_c38106 {
+    border: none;
+    background: #000;
+}
+
+/*Top Bar*/
+.visual-refresh .title_f75fb0 {border: none;}
+
+/*Msg Bar*/
+:where(.visual-refresh) .channelTextArea__74017 {
+    border: none;
+}
+
+.actionButtons_cc1819, .button_aec7ab {
+    --bg-surface-overlay: #000;
+}
+.overlay_c0bea0 {
+    --bg-mod-faint: #808080;
+}
+.button__201d5 lookBlank__201d5 footerButtonColor__537ec sizeLarge__201d5 fullWidth__201d5 grow__201d5 {
+    background:#111111;
+}
+.outer_c0bea0 theme-dark images-dark panel_c0bea0 {
+    background-color: #696969;
+}

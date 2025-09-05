@@ -1,0 +1,7 @@
+@use '../var' as *;
+
+.container_dca174, .spinnerContainer_d3846c  {
+    border: none;
+    background: var($accentA);
+    backdrop-filter: blur(var($blur));
+}

@@ -1,0 +1,19 @@
+@use '../../var' as *;
+
+.wrapper_c19a55:hover {transition: 0.25s;}
+
+//---------------buttons----------------//
+.wrapper_f7ecac, .wrapper_f7ecac:hover {
+    border: none;
+    box-shadow: none !important;
+    backdrop-filter: blur(var($blur));
+    background: var($accentA);
+}
+//--------------------------------------//
+
+//------------reaction hover------------//
+.reactionTooltip_b49891 {
+    background: var($accentA);
+    backdrop-filter: blur(var($blur));
+}
+//--------------------------------------//

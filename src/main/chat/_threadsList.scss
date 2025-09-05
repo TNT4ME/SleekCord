@@ -1,0 +1,23 @@
+@use '../../var' as *;
+
+.container_d9c882 {
+    background: var($accentA);
+    backdrop-filter: blur(var($blur));
+}
+
+.header_d9c882, .container__6764b {
+    border: none;
+    background: none;
+}
+
+//hov
+.container__6764b:hover {background: var($accentB);}
+
+//icon
+.closeIcon_d9c882, .threadIcon_d9c882 {color: var($icon);}
+
+//search
+.wrapper__3412a {
+    border: none;
+    background: #0002;
+}

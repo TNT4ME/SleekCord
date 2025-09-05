@@ -1,0 +1,14 @@
+@use '../../var' as *;
+
+@keyframes grad {
+    0% {background-position: 0% 100%;}
+    100% {background-position: 100% 100%;}
+}
+
+.chipletContainerInner__10651, .clickable__10651:hover {
+    background: var($grad);
+
+    background-size: 400% auto;
+
+    animation: grad 5s linear infinite;
+}

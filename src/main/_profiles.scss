@@ -1,0 +1,41 @@
+@use '../var' as *;
+
+.outer_c0bea0 { //bg
+    border: none;
+    background: var($profile);
+    backdrop-filter: blur(var($blur));
+}
+
+.profile__9c3be { //full profile
+    outline: none;
+    box-shadow: none;
+    background: none;
+}
+
+.lookFilled__201d5.colorBrand__201d5 { //add friend
+    border: none;
+    color: var($txt);
+    background: var($accent);
+}
+
+.platformIconContainer__9bfb9 { //connections
+    border: none;
+    background: var($accentA);
+}
+
+//------------Fixes bug in 'More > Invite to Server'------------//
+.menu_c1e9c4:after { // Thanks to @skamt. for fixing this bug <3
+    inset: 0;
+    z-index: -1;
+    content: "";
+    border-radius: 8px;
+    position: absolute;
+    backdrop-filter: blur(var(--FO-blur));
+}
+//div.submenu_c1e9c4.menu_c1e9c4::after {inset: 0 2.5%;}
+//--------------------------------------------------------------//
+
+//improves readability
+.defaultColor__4bd52 {color: var($txt) !important;} //bio
+
+.editor_a99829 > div > .placeholder__1b31f {color: var($txt);} //dm this guy

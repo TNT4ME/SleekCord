@@ -1,0 +1,26 @@
+@use '../var' as *;
+
+.visual-refresh .panels_c48ade { //bg
+    border: none;
+    background: var($accentA);
+    backdrop-filter: blur(var($blur));
+}
+
+:where(.overlay_c0bea0) {background: none;}
+
+//-----------------activity panel-----------------//
+.activityPanel_c48ade {border: none;}
+
+.showMoreButton__84832 {background: var($accentB);}
+
+.panel__5dec7 {background: none}
+//------------------------------------------------//
+
+//-------------------online n stuff-------------------//
+#\:rm7\: > rect:nth-child(2),
+#svg-mask-status-idle > circle:nth-child(2), //idle
+#svg-mask-status-dnd > rect, //dnd
+#svg-mask-status-offline > circle:nth-child(2) { //invis
+    fill: transparent;
+}
+//----------------------------------------------------//

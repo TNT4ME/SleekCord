@@ -1,0 +1,20 @@
+@use '../../var' as *;
+
+.visual-refresh .privateChannels__35e86 {background: var($main);}
+
+.visual-refresh .scroller__99e7c {background: var($main);}
+
+//dc official bot
+.botTagRegular__82f07 {background: var($accent);}
+
+//hover//
+.interactiveSelected__972a0 {
+    color: var($txt);
+    background: var($accentA);
+}
+
+.interactiveSelected__972a0:hover {background: var($accent);}
+//-----//
+
+//profile sidebar
+.user-profile-sidebar {background: var($main);}

@@ -1,0 +1,19 @@
+@use '../../var' as *;
+
+.guildInviteContainer__083ae, .footerContent__083ae { //invites
+    background: none;
+    border: none;
+}
+
+.visual-refresh .embedFull__623de { //embeds
+    border: none;
+    border-left: 4px solid var($accent);
+}
+
+.file__0ccae {border: none;} //files
+
+.hoverButtonGroup__06ab4, .gifFavoriteButton__43deb { // the tooltip buttons
+    outline: none;
+    background: var($accentB);
+    backdrop-filter: blur(var($blur));
+}

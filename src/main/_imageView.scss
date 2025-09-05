@@ -1,0 +1,14 @@
+@use '../var' as *;
+
+.backdrop__78332, .withLayer__78332 { //bg when viewing img
+    background: none !important;
+    backdrop-filter: blur(var($blur)) !important;
+}
+
+//buttons
+.actionButtons_cc1819, .button_aec7ab {
+    border: none;
+    background: var($accentA);
+}
+
+.buttonInner_aec7ab {border: none;}

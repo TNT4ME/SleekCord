@@ -1,0 +1,34 @@
+@use '../../var' as *;
+
+//removes the most annoying square in history, the one behind profile //
+//wiget thingy--------------------------------------------------------//
+.visual-refresh .wrapper_ef3116 {
+    background: var($main); //bg
+    margin-bottom: unset; 
+}
+
+.stack_dbd263.scroller_ef3116.none_d125d2.scrollerBase_d125d2:after {
+    color: transparent;
+    background: none;
+    white-space: pre-wrap;
+    font-family: var($code);
+    content: "By TNT4\00000aME ඞ :D\00000a1234567"; //filler txt
+}
+//--------------------------------------------------------------------//
+
+//dc logo btn
+.wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8 {background: var($accent);}
+
+//folders
+.folderGroupBackground__48112 {border: none;}
+
+//----------------------------------server discover buttons-----------------------------------//
+.circleIconButton__5bc7e.selected__5bc7e, .circleIconButton__5bc7e:hover:not(.disabled__5bc7e) {
+    background: var($accent);
+}
+
+.circleIconButton__5bc7e, .circleIconButton__5bc7e.selected__5bc7e {
+    color: var($icon);
+    background: var($sec);
+}
+//--------------------------------------------------------------------------------------------//

@@ -1,0 +1,77 @@
+@use '../../var' as *;
+
+.themedBackground__74017 {background: var($msgBar);}
+
+.channelTextArea__74017:not(.highlighted__74017) {border: none;} //msg bar
+
+.channelTextArea__74017:not(.highlighted__74017):hover {
+    border: none;
+    box-shadow: 0px 0px 3px color-mix(in oklch, var(--FO-accentCol) 90%, transparent),
+    0px 0px 5px color-mix(in oklch, var(--FO-accentCol) 80%, transparent);
+} 
+
+//---------------------------------file upload---------------------------------//
+.upload_aa605f {
+    background: none;
+    backdrop-filter: blur(var($blur)); /*need to fix*/
+}
+
+.mediaContainer__41ea0 > div:not([aria-expanded=false]) > div {background: none;}
+
+//reply
+.stackedBars__74017:not(:last-child) {border: none;}
+
+.mentionButton__841c8 {color: var($accent) !important;} //ping on/off
+//-----------------------------------------------------------------------------//
+
+
+//-----------------------jump to present-----------------------//
+.jumpToPresentBar__0f481:active {margin-bottom: var(--space-8);}
+
+.bottomBar__0f481 {
+    border: none;
+    border-radius: 8px;
+    backdrop-filter: blur(var($blur));
+}
+
+.primary__6af3a, .primary__6af3a:hover { //button
+    border: none;
+    color: var($txt);
+    background: var($accent) !important;
+}
+//-------------------------------------------------------------//
+
+
+//------------------------------------gif, sticker, :emoji: menus------------------------------------//
+.contentWrapper__08434, div[data-popout-animating=false] > #emoji-picker-tab-panel {
+    background: var($accentA);
+    backdrop-filter: blur(var($blur));
+}
+
+.container_fed6d3, .header_fed6d3, .header__8ef02, .wrapper__14245,
+.wrapper__4e6ce, .inspector_aeaaeb, .stickerInspected_c6367b .inspectedIndicator_c6367b,
+.wrapper_c0e32c, .wrapper_c0e32c.isBurstReactionPicker_c0e32c,
+.header_c0e32c, .emojiPicker_c0e32c {
+    border: none;
+    background: none;
+}
+
+.categoryFade_d02962:hover, .result__2dc39:hover { //hov
+    border: none;
+    box-shadow: none;
+}
+
+.standardStickerShortcut__3ad28, .unicodeShortcut_b9ee0c {
+    border: none;
+    color: var($icon);
+}
+
+.emojiItem_fc7141.emojiItemSelected_fc7141  { //hov
+    transition: 0.2s;
+    background: var($accentA);
+}
+
+.topGuildEmojiBadge_aeaaeb {background: linear-gradient(268.26deg,#bf5151,#db803f 102.45%);}
+
+.stickerCategoryGenericSelected__3ad28, .categoryItemDefaultCategorySelected_b9ee0c {background: none;}
+//---------------------------------------------------------------------------------------------------//

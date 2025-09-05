@@ -1,0 +1,32 @@
+@keyframes dev {
+    0% {background-position: 0% 100%;}
+    100% {background-position: 100% 100%;}
+}
+
+//--------------------------------------------------------Color--------------------------------------------------------//
+.username_c19a55[data-text="TNT4ME"],
+.username_c19a55[data-text="TNT4ME 3060"],
+.outer_c0bea0[data-member-id="790463558625918999"] > div > div.body__5be3e > div > div > div > div.defaultColor__4bd52 {
+    --dev: linear-gradient(45deg, var(--FO-accentCol), oklch(0.8909 0.2062 191.37),
+    var(--FO-accentCol), oklch(0.8909 0.2062 191.37));
+
+    color: transparent !important;
+    background: var(--dev);
+
+    background-clip: text;
+    background-size: 400% auto;
+
+    animation: dev 3s linear infinite;
+}
+//---------------------------------------------------------------------------------------------------------------------//
+
+//--------------------------------Glow/--------------------------------/
+span.headerText_c19a55:has(.username_c19a55[data-text="TNT4ME"]),
+span.headerText_c19a55:has(.username_c19a55[data-text="TNT4ME 3060"]) {
+    filter: drop-shadow(0px 0px 4px oklch(0.8277 0.1014 291.18));
+}
+
+.outer_c0bea0[data-member-id="790463558625918999"] > div > div.body__5be3e > div > div > div > div.defaultColor__4bd52 {
+    filter: drop-shadow(0px 0px 2px oklch(0.8277 0.1014 291.18));
+}
+//--------------------------------------------------------------------//

@@ -1,0 +1,9 @@
+@use "../var" as *;
+
+div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.bar_c38106.theme-dark.theme-darker.images-dark {
+    border: none;
+    background: var($main); //dc titlebar
+}
+
+//buttons
+.visual-refresh .clickable__9293f .icon__9293f {color: var($icon);} .visual-refresh:hover .clickable__9293f:hover .icon__9293f:hover {color: var($accent);}

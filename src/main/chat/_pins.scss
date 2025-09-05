@@ -1,0 +1,18 @@
+@use '../../var' as *;
+
+.messagesPopoutWrap__45690 {
+    background: var($accentA);
+    backdrop-filter: blur(var($blur));
+}
+
+.header__45690, .messageGroupWrapper__45690 {
+    border: none;
+    background: none;
+}
+
+//Jump to msg
+.jumpButton__45690 {
+    border: none;
+    color: var($txt);
+    background: var($accentB);
+}
