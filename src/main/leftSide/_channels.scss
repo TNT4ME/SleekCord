@@ -9,31 +9,37 @@
 
 .visual-refresh .sidebar_c48ade:after {background: none;}
 
-//-------------------------------channen sel & hov-------------------------------//
-.modeSelected__2ea32 .link__2ea32 {background: var($accentA);} //current channel
+//---------------------------------channel sel & hov---------------------------------//
+.wrapper__2ea32:hover { //hov
+    .link__2ea32 {background: var($sec); transition: 0.3s;}
+    .name__2ea32, .icon__2ea32, .actionIcon_c69b6d {color: var($txt); transition: 0.3s;}
+}
+
+//----------unread----------//
+.modeUnreadImportant__2ea32 {
+    .name__2ea32, &:hover .name__2ea32,
+    .icon__2ea32, &:hover .icon__2ea32,
+    .actionIcon_c69b6d {color: var($accent) !important;}
+}
+.unreadImportant__2ea32 {background: var($accent)}; //dot
+//--------------------------//
+
+.modeSelected__2ea32 { //sel
+    .link__2ea32 {color: var($txt); background: var($accentA);}
+    .link__2ea32:hover {color: var($txt); background: var($accentA); transition: 0.3s;}
+}
 
 .popout__76f04 { //threads
     background: var($accentA);
     backdrop-filter: blur(var($blur));
 }
-//-------------------------------------------------------------------------------//
+//-----------------------------------------------------------------------------------//
 
-//------------------------channel hov------------------------//
-.wrapper__2ea32:hover .link__2ea32 {
-    transition: 0.3s;
-    background: var($sec);
-}
+/*--------------------thread list--------------------*/
+.spine__5b40b {color: var($accent);}
 
-.wrapper__2ea32:hover .name__2ea32 {
-    transition: 0.3s;
-    color: var($txt);
-}
-
-.modeSelected__2ea32 .link__2ea32:hover { //current channel hov
-    transition: 0.3s;
-    background: var($accent);
-}
-//-----------------------------------------------------------//
+.spineBorder__5b40b {background: var($accent);}
+/*---------------------------------------------------*/
 
 //------------New Unreads------------//
 .unread__3b95d {

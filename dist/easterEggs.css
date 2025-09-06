@@ -27,4 +27,11 @@ span.headerText_c19a55:has(.username_c19a55[data-text="TNT4ME 3060"]) {
   filter: drop-shadow(0px 0px 2px oklch(82.77% 0.1014 291.18deg));
 }
 
-/*# sourceMappingURL=devX.css.map */
+/*miku*/
+.outer_c0bea0[data-member-id="<ur discord id>"] {
+  background: url("https://tnt4me.github.io/FrostyOLED/img/miku.webp");
+  background-size: 100%;
+  background-position: 0% -50%;
+}
+
+/*# sourceMappingURL=easterEggs.css.map */

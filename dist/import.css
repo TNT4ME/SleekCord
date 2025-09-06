@@ -1,4 +1,33 @@
 @charset "UTF-8";
+:root {
+  --FO-mentionColBg: color-mix(in oklch, var(--FO-mentionCol) 20%, transparent);
+  --bg-overlay-2: var(--FO-mainCol);
+  --bg-base-secondary: var(--FO-mainCol);
+  --background-accent: var(--FO-accentA);
+  --background-base-low: var(--FO-mainCol);
+  --background-base-lower: var(--FO-mainCol) !important;
+  --background-surface-high: var(--FO-secCol);
+  --background-surface-higher: var(--FO-msgBar);
+  --background-surface-highest: var(--FO-accentA);
+  --modal-background: none;
+  --border-normal: var(--FO-accentCol);
+  --chat-background-default: var(--FO-msgBar) !important;
+  --mention-background: var(--FO-mentionColBg) !important;
+  --mention-foreground: var(--FO-mentionCol);
+  --background-mentioned: var(--FO-accentB);
+  --background-message-hover: var(--FO-secCol);
+  --info-warning-foreground: var(--FO-accentCol);
+  --text-normal: var(--FO-txtCol);
+  --text-default: var(--FO-txtCol);
+  --font-primary: var(--FO-font);
+  --font-code: var(--FO-code);
+  --interactive-normal: var(--FO-icon);
+  --background-modifier-hover: none;
+  --FO-accentA: color-mix(in oklch, var(--FO-accentCol), transparent 70%);
+  --FO-accentB: color-mix(in oklch, var(--FO-accentCol), transparent 85%);
+  --FO-grad: linear-gradient(45deg, var(--FO-gradCol1), var(--FO-gradCol2), var(--FO-gradCol1), var(--FO-gradCol2));
+}
+
 .backdrop__78332, .withLayer__78332 {
   background: none !important;
   backdrop-filter: blur(var(--FO-blur)) !important;
@@ -27,6 +56,17 @@
 }
 
 .menu_c1e9c4 {
+  border: none;
+  background: var(--FO-accentA);
+}
+
+.popover_d6f39b, .popoverGradientWrapper_d6f39b {
+  border: none;
+  background: var(--FO-accentA);
+  backdrop-filter: blur(var(--FO-blur));
+}
+
+.secondary__6af3a {
   border: none;
   background: var(--FO-accentA);
 }
@@ -245,6 +285,10 @@ div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.b
   background: var(--FO-accentCol) !important;
 }
 
+.createThreadButton__841c8 {
+  color: var(--FO-accentCol) !important;
+}
+
 .contentWrapper__08434, div[data-popout-animating=false] > #emoji-picker-tab-panel {
   background: var(--FO-accentA);
   backdrop-filter: blur(var(--FO-blur));
@@ -396,8 +440,33 @@ div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.b
   background: none;
 }
 
+.wrapper__2ea32:hover .link__2ea32 {
+  background: var(--FO-secCol);
+  transition: 0.3s;
+}
+.wrapper__2ea32:hover .name__2ea32, .wrapper__2ea32:hover .icon__2ea32, .wrapper__2ea32:hover .actionIcon_c69b6d {
+  color: var(--FO-txtCol);
+  transition: 0.3s;
+}
+
+.modeUnreadImportant__2ea32 .name__2ea32, .modeUnreadImportant__2ea32:hover .name__2ea32,
+.modeUnreadImportant__2ea32 .icon__2ea32, .modeUnreadImportant__2ea32:hover .icon__2ea32,
+.modeUnreadImportant__2ea32 .actionIcon_c69b6d {
+  color: var(--FO-accentCol) !important;
+}
+
+.unreadImportant__2ea32 {
+  background: var(--FO-accentCol);
+}
+
 .modeSelected__2ea32 .link__2ea32 {
+  color: var(--FO-txtCol);
   background: var(--FO-accentA);
+}
+.modeSelected__2ea32 .link__2ea32:hover {
+  color: var(--FO-txtCol);
+  background: var(--FO-accentA);
+  transition: 0.3s;
 }
 
 .popout__76f04 {
@@ -405,21 +474,16 @@ div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.b
   backdrop-filter: blur(var(--FO-blur));
 }
 
-.wrapper__2ea32:hover .link__2ea32 {
-  transition: 0.3s;
-  background: var(--FO-secCol);
+/*--------------------thread list--------------------*/
+.spine__5b40b {
+  color: var(--FO-accentCol);
 }
 
-.wrapper__2ea32:hover .name__2ea32 {
-  transition: 0.3s;
-  color: var(--FO-txtCol);
-}
-
-.modeSelected__2ea32 .link__2ea32:hover {
-  transition: 0.3s;
+.spineBorder__5b40b {
   background: var(--FO-accentCol);
 }
 
+/*---------------------------------------------------*/
 .unread__3b95d {
   background: var(--FO-accentA);
   backdrop-filter: blur(var(--FO-blur));
@@ -469,6 +533,10 @@ div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.b
 
 .folderGroupBackground__48112 {
   border: none;
+}
+
+.item__58105 {
+  background: var(--FO-accentCol);
 }
 
 .circleIconButton__5bc7e.selected__5bc7e, .circleIconButton__5bc7e:hover:not(.disabled__5bc7e) {

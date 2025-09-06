@@ -1,14 +1,16 @@
 @use '../../var' as *;
 
+//-------------------------------------bg-------------------------------------//
 .themedBackground__74017 {background: var($msgBar);}
 
 .channelTextArea__74017:not(.highlighted__74017) {border: none;} //msg bar
 
 .channelTextArea__74017:not(.highlighted__74017):hover {
     border: none;
-    box-shadow: 0px 0px 3px color-mix(in oklch, var(--FO-accentCol) 90%, transparent),
-    0px 0px 5px color-mix(in oklch, var(--FO-accentCol) 80%, transparent);
-} 
+    box-shadow: 0px 0px 3px color-mix(in oklch, var($accent) 90%, transparent),
+    0px 0px 5px color-mix(in oklch, var($accent) 80%, transparent);
+}
+//----------------------------------------------------------------------------//
 
 //---------------------------------file upload---------------------------------//
 .upload_aa605f {
@@ -41,6 +43,7 @@
 }
 //-------------------------------------------------------------//
 
+.createThreadButton__841c8 {color: var($accent) !important;}
 
 //------------------------------------gif, sticker, :emoji: menus------------------------------------//
 .contentWrapper__08434, div[data-popout-animating=false] > #emoji-picker-tab-panel {
