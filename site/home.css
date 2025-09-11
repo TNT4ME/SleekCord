@@ -1,5 +1,4 @@
 /*! tailwindcss v4.1.13 | MIT License | https://tailwindcss.com */
-@layer properties;
 @layer theme, base, components, utilities;
 @layer theme {
   :root, :host {
@@ -161,66 +160,13 @@
   }
 }
 @layer utilities {
-  .table {
-    display: table;
+  .h-auto {
+    height: auto;
   }
-  .h-0 {
-    height: calc(var(--spacing) * 0);
-  }
-  .h-0\.5 {
-    height: calc(var(--spacing) * 0.5);
-  }
-  .h-720 {
-    height: calc(var(--spacing) * 720);
-  }
-  .w-720 {
-    width: calc(var(--spacing) * 720);
-  }
-  .border-collapse {
-    border-collapse: collapse;
-  }
-  .resize {
-    resize: both;
-  }
-  .border {
-    border-style: var(--tw-border-style);
-    border-width: 1px;
-  }
-  .bg-\[url\(banner\.png\)\] {
-    background-image: url(banner.png);
+  .max-w-100 {
+    max-width: calc(var(--spacing) * 100);
   }
   .bg-auto {
     background-size: auto;
-  }
-  .object-contain {
-    object-fit: contain;
-  }
-  .object-scale-down {
-    object-fit: scale-down;
-  }
-  .underline {
-    text-decoration-line: underline;
-  }
-  .outline {
-    outline-style: var(--tw-outline-style);
-    outline-width: 1px;
-  }
-}
-@property --tw-border-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
-}
-@property --tw-outline-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
-}
-@layer properties {
-  @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
-    *, ::before, ::after, ::backdrop {
-      --tw-border-style: solid;
-      --tw-outline-style: solid;
-    }
   }
 }

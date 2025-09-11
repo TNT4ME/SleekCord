@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 :root {
   --FO-mentionColBg: color-mix(in oklch, var(--FO-mentionCol) 20%, transparent);
   --bg-overlay-2: var(--FO-mainCol);
