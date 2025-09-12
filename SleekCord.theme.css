@@ -1,0 +1,41 @@
+/**
+ * @name Sleekcord
+ * @author TNT4ME
+ * @description A pitch black theme that's sleek and modern in every way.
+ * @version 1
+ * @authorId 790463558625918999
+ * @source https://github.com/TNT4ME/SleekCord
+ */
+
+@import url('https://tnt4me.github.io/SleekCord/dist/import.css');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital@0;1&family=Nunito:ital@0;1&display=swap');
+
+/*easter eggs*/
+@import url('https://tnt4me.github.io/SleekCord/src/easterEggs.css');/**/
+
+:root {
+    --FO-mainCol: #000; /*Main background color | Default value: #000*/
+    --FO-secCol: #0c0c0c; /*Secondary background color | Default value: #0c0c0c*/
+    --FO-accentCol: oklch(0.7073 0.1808 291.18); /*Secondary background color | Default value: oklch(0.7073 0.1808 291.18)*/
+
+    --FO-gradCol1: var(--FO-accentA); /*Gradient color 1| Default value: --FO-accentA*/
+    --FO-gradCol2: oklch(0.8909 0.2062 191.37 / 0.3); /*Gradient color 2| Default value: oklch(0.8909 0.2062 191.37 / 0.3)*/
+
+    --FO-blur: 15px; /*Controls the blur amount of everything | Default value: 15px*/ 
+
+    --FO-spoiler: 20px; /*Spoiler blur amount | Default value: 20px*/
+
+    --FO-profileCol: oklch(0.7073 0.1808 291.18 / /*Profile Opacity*/ 20%);
+
+    --FO-mentionCol: var(--FO-accentCol); /*Mention color | Default value: --FO-accentCol*/
+
+
+    --FO-txtCol: #eee; /*Text color | Default value: #eee*/
+    --FO-font: 'Nunito'; /*Font | Default value: 'Nunito'*/
+    --FO-code: 'Jetbrains Mono', monospace; /*Code font | Default value: 'Jetbrains Mono'*/
+    --FO-linkCol: oklch(0.6836 0.1563 194.769); /*Link color | Default value: */
+
+    --FO-icon: var(--FO-txtCol); /*Icon color | Default value: --FO-txtCol*/
+
+    --FO-msgBar: #111; /*Message bar color | Default value: #111*/
+}
