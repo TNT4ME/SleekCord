@@ -1,0 +1,1 @@
+@tailwindcss -i hometw.css -o home.css --watch
