@@ -1,33 +1,40 @@
 <!DOCTYPE html>
 <head>
   <title>SleekCord</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
   <link href="./home.css" rel="stylesheet">
+  <link href="./glow.css" rel="stylesheet">
 </head>
 
 <script>
   // auto refresh to see changes after saving
-  setInterval(function() {location.reload();}, 2000); //2s
+  //setInterval(function() {location.reload();}, 2000); //2s
 </script>
 
-<body class="bg-stone-950 text-blue-50 text-center font-mono">
+<body class="font-[Montserrat] bg-black text-blue-50 text-center flex flex-col justify-center items-center">
   <div class="relative">
-    <img class="w-full h-auto object-cover" src="pretty.jpg" alt="banner">
+    <img class="w-full h-auto object-cover" src="aishot-2377.jpg" alt="banner">
 
     <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
-      <h1 class="font-[Montserrat] font-medium text-5xl text-blue-800 opacity-75">SleekCord</h1>
+      <h1 class="font-medium text-7xl opacity-75" style="color: oklch(60% 0.233 277.117);">SleekCord</h1>
+      <h6>Temp image</h6>
     </div>
   </div>
 
   <br>
-  <h1 class="font-bold">SleekCord</h1>
-  <br>
-  <h1 class="font-bold">SleekCord</h1>
-  <br>
-  <h1 class="font-bold">SleekCord</h1>
-  <br>
-  <h1 class="font-bold">SleekCord</h1>
-  <br>
-  <h1 class="font-bold">SleekCord</h1>
-  <br>
-  <h1 class="font-bold">SleekCord</h1>
+
+  <div class="p-10 text-4xl">
+    <h1>A sleek, modern Discord theme with a dark aesthetic and clean UI.</h1>
+    <h1>Endless customizability awaits!</h1>
+  </div>
+
+  <button onclick="download()" class="text-4xl font-bold p-2 pl-3 pr-3 rounded-xl">Download</button>
+  <script>
+    function download() {
+      window.open("https://github.com/TNT4ME/SleekCord", "_blank");
+    }
+  </script>
+  
 </body>
