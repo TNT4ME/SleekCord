@@ -7,6 +7,7 @@
 
   <link href="./home.css" rel="stylesheet">
   <link href="./glow.css" rel="stylesheet">
+  <link href="./textBlur.css" rel="stylesheet">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,13 +19,34 @@
   //setInterval(function() {location.reload();}, 2000); //2s
 </script>
 
+<!--span {
+  -webkit-mask: linear-gradient(#000 0 0) text;
+  mask: linear-gradient(#000 0 0) text;
+  backdrop-filter: blur(5px);
+}-->
+
 <body class="font-[Montserrat] bg-black text-blue-50 text-center flex flex-col justify-center items-center">
   <div class="relative">
     <img class="w-full h-auto object-cover" src="Banner.webp" alt="banner">
 
     <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
-      <h1 class="font-medium text-7xl opacity-75" style="color: oklch(60% 0.233 277.117);">SleekCord</h1>
-      <h6>Temp image</h6>
+
+      <div>
+
+        <div id="sleekcord-temp">
+          <h1 class="font-medium text-7xl text-blur" style="color: oklch(60% 0.233 277.117 / 0.7);">SleekCord</h1>
+        </div>
+
+        <!--<svg id="svgShadow" style="width: 100%; height: 100%; -webkit-transform: translate3d(0,-100%, 0); transform: translate3d(0,-100%, 0);">
+	      	<defs>
+	      		<filter id="trans-shadow">
+	      			<feGaussianBlur stdDeviation="5"></feGaussianBlur>
+	      			<feComposite operator="out" in2="SourceGraphic"></feComposite>
+	      		</filter>
+	      	</defs>
+	      </svg>-->
+
+      </div>
     </div>
   </div>
 
@@ -42,4 +64,6 @@
     }
   </script>
   
+  <!-- SVG filter definition -->
+
 </body>
