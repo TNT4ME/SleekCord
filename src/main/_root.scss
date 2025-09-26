@@ -1,37 +1,42 @@
-:root {
-    --FO-mentionColBg: color-mix(in oklch, var(--FO-mentionCol) 20%, transparent);
+@use '../var' as *;
 
-    --bg-overlay-2: var(--FO-mainCol);
-    --bg-base-secondary: var(--FO-mainCol);
-    --background-accent: var(--FO-accentA);
-    --background-base-low: var(--FO-mainCol);
-    --background-base-lower: var(--FO-mainCol) !important;
-    --background-surface-high: var(--FO-secCol);
-    --background-surface-higher: var(--FO-msgBar);
-    --background-surface-highest: var(--FO-accentA);
+:root {
+    $mentionBg: color-mix(in oklch, var($mention) 20%, transparent);
+
+    --bg-overlay-2: var($main);
+    --bg-base-secondary: var($main);
+    --background-acc: var($accA);
+    --background-base-low: var($main);
+    --background-base-lower: var($main) !important;
+    --background-surface-high: var($sec);
+    --background-surface-higher: var($msgBar);
+    --background-surface-highest: var($accA);
+    
+    --brand-500: var($acc);
+
     --modal-background: none;
 
-    --border-normal: var(--FO-accentCol);
+    --border-normal: var($acc);
     
-    --chat-background-default: var(--FO-msgBar) !important;
+    --chat-background-default: var($msgBar) !important;
 
-    --mention-background: var(--FO-mentionColBg) !important;
-    --mention-foreground: var(--FO-mentionCol);
-    --background-mentioned: var(--FO-accentB);
-    --background-message-hover: var(--FO-secCol);
+    --mention-background: var($mentionBg) !important;
+    --mention-foreground: var($mention);
+    --background-mentioned: var($accB);
+    --background-message-hover: var($sec);
 
-    --info-warning-foreground: var(--FO-accentCol);
+    --info-warning-foreground: var($acc);
 
-    --text-normal: var(--FO-txtCol);
-    --text-default: var(--FO-txtCol);
-    --font-primary: var(--FO-font);
-    --font-code: var(--FO-code);
+    --text-normal: var($txt);
+    --text-default: var($txt);
+    --font-primary: var($font);
+    --font-code: var($code);
 
-    --interactive-normal: var(--FO-icon);
+    --interactive-normal: var($icon);
     --background-modifier-hover: none;
     
-    --FO-accentA: color-mix(in oklch, var(--FO-accentCol), transparent 70%);
-    --FO-accentB: color-mix(in oklch, var(--FO-accentCol), transparent 85%);
+    $accA: or-mix(in oklch, var($acc), transparent 70%);
+    $accB: or-mix(in oklch, var($acc), transparent 85%);
 
-    --FO-grad: linear-gradient(45deg, var(--FO-gradCol1), var(--FO-gradCol2), var(--FO-gradCol1), var(--FO-gradCol2));
+    --FO-grad: linear-gradient(45deg, var(--FO-grad1), var(--FO-grad2), var(--FO-grad1), var(--FO-grad2));
 }
