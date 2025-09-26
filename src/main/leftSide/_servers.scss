@@ -17,17 +17,17 @@
 //--------------------------------------------------------------------//
 
 //dc logo btn
-.wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8 {background: var($accent);}
+.wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8 {background: var($acc);}
 
 //folders
 .folderGroupBackground__48112 {border: none;}
 
 //unread server dot
-.item__58105 {background: var($accent);}
+.item__58105 {background: var($acc);}
 
 //----------------------------------server discover buttons-----------------------------------//
 .circleIconButton__5bc7e.selected__5bc7e, .circleIconButton__5bc7e:hover:not(.disabled__5bc7e) {
-    background: var($accent);
+    background: var($acc);
 }
 
 .circleIconButton__5bc7e, .circleIconButton__5bc7e.selected__5bc7e {

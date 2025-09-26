@@ -19,31 +19,31 @@
 .modeUnreadImportant__2ea32 {
     .name__2ea32, &:hover .name__2ea32,
     .icon__2ea32, &:hover .icon__2ea32,
-    .actionIcon_c69b6d {color: var($accent) !important;}
+    .actionIcon_c69b6d {color: var($acc) !important;}
 }
-.unreadImportant__2ea32 {background: var($accent)}; //dot
+.unreadImportant__2ea32 {background: var($acc)}; //dot
 //--------------------------//
 
 .modeSelected__2ea32 { //sel
-    .link__2ea32 {color: var($txt); background: var($accentA);}
-    .link__2ea32:hover {color: var($txt); background: var($accentA); transition: 0.3s;}
+    .link__2ea32 {color: var($txt); background: var($accA);}
+    .link__2ea32:hover {color: var($txt); background: var($accA); transition: 0.3s;}
 }
 
 .popout__76f04 { //threads
-    background: var($accentA);
+    background: var($accA);
     backdrop-filter: blur(var($blur));
 }
 //-----------------------------------------------------------------------------------//
 
 /*--------------------thread list--------------------*/
-.spine__5b40b {color: var($accent);}
+.spine__5b40b {color: var($acc);}
 
-.spineBorder__5b40b {background: var($accent);}
+.spineBorder__5b40b {background: var($acc);}
 /*---------------------------------------------------*/
 
 //------------New Unreads------------//
 .unread__3b95d {
-    background: var($accentA);
+    background: var($accA);
     backdrop-filter: blur(var($blur));
 }
 //-----------------------------------//

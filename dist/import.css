@@ -1,32 +1,29 @@
 @charset "UTF-8";
-
 :root {
-  --FO-mentionColBg: color-mix(in oklch, var(--FO-mentionCol) 20%, transparent);
-  --bg-overlay-2: var(--FO-mainCol);
-  --bg-base-secondary: var(--FO-mainCol);
-  --background-accent: var(--FO-accentA);
-  --background-base-low: var(--FO-mainCol);
-  --background-base-lower: var(--FO-mainCol) !important;
-  --background-surface-high: var(--FO-secCol);
-  --background-surface-higher: var(--FO-msgBar);
-  --background-surface-highest: var(--FO-accentA);
+  --bg-overlay-2: var($main);
+  --bg-base-secondary: var($main);
+  --background-acc: var($accA);
+  --background-base-low: var($main);
+  --background-base-lower: var($main) !important;
+  --background-surface-high: var($sec);
+  --background-surface-higher: var($msgBar);
+  --background-surface-highest: var($accA);
+  --brand-500: var($acc);
   --modal-background: none;
-  --border-normal: var(--FO-accentCol);
-  --chat-background-default: var(--FO-msgBar) !important;
-  --mention-background: var(--FO-mentionColBg) !important;
-  --mention-foreground: var(--FO-mentionCol);
-  --background-mentioned: var(--FO-accentB);
-  --background-message-hover: var(--FO-secCol);
-  --info-warning-foreground: var(--FO-accentCol);
-  --text-normal: var(--FO-txtCol);
-  --text-default: var(--FO-txtCol);
-  --font-primary: var(--FO-font);
-  --font-code: var(--FO-code);
-  --interactive-normal: var(--FO-icon);
+  --border-normal: var($acc);
+  --chat-background-default: var($msgBar) !important;
+  --mention-background: var($mentionBg) !important;
+  --mention-foreground: var($mention);
+  --background-mentioned: var($accB);
+  --background-message-hover: var($sec);
+  --info-warning-foreground: var($acc);
+  --text-normal: var($txt);
+  --text-default: var($txt);
+  --font-primary: var($font);
+  --font-code: var($code);
+  --interactive-normal: var($icon);
   --background-modifier-hover: none;
-  --FO-accentA: color-mix(in oklch, var(--FO-accentCol), transparent 70%);
-  --FO-accentB: color-mix(in oklch, var(--FO-accentCol), transparent 85%);
-  --FO-grad: linear-gradient(45deg, var(--FO-gradCol1), var(--FO-gradCol2), var(--FO-gradCol1), var(--FO-gradCol2));
+  --FO-grad: linear-gradient(45deg, var(--FO-grad1), var(--FO-grad2), var(--FO-grad1), var(--FO-grad2));
 }
 
 .backdrop__78332, .withLayer__78332 {
@@ -324,6 +321,14 @@ div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.b
 
 .stickerCategoryGenericSelected__3ad28, .categoryItemDefaultCategorySelected_b9ee0c {
   background: none;
+}
+
+.newMessagesBar__0f481 {
+  color: var(--FO-txtCol);
+}
+
+.barBase__0f481 {
+  border: none;
 }
 
 .messagesPopoutWrap__45690 {

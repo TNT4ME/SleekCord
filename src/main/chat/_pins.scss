@@ -1,7 +1,7 @@
 @use '../../var' as *;
 
 .messagesPopoutWrap__45690 {
-    background: var($accentA);
+    background: var($accA);
     backdrop-filter: blur(var($blur));
 }
 
@@ -14,5 +14,5 @@
 .jumpButton__45690 {
     border: none;
     color: var($txt);
-    background: var($accentB);
+    background: var($accB);
 }

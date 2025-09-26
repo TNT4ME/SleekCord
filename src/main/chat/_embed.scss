@@ -7,13 +7,13 @@
 
 .visual-refresh .embedFull__623de { //embeds
     border: none;
-    border-left: 4px solid var($accent);
+    border-left: 4px solid var($acc);
 }
 
 .file__0ccae {border: none;} //files
 
 .hoverButtonGroup__06ab4, .gifFavoriteButton__43deb { // the tooltip buttons
     outline: none;
-    background: var($accentB);
+    background: var($accB);
     backdrop-filter: blur(var($blur));
 }

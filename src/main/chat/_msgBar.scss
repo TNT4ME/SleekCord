@@ -7,8 +7,8 @@
 
 .channelTextArea__74017:not(.highlighted__74017):hover {
     border: none;
-    box-shadow: 0px 0px 3px color-mix(in oklch, var($accent) 90%, transparent),
-    0px 0px 5px color-mix(in oklch, var($accent) 80%, transparent);
+    box-shadow: 0px 0px 3px color-mix(in oklch, var($acc) 90%, transparent),
+    0px 0px 5px color-mix(in oklch, var($acc) 80%, transparent);
 }
 //----------------------------------------------------------------------------//
 
@@ -23,7 +23,7 @@
 //reply
 .stackedBars__74017:not(:last-child) {border: none;}
 
-.mentionButton__841c8 {color: var($accent) !important;} //ping on/off
+.mentionButton__841c8 {color: var($acc) !important;} //ping on/off
 //-----------------------------------------------------------------------------//
 
 
@@ -39,15 +39,15 @@
 .primary__6af3a, .primary__6af3a:hover { //button
     border: none;
     color: var($txt);
-    background: var($accent) !important;
+    background: var($acc) !important;
 }
 //-------------------------------------------------------------//
 
-.createThreadButton__841c8 {color: var($accent) !important;}
+.createThreadButton__841c8 {color: var($acc) !important;}
 
 //------------------------------------gif, sticker, :emoji: menus------------------------------------//
 .contentWrapper__08434, div[data-popout-animating=false] > #emoji-picker-tab-panel {
-    background: var($accentA);
+    background: var($accA);
     backdrop-filter: blur(var($blur));
 }
 
@@ -71,7 +71,7 @@
 
 .emojiItem_fc7141.emojiItemSelected_fc7141  { //hov
     transition: 0.2s;
-    background: var($accentA);
+    background: var($accA);
 }
 
 .topGuildEmojiBadge_aeaaeb {background: linear-gradient(268.26deg,#bf5151,#db803f 102.45%);}

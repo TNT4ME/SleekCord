@@ -2,7 +2,7 @@
 
 //-----------------------txt-----------------------//
 .spoilerContent__54ab5.hidden__54ab5 {
-    background: var($accentA);
+    background: var($accA);
     
     --__current--spoiler-content-opacity: 1;
     --__current--spoiler-text-color: var($txt);
@@ -15,5 +15,5 @@
 //--------------------------------------------img--------------------------------------------//
 .obscured__6c706.hiddenMosaicItem__6c706.hiddenSpoiler__6c706 {filter: blur($spoiler);} //blur
 
-.spoilerContainer__54ab5 {background-color: var($accent);} //edge col
+.spoilerContainer__54ab5 {background-color: var($acc);} //edge col
 //-------------------------------------------------------------------------------------------//
