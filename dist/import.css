@@ -4,7 +4,7 @@
   --bg-base-secondary: var($main);
   --background-acc: var($accA);
   --background-base-low: var($main);
-  --background-base-lower: var($main) !important;
+  --background-base-lower: var($main);
   --background-surface-high: var($sec);
   --background-surface-higher: var($msgBar);
   --background-surface-highest: var($accA);
@@ -23,7 +23,9 @@
   --font-code: var($code);
   --interactive-normal: var($icon);
   --background-modifier-hover: none;
-  --FO-grad: linear-gradient(45deg, var(--FO-grad1), var(--FO-grad2), var(--FO-grad1), var(--FO-grad2));
+  --FO-accentA: or-mix(in oklch, var($acc), transparent 70%);
+  --FO-accentB: or-mix(in oklch, var($acc), transparent 85%);
+  --FO-grad: linear-gradient(45deg, var($grad1), var($grad2), var($grad1), var($grad2));
 }
 
 .backdrop__78332, .withLayer__78332 {
@@ -47,6 +49,10 @@
 .content_f75fb0 > div {
   border: none;
   background: var(--FO-mainCol);
+}
+
+.members_c8ffbb {
+  background: none;
 }
 
 .colorDanger_c1e9c4.focused_c1e9c4 {
@@ -116,6 +122,10 @@
 }
 
 :where(.overlay_c0bea0) {
+  background: none;
+}
+
+.sidebar__5e434:after {
   background: none;
 }
 
@@ -192,6 +202,10 @@ div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.b
   backdrop-filter: blur(var(--FO-blur));
 }
 
+.searchBar_e6b769 {
+  background: var(--FO-mainCol);
+}
+
 .theme-dark .themed__9293f {
   background: var(--FO-mainCol);
 }
@@ -252,6 +266,10 @@ div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.b
 .channelTextArea__74017:not(.highlighted__74017):hover {
   border: none;
   box-shadow: 0px 0px 3px color-mix(in oklch, var(--FO-accentCol) 90%, transparent), 0px 0px 5px color-mix(in oklch, var(--FO-accentCol) 80%, transparent);
+}
+
+.chatGradient__36d07 {
+  background: none;
 }
 
 .upload_aa605f {
