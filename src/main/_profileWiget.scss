@@ -8,6 +8,10 @@
 
 :where(.overlay_c0bea0) {background: none;}
 
+//---------stupid bar at bottom---------//
+.sidebar__5e434:after {background: none;}
+//--------------------------------------//
+
 //-----------------activity panel-----------------//
 .activityPanel_c48ade {border: none;}
 
@@ -18,8 +22,8 @@
 
 //-------------------online n stuff-------------------//
 #\:rm7\: > rect:nth-child(2),
-#svg-mask-status-idle > circle:nth-child(2), //idle
-#svg-mask-status-dnd > rect, //dnd
+#svg-mask-status-idle > circle:nth-child(2),     //idle
+#svg-mask-status-dnd > rect,                     //dnd
 #svg-mask-status-offline > circle:nth-child(2) { //invis
     fill: transparent;
 }

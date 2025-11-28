@@ -7,7 +7,7 @@
     --bg-base-secondary: var($main);
     --background-acc: var($accA);
     --background-base-low: var($main);
-    --background-base-lower: var($main) !important;
+    --background-base-lower: var($main);
     --background-surface-high: var($sec);
     --background-surface-higher: var($msgBar);
     --background-surface-highest: var($accA);
@@ -35,8 +35,8 @@
     --interactive-normal: var($icon);
     --background-modifier-hover: none;
     
-    $accA: or-mix(in oklch, var($acc), transparent 70%);
-    $accB: or-mix(in oklch, var($acc), transparent 85%);
+    --FO-accentA: or-mix(in oklch, var($acc), transparent 70%);
+    --FO-accentB: or-mix(in oklch, var($acc), transparent 85%);
 
-    --FO-grad: linear-gradient(45deg, var(--FO-grad1), var(--FO-grad2), var(--FO-grad1), var(--FO-grad2));
+    --FO-grad: linear-gradient(45deg, var($grad1), var($grad2), var($grad1), var($grad2));
 }
