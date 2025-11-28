@@ -407,6 +407,10 @@ div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.b
   background: rgba(0, 0, 0, 0.1333333333);
 }
 
+.bar_c38106 {
+  background: --FO-mainCol;
+}
+
 .visual-refresh .title_f75fb0 {
   border: none;
   background: var(--FO-mainCol);
