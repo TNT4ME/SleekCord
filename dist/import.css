@@ -115,10 +115,15 @@
   color: var(--FO-txtCol);
 }
 
-.container__37e49, .panels__5e434 {
+.container__37e49 {
   border: none;
   background: var(--FO-accentA);
   backdrop-filter: blur(var(--FO-blur));
+}
+
+.panels__5e434 {
+  border: none;
+  background: none;
 }
 
 :where(.overlay_c0bea0) {
