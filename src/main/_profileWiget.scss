@@ -1,10 +1,17 @@
 @use '../var' as *;
 
-.container__37e49, .panels__5e434 { //bg
+//-------bg-------//
+.container__37e49 {
     border: none;
     background: var($accA);
     backdrop-filter: blur(var($blur));
 }
+
+.panels__5e434  {
+    border: none;
+    background: none;
+}
+//----------------//
 
 :where(.overlay_c0bea0) {background: none;}
 
