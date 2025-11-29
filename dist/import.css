@@ -115,7 +115,7 @@
   color: var(--FO-txtCol);
 }
 
-.container__37e49 {
+.container__37e49, .panels__5e434 {
   border: none;
   background: var(--FO-accentA);
   backdrop-filter: blur(var(--FO-blur));
@@ -579,5 +579,3 @@ div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.b
   color: var(--FO-icon);
   background: var(--FO-secCol);
 }
-
-/*# sourceMappingURL=import.css.map */
