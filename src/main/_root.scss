@@ -1,42 +1,41 @@
-@use '../var' as *;
+// var isn't working??
+//@use '../var' as *;
 
 :root {
-    $mentionBg: color-mix(in oklch, var($mention) 20%, transparent);
-
-    --bg-overlay-2: var($main);
-    --bg-base-secondary: var($main);
-    --background-acc: var($accA);
-    --background-base-low: var($main);
-    --background-base-lower: var($main);
-    --background-surface-high: var($sec);
-    --background-surface-higher: var($msgBar);
-    --background-surface-highest: var($accA);
+    --bg-overlay-2: var(--FO-mainCol);
+    --bg-base-secondary: var(--FO-mainCol);
+    --background-acc: var(--FO-accentA);
+    --background-base-low: var(--FO-mainCol);
+    --background-base-lower: var(--FO-mainCol);
+    --background-surface-high: var(--FO-secCol);
+    --background-surface-higher: var(--FO-msgBar);
+    --background-surface-highest: var(--FO-accentA);
     
-    --brand-500: var($acc);
+    --brand-500: var(--FO-accentCol);
 
     --modal-background: none;
 
-    --border-normal: var($acc);
+    --border-normal: var(--FO-accentCol);
     
-    --chat-background-default: var($msgBar) !important;
+    --chat-background-default: var(--FO-msgBar) !important;
 
-    --mention-background: var($mentionBg) !important;
-    --mention-foreground: var($mention);
-    --background-mentioned: var($accB);
-    --background-message-hover: var($sec);
+    --mention-background: var(color-mix(in oklch, var(--FO-mentionCol) 20%, transparent)) !important;
+    --mention-foreground: var(--FO-mentionCol);
+    --background-mentioned: var(--FO-accentB);
+    --background-message-hover: var(--FO-secCol);
 
-    --info-warning-foreground: var($acc);
+    --info-warning-foreground: var(--FO-accentCol);
 
-    --text-normal: var($txt);
-    --text-default: var($txt);
-    --font-primary: var($font);
-    --font-code: var($code);
+    --text-normal: var(--FO-txtCol);
+    --text-default: var(--FO-txtCol);
+    --font-primary: var(--FO-font);
+    --font-code: var(--FO-code);
 
-    --interactive-normal: var($icon);
+    --interactive-normal: var(--FO-icon);
     --background-modifier-hover: none;
     
-    --FO-accentA: or-mix(in oklch, var($acc), transparent 70%);
-    --FO-accentB: or-mix(in oklch, var($acc), transparent 85%);
+    --FO-accentA: color-mix(in oklch, var(--FO-accentCol), transparent 70%);
+    --FO-accentB: color-mix(in oklch, var(--FO-accentCol), transparent 85%);
 
-    --FO-grad: linear-gradient(45deg, var($grad1), var($grad2), var($grad1), var($grad2));
+    --FO-grad: linear-gradient(45deg, var(--FO-gradCol1), var(--FO-gradCol2), var(--FO-gradCol1), var(--FO-gradCol2));
 }
