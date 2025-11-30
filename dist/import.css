@@ -26,6 +26,7 @@
   --background-modifier-hover: none;
   --FO-accentA: color-mix(in oklch, var(--FO-accentCol), transparent 70%);
   --FO-accentB: color-mix(in oklch, var(--FO-accentCol), transparent 85%);
+  --FO-mentionColBg: color-mix(in oklch, var(--FO-mentionCol), transparent 85%);
   --FO-grad: linear-gradient(45deg, var(--FO-gradCol1), var(--FO-gradCol2), var(--FO-gradCol1), var(--FO-gradCol2));
 }
 
