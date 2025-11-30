@@ -51,6 +51,10 @@
 
 //------------------emoji picker :shiggy:------------------//
 .autocomplete__13533 {backdrop-filter: blur(var($blur));}
+
+.clickable__13533[aria-disabled=false]>.base__13533:hover, .clickable__13533[aria-selected=true]>.base__13533 {
+    background-color: var($acc);
+}
 //---------------------------------------------------------//
 
 //------------------------------------gif, sticker, :emoji: menus------------------------------------//

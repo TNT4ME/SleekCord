@@ -319,6 +319,10 @@ div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.b
   backdrop-filter: blur(var(--FO-blur));
 }
 
+.clickable__13533[aria-disabled=false] > .base__13533:hover, .clickable__13533[aria-selected=true] > .base__13533 {
+  background-color: var(--FO-accentCol);
+}
+
 .contentWrapper__08434, div[data-popout-animating=false] > #emoji-picker-tab-panel {
   background: var(--FO-accentA);
   backdrop-filter: blur(var(--FO-blur));
