@@ -160,6 +160,11 @@
   backdrop-filter: blur(var(--FO-blur));
 }
 
+.members__6e500 div,
+.established__6e500 div {
+  color: var(--FO-txtCol) !important;
+}
+
 div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.bar_c38106.theme-dark.theme-darker.images-dark {
   border: none;
   background: var(--FO-mainCol);

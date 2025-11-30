@@ -5,3 +5,7 @@
     background: var($accA);
     backdrop-filter: blur(var($blur));
 }
+
+//txt col
+.members__6e500 div,
+.established__6e500 div {color: var($txt) !important;}
