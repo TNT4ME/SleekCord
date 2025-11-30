@@ -1,8 +1,8 @@
 @use '../../var' as *;
 
 .wrapper_f61d60 {
-    color: var(--FO-mentionCol);
-    background: var(--FO-mentionColBg);
+    color: var($mention);
+    background: var($mentionBg);
 }
 
 //--------------------------------hov--------------------------------//
