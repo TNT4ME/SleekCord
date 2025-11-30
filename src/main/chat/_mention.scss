@@ -1,8 +1,15 @@
 @use '../../var' as *;
 
+.wrapper_f61d60 {
+    color: var(--FO-mentionCol);
+    background: var(--FO-mentionColBg);
+}
+
+//--------------------------------hov--------------------------------//
 .wrapper_f61d60:hover { //ping
     color: var($txt);
     background: var($mention);
 }
 
 .mentioned__5126c:hover {background: var($accB) !important;} //ping bg
+//-------------------------------------------------------------------//

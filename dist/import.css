@@ -257,6 +257,11 @@ div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.b
   background: var(--FO-mainCol);
 }
 
+.wrapper_f61d60 {
+  color: var(--FO-mentionCol);
+  background: var(--FO-mentionColBg);
+}
+
 .wrapper_f61d60:hover {
   color: var(--FO-txtCol);
   background: var(--FO-mentionCol);
@@ -449,7 +454,7 @@ div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.b
 }
 
 .bar_c38106 {
-  background: --FO-mainCol;
+  background: var(--FO-mainCol);
 }
 
 .visual-refresh .title_f75fb0 {
@@ -467,11 +472,6 @@ div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.b
 
 .visual-refresh .searchBar__97492 {
   border: none;
-}
-
-.wrapper_f61d60 {
-  color: var(--FO-mentionCol);
-  background: var(--FO-mentionColBg);
 }
 
 .root_bfe55a {
