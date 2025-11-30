@@ -173,14 +173,14 @@ div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.b
   color: var(--FO-accentCol);
 }
 
-.tooltipPrimary__382e7 {
+.tooltipPrimary__c36707 {
   --tooltip-pointer-bg: none;
   border: none;
   background: var(--FO-accentA);
   backdrop-filter: blur(var(--FO-blur));
 }
 
-.tooltipPointer__382e7.tooltipPointerBg__382e7 {
+.tooltipPointer__c36707.tooltipPointerBg__c36707 {
   display: none;
 }
 
