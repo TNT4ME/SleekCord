@@ -49,6 +49,10 @@
 
 .createThreadButton__841c8 {color: var($acc) !important;}
 
+//------------------emoji picker :shiggy:------------------//
+.autocomplete__13533 {backdrop-filter: blur(var($blur));}
+//---------------------------------------------------------//
+
 //------------------------------------gif, sticker, :emoji: menus------------------------------------//
 .contentWrapper__08434, div[data-popout-animating=false] > #emoji-picker-tab-panel {
     background: var($accA);
