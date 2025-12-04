@@ -17,7 +17,11 @@ LICENSE
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital@0;1&family=Nunito:ital@0;1&display=swap');
 
 /*easter eggs*/
-@import url('https://tnt4me.github.io/SleekCord/src/easterEggs.css');/**/
+@import url('https://tnt4me.github.io/SleekCord/dist/easterEggs.css');/**/
+
+/*PLugin support*/
+@import url('https://tnt4me.github.io/SleekCord/dist/plugins/vencord/SpotifyControls.css');
+/*-------------*/
 
 :root {
     --FO-mainCol: #000; /*Main background color | Default value: #000*/
