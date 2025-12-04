@@ -566,6 +566,10 @@ div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.b
   background: var(--FO-mainCol);
 }
 
+.scroller__99e7c {
+  margin-bottom: none;
+}
+
 .visual-refresh .wrapper_ef3116 {
   background: var(--FO-mainCol);
   margin-bottom: unset;
