@@ -1,4 +1,9 @@
 @charset "UTF-8";
+::selection {
+  background: var(--FO-accentCol);
+  color: var(--FO-textCol) !important;
+}
+
 :root {
   --bg-overlay-2: var(--FO-mainCol);
   --bg-base-secondary: var(--FO-mainCol);
@@ -331,6 +336,7 @@ div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.b
 }
 
 .autocomplete__13533 {
+  background: var(--FO-accentA);
   backdrop-filter: blur(var(--FO-blur));
 }
 

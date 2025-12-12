@@ -1,6 +1,11 @@
 // var isn't working??
 //@use '../var' as *;
 
+::selection {
+    background: var(--FO-accentCol);
+    color: var(--FO-textCol) !important;
+}
+
 :root {
     --bg-overlay-2: var(--FO-mainCol);
     --bg-base-secondary: var(--FO-mainCol);
