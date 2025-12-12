@@ -268,7 +268,11 @@ div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.b
   background: var(--FO-mentionCol);
 }
 
-.mentioned__5126c:hover {
+.mentioned__5126c:before {
+  background: var(--FO-accentCol);
+}
+
+.mentioned__5126c, .mentioned__5126c:hover {
   background: var(--FO-accentB) !important;
 }
 
