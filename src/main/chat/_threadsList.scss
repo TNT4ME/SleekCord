@@ -1,23 +1,23 @@
 @use '../../var' as *;
 
-.container_d9c882 {
+.d9c8822889d1d4a1-container {
     background: var($accA);
     backdrop-filter: blur(var($blur));
 }
 
-.header_d9c882, .container__6764b {
+.d9c8822889d1d4a1-header, ._6764bd76e0340219-container {
     border: none;
     background: none;
 }
 
 //hov
-.container__6764b:hover {background: var($accB);}
+._6764bd76e0340219-container:hover {background: var($accB);}
 
 //icon
-.closeIcon_d9c882, .threadIcon_d9c882 {color: var($icon);}
+.d9c8822889d1d4a1-closeIcon, .d9c8822889d1d4a1-threadIcon {color: var($icon);}
 
 //search
-.wrapper__3412a {
+._72c3859781ebce8f-wrapper {
     border: none;
     background: #0002;
 }

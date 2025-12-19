@@ -1,6 +1,6 @@
 @use '../var' as *;
 
-.tooltipPrimary_c36707 {
+.c36707910f687430-tooltipPrimary {
     --tooltip-pointer-bg: none;
 
     border: none;
@@ -8,4 +8,4 @@
     backdrop-filter: blur(var($blur));
 }
 
-.tooltipPointer_c36707.tooltipPointerBg_c36707 {display: none;}
+.c36707910f687430-tooltipPointer.c36707910f687430-tooltipPointerBg {display: none;}

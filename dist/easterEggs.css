@@ -8,7 +8,7 @@
 }
 .username_c19a55[data-text=TNT4ME],
 .username_c19a55[data-text="TNT4ME 3060"],
-.outer_c0bea0[data-member-id="790463558625918999"] > div > div.body__5be3e > div > div > div > div.defaultColor__4bd52 {
+.c0bea05627c5dc35-outer[data-member-id="790463558625918999"] > div > div.body__5be3e > div > div > div > div._4bd5201c86a2042b-defaultColor {
   --dev: linear-gradient(45deg, var(--FO-accentCol), oklch(0.8909 0.2062 191.37),
   var(--FO-accentCol), oklch(0.8909 0.2062 191.37));
   color: transparent !important;
@@ -23,12 +23,12 @@ span.headerText_c19a55:has(.username_c19a55[data-text="TNT4ME 3060"]) {
   filter: drop-shadow(0px 0px 4px oklch(82.77% 0.1014 291.18deg));
 }
 
-.outer_c0bea0[data-member-id="790463558625918999"] > div > div.body__5be3e > div > div > div > div.defaultColor__4bd52 {
+.c0bea05627c5dc35-outer[data-member-id="790463558625918999"] > div > div.body__5be3e > div > div > div > div._4bd5201c86a2042b-defaultColor {
   filter: drop-shadow(0px 0px 2px oklch(82.77% 0.1014 291.18deg));
 }
 
 /*miku*/
-.outer_c0bea0[data-member-id="<ur discord id>"] {
+.c0bea05627c5dc35-outer[data-member-id="<ur discord id>"] {
   background: url("https://tnt4me.github.io/FrostyOLED/img/miku.webp");
   background-size: 100%;
   background-position: 0% -50%;

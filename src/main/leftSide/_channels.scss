@@ -1,48 +1,48 @@
 @use '../../var' as *;
 
-.visual-refresh .container__2637a {
+.visual-refresh ._2637a2609f343032-container {
     background: var($main); //bg
     padding-bottom: unset; //removes the most annoying box in history, the one behind profile wiget thingy
 }
 
-.visual-refresh .sidebarList_c48ade {border: none;}
+.visual-refresh ._5e434347c823b592-sidebarList {border: none;}
 
-.visual-refresh .sidebar_c48ade:after {background: none;}
+.visual-refresh ._5e434347c823b592-sidebar:after {background: none;}
 
 //---------------------------------channel sel & hov---------------------------------//
-.wrapper__2ea32:hover { //hov
-    .link__2ea32 {background: var($sec); transition: 0.3s;}
-    .name__2ea32, .icon__2ea32, .actionIcon_c69b6d {color: var($txt); transition: 0.3s;}
+._2ea32c412048f708-wrapper:hover { //hov
+    ._2ea32c412048f708-link {background: var($sec); transition: 0.3s;}
+    ._2ea32c412048f708-name, ._2ea32c412048f708-icon, .c69b6db0641110f6-actionIcon {color: var($txt); transition: 0.3s;}
 }
 
 //----------unread----------//
-.modeUnreadImportant__2ea32 {
-    .name__2ea32, &:hover .name__2ea32,
-    .icon__2ea32, &:hover .icon__2ea32,
-    .actionIcon_c69b6d {color: var($acc) !important;}
+._2ea32c412048f708-modeUnreadImportant {
+    ._2ea32c412048f708-name, &:hover ._2ea32c412048f708-name,
+    ._2ea32c412048f708-icon, &:hover ._2ea32c412048f708-icon,
+    .c69b6db0641110f6-actionIcon {color: var($acc) !important;}
 }
-.unreadImportant__2ea32 {background: var($acc)}; //dot
+._2ea32c412048f708-unreadImportant {background: var($acc)}; //dot
 //--------------------------//
 
-.modeSelected__2ea32 { //sel
-    .link__2ea32 {color: var($txt); background: var($accA);}
-    .link__2ea32:hover {color: var($txt); background: var($accA); transition: 0.3s;}
+._2ea32c412048f708-modeSelected { //sel
+    ._2ea32c412048f708-link {color: var($txt); background: var($accA);}
+    ._2ea32c412048f708-link:hover {color: var($txt); background: var($accA); transition: 0.3s;}
 }
 
-.popout__76f04 { //threads
+._76f047ded9fef6d4-popout { //threads
     background: var($accA);
     backdrop-filter: blur(var($blur));
 }
 //-----------------------------------------------------------------------------------//
 
 /*--------------------thread list--------------------*/
-.spine__5b40b {color: var($acc);}
+._5b40bdd67543ba35-spine {color: var($acc);}
 
-.spineBorder__5b40b {background: var($acc);}
+._5b40bdd67543ba35-spineBorder {background: var($acc);}
 /*---------------------------------------------------*/
 
 //------------New Unreads------------//
-.unread__3b95d {
+._3b95d7d910416e54-unread {
     background: var($accA);
     backdrop-filter: blur(var($blur));
 }

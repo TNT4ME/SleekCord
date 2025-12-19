@@ -1,21 +1,21 @@
 @use '../var' as *;
 
 //delete btn
-.colorDanger_c1e9c4.focused_c1e9c4 {background: linear-gradient(oklab(0.71 0.17 0.16 / 0.15), oklab(0.65 0.26 0.14 / 0.15));}
+.c1e9c47c23f12ca3-colorDanger.c1e9c47c23f12ca3-focused {background: linear-gradient(oklab(0.71 0.17 0.16 / 0.15), oklab(0.65 0.26 0.14 / 0.15));}
 
-.menu_c1e9c4 {
+.c1e9c47c23f12ca3-menu {
     border: none;
     background: var($accA);
 }
 
 //----------------new server tag----------------//
-.popover_d6f39b, .popoverGradientWrapper_d6f39b {
+.d6f39bdbd19328a0-popover, .d6f39bdbd19328a0-popoverGradientWrapper {
     border: none;
     background: var($accA);
     backdrop-filter: blur(var($blur));
 }
 
-.secondary__6af3a {
+.a22cb0c66246f5d3-secondary {
     border: none;
     background: var($accA);
 }

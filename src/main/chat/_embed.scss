@@ -1,18 +1,18 @@
 @use '../../var' as *;
 
-.guildInviteContainer__083ae, .footerContent__083ae { //invites
+._083ae98ea5145b08-guildInviteContainer, ._083ae98ea5145b08-footerContent { //invites
     background: none;
     border: none;
 }
 
-.visual-refresh .embedFull__623de { //embeds
+.visual-refresh ._623de82e76ad7f82-embedFull { //embeds
     border: none;
     border-left: 4px solid var($acc);
 }
 
-.file__0ccae {border: none;} //files
+._0ccaee68b77c7469-file {border: none;} //files
 
-.hoverButtonGroup__06ab4, .gifFavoriteButton__43deb { // the tooltip buttons
+._06ab41fd2ef7af3f-hoverButtonGroup, ._43deb08d456619a2-gifFavoriteButton { // the tooltip buttons
     outline: none;
     background: var($accB);
     backdrop-filter: blur(var($blur));

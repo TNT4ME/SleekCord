@@ -1,23 +1,23 @@
 @use '../../var' as *;
 
-.visual-refresh .privateChannels__35e86 {background: var($main);}
+.visual-refresh .e6b7699ce8339e1c-privateChannels {background: var($main);}
 
-.visual-refresh .scroller__99e7c {background: var($main);}
+.visual-refresh ._99e7cad8d4c55236-scroller {background: var($main);}
 
 //dc official bot
-.botTagRegular__82f07 {background: var($acc);}
+._82f0793afa59e5dc-botTagRegular {background: var($acc);}
 
 //-------------------------hover-------------------------//
-.interactiveSelected__972a0 {
+._972a0d22c8afa7f0-interactiveSelected {
     color: var($txt);
     background: var($accA);
 }
 
-.interactiveSelected__972a0:hover {background: var($acc);}
+._972a0d22c8afa7f0-interactiveSelected:hover {background: var($acc);}
 //-------------------------------------------------------//
 
 //profile sidebar (right)
 .user-profile-sidebar {background: var($main);}
 
 //stupid box behind profile wiget
-.scroller__99e7c {margin-bottom: none;}
+._99e7cad8d4c55236-scroller {margin-bottom: none;}

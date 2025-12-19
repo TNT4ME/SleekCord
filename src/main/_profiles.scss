@@ -1,30 +1,30 @@
 @use '../var' as *;
 
-.outer_c0bea0 { //bg
+.c0bea05627c5dc35-outer { //bg
     border: none;
     background: var($profile);
     backdrop-filter: blur(var($blur));
 }
 
-.profile__9c3be { //full profile
+._9c3bea41fd465666-profile { //full profile
     outline: none;
     box-shadow: none;
     background: none;
 }
 
-.lookFilled__201d5.colorBrand__201d5 { //add friend
+._201d5e8a3c09670a-lookFilled._201d5e8a3c09670a-colorBrand { //add friend
     border: none;
     color: var($txt);
     background: var($acc);
 }
 
-.platformIconContainer__9bfb9 { //connections
+._9bfb9a25604068f0-platformIconContainer { //connections
     border: none;
     background: var($accA);
 }
 
 //------------Fixes bug in 'More > Invite to Server'------------//
-.menu_c1e9c4:after { // Thanks to @skamt. for fixing this bug <3
+.c1e9c47c23f12ca3-menu:after { // Thanks to @skamt. for fixing this bug <3
     inset: 0;
     z-index: -1;
     content: "";
@@ -32,10 +32,10 @@
     position: absolute;
     backdrop-filter: blur(var(--FO-blur));
 }
-//div.submenu_c1e9c4.menu_c1e9c4::after {inset: 0 2.5%;}
+//div.submenu_c1e9c4.c1e9c47c23f12ca3-menu::after {inset: 0 2.5%;}
 //--------------------------------------------------------------//
 
 //improves readability
-.defaultColor__4bd52 {color: var($txt) !important;} //bio
+._4bd5201c86a2042b-defaultColor {color: var($txt) !important;} //bio
 
-.editor_a99829 > div > .placeholder__1b31f {color: var($txt);} //dm this guy
+.a99829deaf601327-editor > div > ._1b31f471f0bb10ab-placeholder {color: var($txt);} //dm this guy

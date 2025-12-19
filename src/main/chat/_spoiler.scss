@@ -1,19 +1,19 @@
 @use '../../var' as *;
 
 //-----------------------txt-----------------------//
-.spoilerContent__54ab5.hidden__54ab5 {
+._299eb87491f4b6d1-spoilerContent._299eb87491f4b6d1-hidden {
     background: var($accA);
     
     --__current--spoiler-content-opacity: 1;
     --__current--spoiler-text-color: var($txt);
 }
 
-.spoilerMarkdownContent__54ab5.hidden__54ab5 {filter: blur(3px);}
+._299eb87491f4b6d1-spoilerMarkdownContent._299eb87491f4b6d1-hidden {filter: blur(3px);}
 //-------------------------------------------------//
 
 
 //--------------------------------------------img--------------------------------------------//
-.obscured__6c706.hiddenMosaicItem__6c706.hiddenSpoiler__6c706 {filter: blur($spoiler);} //blur
+._6c706db0523bd9a7-obscured._6c706db0523bd9a7-hiddenMosaicItem._6c706db0523bd9a7-hiddenSpoiler {filter: blur($spoiler);} //blur
 
-.spoilerContainer__54ab5 {background-color: var($acc);} //edge col
+._299eb87491f4b6d1-spoilerContainer {background-color: var($acc);} //edge col
 //-------------------------------------------------------------------------------------------//

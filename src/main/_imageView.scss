@@ -1,14 +1,14 @@
 @use '../var' as *;
 
-.backdrop__78332, .withLayer__78332 { //bg when viewing img
+._783321f3468cf9e8-backdrop, ._783321f3468cf9e8-withLayer { //bg when viewing img
     background: none !important;
     backdrop-filter: blur(var($blur)) !important;
 }
 
 //buttons
-.actionButtons_cc1819, .button_aec7ab {
+.cc1819cb49c2d109-actionButtons, .aec7abc73c126bc0-button {
     border: none;
     background: var($accA);
 }
 
-.buttonInner_aec7ab {border: none;}
+.aec7abc73c126bc0-buttonInner {border: none;}
