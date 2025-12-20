@@ -663,4 +663,38 @@ div.a3002d7de5be5280-app > div > div._960e4207cea8323e-layers._160d8e55254637e5-
   background: none;
 }
 
+.aa8da23faa27393c-top .aa8da23faa27393c-item.aa8da23faa27393c-brand {
+  --selected-tab-item-color: var($acc);
+}
+
+._1fed1dd06c7aabf7-accountProfileCard {
+  background: none;
+  border: 2px solid var(--FO-accentCol);
+}
+
+._1fed1dd06c7aabf7-background {
+  background: var(--FO-accentA);
+}
+
+._1fed1dd06c7aabf7-fieldList {
+  background: none;
+}
+
+._7a01bdafdcb0e727-primary {
+  color: var(--FO-accentCol);
+}
+
+.a22cb0c66246f5d3-critical-secondary {
+  border: none;
+}
+
+._49fc18ba07c5025f-root {
+  background: var(--FO-accentA);
+  backdrop-filter: blur(var(--FO-blur));
+}
+
+._49fc18ba07c5025f-footer {
+  background: none;
+}
+
 /*# sourceMappingURL=import.css.map */

@@ -1,0 +1,35 @@
+@use '../../var' as *;
+
+//---------------------------My Account---------------------------//
+.aa8da23faa27393c-top .aa8da23faa27393c-item.aa8da23faa27393c-brand
+{--selected-tab-item-color: var($acc);} //Security  Standing
+
+
+// ################ Profile Preview ################ //
+._1fed1dd06c7aabf7-accountProfileCard {
+	background: none;
+	border: 2px solid var($acc); //border
+}
+
+//bg
+._1fed1dd06c7aabf7-background {background: var($accA);}
+._1fed1dd06c7aabf7-fieldList {background: none;}
+
+._7a01bdafdcb0e727-primary {color: var($acc);} //Reveal
+// ################################################# //
+
+
+//remove buttons
+.a22cb0c66246f5d3-critical-secondary {border: none;}
+
+
+// ########## security key menu ########## //
+._49fc18ba07c5025f-root {
+	background: var($accA);
+	backdrop-filter: blur(var($blur));
+}
+._49fc18ba07c5025f-footer {background: none;}
+// ####################################### //
+
+//----------------------------------------------------------------//
+
