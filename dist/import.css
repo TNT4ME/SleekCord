@@ -618,4 +618,49 @@ div.a3002d7de5be5280-app > div > div._960e4207cea8323e-layers._160d8e55254637e5-
   background: var(--FO-secCol);
 }
 
+._8a031a135bfcb9ba-container {
+  background: var(--FO-accentA);
+  backdrop-filter: blur(var(--FO-blur));
+}
+
+.abd9a8b9030934e3-container {
+  color: var(--FO-txtCol);
+}
+
+._409aa1aeee28d5f7-fixedContent:after {
+  content: none;
+}
+
+._409aa1aeee28d5f7-section {
+  border-bottom: 2px solid var(--FO-accentCol);
+}
+
+._409aa1aeee28d5f7-label,
+.caf372efc4d47562-item {
+  color: var(--FO-txtCol) !important;
+}
+
+.caf372efc4d47562-item.caf372efc4d47562-active,
+.caf372efc4d47562-item:hover {
+  color: var(--FO-accentCol) !important;
+}
+
+.bd-text-muted {
+  color: var(--FO-accentCol);
+}
+
+.edefb8e22d63c542-anchor {
+  color: var(--FO-linkCol);
+}
+
+.e9e3ed8b8badfe05-content {
+  background: none;
+  border-left: 2px solid var(--FO-accentCol);
+}
+
+.e9e3ed8b8badfe05-contentHeader {
+  border: none;
+  background: none;
+}
+
 /*# sourceMappingURL=import.css.map */

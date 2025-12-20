@@ -1,2 +1,40 @@
 @use '../../var' as *;
 
+//--------------main bg--------------//
+._8a031a135bfcb9ba-container {
+	background: var($accA);
+	backdrop-filter: blur(var($blur));
+}
+.abd9a8b9030934e3-container
+{color: var($txt);}
+//-----------------------------------//
+
+//----------------------------left----------------------------//
+._409aa1aeee28d5f7-fixedContent:after //ugly grad below search
+{content: none;}
+
+._409aa1aeee28d5f7-section
+{border-bottom: 2px solid var($acc);} //section lines
+
+._409aa1aeee28d5f7-label,
+.caf372efc4d47562-item
+{color: var($txt) !important;} //txt
+
+.caf372efc4d47562-item.caf372efc4d47562-active,
+.caf372efc4d47562-item:hover
+{color: var($acc) !important;} //sel/hov
+
+.bd-text-muted {color: var($acc);} //bd debug info
+.edefb8e22d63c542-anchor {color: var($link);} //link
+//------------------------------------------------------------//
+
+//---------------right---------------//
+.e9e3ed8b8badfe05-content { //bg
+	background: none;
+	border-left: 2px solid var($acc);
+}
+.e9e3ed8b8badfe05-contentHeader { //top
+	border: none;
+	background: none;
+}
+//-----------------------------------//
