@@ -55,6 +55,8 @@
     backdrop-filter: blur(var($blur));
 }
 
+._13533e3c5791980f-autocompleteRowContentSecondary {color: var($txt);}
+
 //hov
 ._13533e3c5791980f-clickable[aria-disabled=false]>._13533e3c5791980f-base:hover, ._13533e3c5791980f-clickable[aria-selected=true]>._13533e3c5791980f-base {
     background-color: var($acc);
