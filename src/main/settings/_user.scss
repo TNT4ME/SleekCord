@@ -24,7 +24,7 @@
 
 
 // ########## security key menu ########## //
-._49fc18ba07c5025f-root {
+._49fc18ba07c5025f-root:has(div > div > form) {
 	background: var($accA);
 	backdrop-filter: blur(var($blur));
 }
