@@ -16,8 +16,8 @@
 }
 
 //Live Update
-.bd-switch input:checked+.bd-switch-body {
-	--switch-color: var($acc);
+.bd-switch input:checked + .bd-switch-body {
+	--switch-color: var(--FO-accentCol);
 }
 
 //-------------------suggestion menu-------------------//
