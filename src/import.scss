@@ -5,6 +5,7 @@
 @use 'main/popups' as *;
 @use 'main/profiles' as *;
 @use 'main/profileWiget' as *;
+@use 'main/root' as *;
 @use 'main/serverTags' as *;
 @use 'main/titleBar' as *;
 @use 'main/tooltips' as *;
@@ -32,3 +33,5 @@
 
 @use 'main/settings/settings' as *;
 @use 'main/settings/user' as *;
+
+@use 'bd' as *;
