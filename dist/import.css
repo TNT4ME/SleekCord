@@ -31,6 +31,7 @@
   --background-modifier-hover: none;
   --FO-accentA: color-mix(in oklch, var(--FO-accentCol), transparent 70%);
   --FO-accentB: color-mix(in oklch, var(--FO-accentCol), transparent 85%);
+  --FO-accentC: color-mix(in oklch, var(--FO-accentCol), black 25%);
   --FO-mentionColBg: color-mix(in oklch, var(--FO-mentionCol), transparent 85%);
   --FO-grad: linear-gradient(45deg, var(--FO-gradCol1), var(--FO-gradCol2), var(--FO-gradCol1), var(--FO-gradCol2));
 }
@@ -695,6 +696,43 @@ div.a3002d7de5be5280-app > div > div._960e4207cea8323e-layers._160d8e55254637e5-
 
 ._49fc18ba07c5025f-footer {
   background: none;
+}
+
+.floating-window-content,
+#bd-editor-panel,
+.floating-window #bd-editor-controls,
+.floating-window-titlebar,
+.monaco-editor:not(.rename-box),
+.monaco-editor-background,
+.monaco-editor .margin,
+.monaco-editor .sticky-widget {
+  background: none;
+}
+
+#floating-editor-window {
+  background: var(--FO-accentA);
+  backdrop-filter: blur(var(--FO-blur));
+}
+
+.bd-switch input:checked + .bd-switch-body {
+  --switch-color: var($acc);
+}
+
+.monaco-editor .suggest-details,
+.monaco-editor .suggest-widget {
+  background: var(--FO-accentC);
+}
+
+.monaco-list.list_id_2 .monaco-list-row.focused {
+  background: var(--FO-accentCol) !important;
+}
+
+.monaco-list.list_id_2:not(.drop-target):not(.dragging) .monaco-list-row:hover:not(.selected):not(.focused) {
+  background: var(--FO-accentA) !important;
+}
+
+.bd-button.bd-button-icon svg {
+  color: var(--FO-icon);
 }
 
 /*# sourceMappingURL=import.css.map */

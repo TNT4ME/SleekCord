@@ -1,0 +1,37 @@
+@use 'var' as *;
+
+.floating-window-content,
+#bd-editor-panel,
+.floating-window #bd-editor-controls,
+.floating-window-titlebar, //custom css editor
+.monaco-editor:not(.rename-box),
+.monaco-editor-background, //bg
+.monaco-editor .margin, //numbers
+.monaco-editor .sticky-widget //current parent
+{background: none;}
+
+#floating-editor-window { //bg
+	background: var($accA);
+	backdrop-filter: blur(var($blur));
+}
+
+//Live Update
+.bd-switch input:checked+.bd-switch-body {
+	--switch-color: var($acc);
+}
+
+//-------------------suggestion menu-------------------//
+.monaco-editor .suggest-details,
+.monaco-editor .suggest-widget {
+	background: var($accC);
+}
+.monaco-list.list_id_2
+.monaco-list-row.focused {
+    background: var($acc) !important;
+}
+.monaco-list.list_id_2:not(.drop-target):not(.dragging)
+.monaco-list-row:hover:not(.selected):not(.focused) {
+	background: var($accA) !important;
+}
+.bd-button.bd-button-icon svg {color: var($icon);}
+//-----------------------------------------------------//
