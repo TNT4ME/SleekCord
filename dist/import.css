@@ -18,7 +18,7 @@
   --autocomplete-bg: var(--FO-accentA);
   --border-normal: var(--FO-accentCol);
   --chat-background-default: var(--FO-msgBar) !important;
-  --mention-background: var(color-mix(in oklch, var(--FO-mentionCol) 20%, transparent)) !important;
+  --mention-background: color-mix(in oklch, var(--FO-mentionCol) 20%, transparent) !important;
   --mention-foreground: var(--FO-mentionCol);
   --background-mentioned: var(--FO-accentB);
   --background-message-hover: var(--FO-secCol);
