@@ -264,7 +264,8 @@ div.a3002d7de5be5280-app > div > div._960e4207cea8323e-layers._160d8e55254637e5-
   background: var(--FO-mainCol);
 }
 
-.cdf8a9a2bbd98bd3-wrapper {
+.cdf8a9a2bbd98bd3-wrapper,
+.f61d60ed65f9a128-wrapper {
   color: var(--FO-mentionCol);
   background: var(--FO-mentionColBg);
 }

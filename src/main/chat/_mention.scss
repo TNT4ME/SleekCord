@@ -1,7 +1,8 @@
 @use '../../var' as *;
 
 //-------@User #Channel-------//
-.cdf8a9a2bbd98bd3-wrapper {
+.cdf8a9a2bbd98bd3-wrapper,
+.f61d60ed65f9a128-wrapper {
     color: var($mention);
     background: var($mentionBg);
 }
