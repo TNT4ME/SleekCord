@@ -1,7 +1,7 @@
 @charset "UTF-8";
 ::selection {
   background: var(--FO-accentCol);
-  color: var(--FO-textCol) !important;
+  color: var(--FO-mainCol) !important;
 }
 
 :root {
