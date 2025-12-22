@@ -355,10 +355,11 @@ div.a3002d7de5be5280-app > div > div._960e4207cea8323e-layers._160d8e55254637e5-
   backdrop-filter: blur(var(--FO-blur));
 }
 
-.fed6d32841cc2da2-container, .fed6d32841cc2da2-header, ._8ef02eea17068b73-header, ._14245bb948377a25-wrapper,
-._4106ae7c1472c1de-wrapper, .aeaaeb2a573807f0-inspector, .c6367b0f171ba6d7-stickerInspected .c6367b0f171ba6d7-inspectedIndicator,
+.fed6d32841cc2da2-container, .fed6d32841cc2da2-header, ._8ef02eea17068b73-header,
+._14245bb948377a25-wrapper, ._4106ae7c1472c1de-wrapper, .aeaaeb2a573807f0-inspector,
+.c6367b0f171ba6d7-stickerInspected .c6367b0f171ba6d7-inspectedIndicator,
 .c0e32c5cffed3d9f-wrapper, .c0e32c5cffed3d9f-wrapper.c0e32c5cffed3d9f-isBurstReactionPicker,
-.c0e32c5cffed3d9f-header, .c0e32c5cffed3d9f-emojiPicker {
+.c0e32c5cffed3d9f-header, .c0e32c5cffed3d9f-emojiPicker, ._4e6cebf8beed1ad8-wrapper {
   border: none;
   background: none;
 }
