@@ -64,6 +64,16 @@
 //---------------------------------------------------------//
 
 //------------------------------------gif, sticker, :emoji: menus------------------------------------//
+// - - - - - - - - - - - - - - - - - - search bar - - - - - - - - - - - - - - - - - - //
+.mana-text-inputs
+._72c3859781ebce8f-wrapper:not([data-read-only=true]):has(input:focus,textarea:focus) {
+	outline: 2px solid var($acc);
+}
+._8ef02eea17068b73-header > .cdf8a9a2bbd98bd3-wrapper:hover { //hov
+	background: unset;
+}
+// - - - - - - - - - - - - - - - - - - - - -- - - - - - - - - - - - - - - - - - - - - //
+
 ._084343c4f11eaaab-contentWrapper, div[data-popout-animating=false] > #emoji-picker-tab-panel {
     background: var($accA);
     backdrop-filter: blur(var($blur));
