@@ -1,0 +1,30 @@
+@use '../var' as *;
+
+.fc561d3c125f6a2f-container { //bg
+	border: none;
+	background: var($accA);
+	backdrop-filter: blur(var($blur));
+}
+
+.fc561d3c125f6a2f-container .e8b59c4b335dd2fc-messagesPopoutWrap,
+._35a7ecf3aba351b2-channelHeader, ._0f7115b4703f7b3a-container {
+	border: none;
+	background: none;
+	backdrop-filter: none;
+}
+
+._957962c2bd49881b-messageContainer,
+._1ccd1ba5cb2270c2-messages { //fg
+	border: none;
+	background: var($accB);
+}
+
+.ed0c8cb44ff95773-jumpButton { //jump button
+	border: none;
+	color: var($txt);
+	background: var($acc);
+}
+
+.aa8da23faa27393c-top .aa8da23faa27393c-item.aa8da23faa27393c-brand {
+	--selected-tab-item-color: var($acc); //for u, unreads, mentions
+}

@@ -50,6 +50,35 @@
   border: none;
 }
 
+.fc561d3c125f6a2f-container {
+  border: none;
+  background: var(--FO-accentA);
+  backdrop-filter: blur(var(--FO-blur));
+}
+
+.fc561d3c125f6a2f-container .e8b59c4b335dd2fc-messagesPopoutWrap,
+._35a7ecf3aba351b2-channelHeader, ._0f7115b4703f7b3a-container {
+  border: none;
+  background: none;
+  backdrop-filter: none;
+}
+
+._957962c2bd49881b-messageContainer,
+._1ccd1ba5cb2270c2-messages {
+  border: none;
+  background: var(--FO-accentB);
+}
+
+.ed0c8cb44ff95773-jumpButton {
+  border: none;
+  color: var(--FO-txtCol);
+  background: var(--FO-accentCol);
+}
+
+.aa8da23faa27393c-top .aa8da23faa27393c-item.aa8da23faa27393c-brand {
+  --selected-tab-item-color: var($acc);
+}
+
 .c8ffbb79449f399c-container {
   border: none;
 }
