@@ -1,17 +1,760 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 7 | @use 'main/profileWiget' as *;
- *   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
- *   '
- *   src\import.scss 7:1  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 7 \2502  @use 'main/profileWiget' as *;\d\a   \2502  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   src\\import.scss 7:1  root stylesheet";
+@charset "UTF-8";
+::selection {
+  background: var(--FO-accentCol);
+  color: var(--FO-mainCol) !important;
 }
+
+:root {
+  --bg-overlay-2: var(--FO-mainCol);
+  --bg-base-secondary: var(--FO-mainCol);
+  --background-acc: var(--FO-accentA);
+  --background-base-low: var(--FO-mainCol);
+  --background-base-lower: var(--FO-mainCol);
+  --background-surface-high: var(--FO-secCol);
+  --background-surface-higher: var(--FO-msgBar);
+  --background-surface-highest: var(--FO-accentA);
+  --brand-500: var(--FO-accentCol);
+  --modal-background: none;
+  --autocomplete-bg: var(--FO-accentA);
+  --border-normal: var(--FO-accentCol);
+  --chat-background-default: var(--FO-msgBar) !important;
+  --mention-background: color-mix(in oklch, var(--FO-mentionCol) 20%, transparent) !important;
+  --mention-foreground: var(--FO-mentionCol);
+  --background-mentioned: var(--FO-accentB);
+  --background-message-hover: var(--FO-secCol);
+  --info-warning-foreground: var(--FO-accentCol);
+  --text-normal: var(--FO-txtCol);
+  --text-default: var(--FO-txtCol);
+  --font-primary: var(--FO-font);
+  --font-code: var(--FO-code);
+  --interactive-normal: var(--FO-icon);
+  --background-modifier-hover: none;
+  --FO-accentA: color-mix(in oklch, var(--FO-accentCol), transparent 70%);
+  --FO-accentB: color-mix(in oklch, var(--FO-accentCol), transparent 85%);
+  --FO-accentC: color-mix(in oklch, var(--FO-accentCol), black 25%);
+  --FO-mentionColBg: color-mix(in oklch, var(--FO-mentionCol), transparent 85%);
+  --FO-grad: linear-gradient(45deg, var(--FO-gradCol1), var(--FO-gradCol2), var(--FO-gradCol1), var(--FO-gradCol2));
+}
+
+._783321f3468cf9e8-backdrop, ._783321f3468cf9e8-withLayer {
+  background: none !important;
+  backdrop-filter: blur(var(--FO-blur)) !important;
+}
+
+.cc1819cb49c2d109-actionButtons, .aec7abc73c126bc0-button {
+  border: none;
+  background: var(--FO-accentA);
+}
+
+.aec7abc73c126bc0-buttonInner {
+  border: none;
+}
+
+.c8ffbb79449f399c-container {
+  border: none;
+}
+
+.f75fb00fb7356cbe-content > div {
+  border: none;
+  background: var(--FO-mainCol);
+}
+
+.c8ffbb79449f399c-members {
+  background: none;
+}
+
+.c1e9c47c23f12ca3-colorDanger.c1e9c47c23f12ca3-focused {
+  background: linear-gradient(oklab(71% 0.17 0.16 / 0.15), oklab(65% 0.26 0.14 / 0.15));
+}
+
+.c1e9c47c23f12ca3-menu {
+  border: none;
+  background: var(--FO-accentA);
+}
+
+.d6f39bdbd19328a0-popover, .d6f39bdbd19328a0-popoverGradientWrapper {
+  border: none;
+  background: var(--FO-accentA);
+  backdrop-filter: blur(var(--FO-blur));
+}
+
+.a22cb0c66246f5d3-secondary {
+  border: none;
+  background: var(--FO-accentA);
+}
+
+.c0bea05627c5dc35-outer {
+  border: none;
+  background: var(--FO-profileCol);
+  backdrop-filter: blur(var(--FO-blur));
+}
+
+._9c3bea41fd465666-profile {
+  outline: none;
+  box-shadow: none;
+  background: none;
+}
+
+._201d5e8a3c09670a-lookFilled._201d5e8a3c09670a-colorBrand {
+  border: none;
+  color: var(--FO-txtCol);
+  background: var(--FO-accentCol);
+}
+
+._9bfb9a25604068f0-platformIconContainer {
+  border: none;
+  background: var(--FO-accentA);
+}
+
+.c1e9c47c23f12ca3-menu:after {
+  inset: 0;
+  z-index: -1;
+  content: "";
+  border-radius: 8px;
+  position: absolute;
+  backdrop-filter: blur(var(--FO-blur));
+}
+
+._4bd5201c86a2042b-defaultColor {
+  color: var(--FO-txtCol) !important;
+}
+
+.a99829deaf601327-editor > div > ._1b31f471f0bb10ab-placeholder {
+  color: var(--FO-txtCol);
+}
+
+._62dd31d5e86f2841-container {
+  border: none;
+  background: var(--FO-accentB);
+}
+
+._36be84b4087a5355-gameSearchCombobox {
+  border: none;
+  background: var(--FO-accentA);
+  backdrop-filter: blur(var(--FO-blur));
+}
+
+._37e49614b9f110a9-container {
+  border: none;
+  background: var(--FO-accentA);
+  backdrop-filter: blur(var(--FO-blur));
+}
+
+._5e434347c823b592-panels {
+  border: none;
+  background: none;
+}
+
+:where(.c0bea05627c5dc35-overlay) {
+  background: none;
+}
+
+._5e434347c823b592-sidebar:after {
+  background: none;
+}
+
+._5e434347c823b592-activityPanel {
+  border: none;
+}
+
+.showMoreButton__84832 {
+  background: var(--FO-accentB);
+}
+
+._5dec784a68542d60-panel {
+  background: none;
+}
+
+#\:rm7\: > rect:nth-child(2),
+#svg-mask-status-idle > circle:nth-child(2),
+#svg-mask-status-dnd > rect,
+#svg-mask-status-offline > circle:nth-child(2) {
+  fill: transparent;
+}
+
+.dca174a2baed7ac1-container, .d3846c099147bad3-spinnerContainer {
+  border: none;
+  background: var(--FO-accentA);
+  backdrop-filter: blur(var(--FO-blur));
+}
+
+._6e5000705ad8bf77-members div,
+._6e5000705ad8bf77-established div {
+  color: var(--FO-txtCol) !important;
+}
+
+div.a3002d7de5be5280-app > div > div._960e4207cea8323e-layers._160d8e55254637e5-layers > div > div > div > div.c38106a3f0c3ca76-bar.theme-dark.theme-darker.images-dark {
+  border: none;
+  background: var(--FO-mainCol);
+}
+
+.visual-refresh ._9293f6b2fc12398a-clickable ._9293f6b2fc12398a-icon {
+  color: var(--FO-icon);
+}
+
+.visual-refresh:hover ._9293f6b2fc12398a-clickable:hover ._9293f6b2fc12398a-icon:hover {
+  color: var(--FO-accentCol);
+}
+
+.c36707910f687430-tooltipPrimary {
+  --tooltip-pointer-bg: none;
+  border: none;
+  background: var(--FO-accentA);
+  backdrop-filter: blur(var(--FO-blur));
+}
+
+.c36707910f687430-tooltipPointer.c36707910f687430-tooltipPointerBg {
+  display: none;
+}
+
+._201d5e8a3c09670a-button {
+  border: none;
+}
+
+._083ae98ea5145b08-guildInviteContainer, ._083ae98ea5145b08-footerContent {
+  background: none;
+  border: none;
+}
+
+.visual-refresh ._623de82e76ad7f82-embedFull {
+  border: none;
+  border-left: 4px solid var(--FO-accentCol);
+}
+
+._0ccaee68b77c7469-file {
+  border: none;
+}
+
+._06ab41fd2ef7af3f-hoverButtonGroup, ._43deb08d456619a2-gifFavoriteButton {
+  outline: none;
+  background: var(--FO-accentB);
+  backdrop-filter: blur(var(--FO-blur));
+}
+
+.e6b7699ce8339e1c-searchBar {
+  background: var(--FO-mainCol);
+}
+
+.theme-dark ._9293f6b2fc12398a-themed {
+  background: var(--FO-mainCol);
+}
+
+.wrapper_a45028 {
+  border: none;
+}
+
+._133bf5eea8e33a34-tabBar ._133bf5eea8e33a34-addFriend._133bf5eea8e33a34-addFriend._133bf5eea8e33a34-addFriend {
+  background: var(--FO-accentCol);
+}
+
+._7d20cf18f8a2784c-scroller, ._00943886e1cf89d1-wrapper, ._00943886e1cf89d1-section {
+  border: none;
+}
+
+.c19a557985eb7793-wrapper:hover {
+  transition: 0.25s;
+}
+
+.f7ecaca5c80dbf3a-wrapper, .f7ecaca5c80dbf3a-wrapper:hover {
+  border: none;
+  box-shadow: none !important;
+  backdrop-filter: blur(var(--FO-blur));
+  background: var(--FO-accentA);
+}
+
+.b49891f8a231dbff-reactionTooltip {
+  background: var(--FO-accentA);
+  backdrop-filter: blur(var(--FO-blur));
+}
+
+._752971923a1e6683-markup a {
+  color: var(--FO-linkCol);
+}
+
+.f75fb00fb7356cbe-chatContent {
+  background: var(--FO-mainCol);
+}
+
+.cdf8a9a2bbd98bd3-wrapper,
+.f61d60ed65f9a128-wrapper {
+  color: var(--FO-mentionCol);
+  background: var(--FO-mentionColBg);
+}
+
+.cdf8a9a2bbd98bd3-wrapper:hover {
+  color: var(--FO-txtCol);
+  background: var(--FO-mentionCol);
+}
+
+._5126c0cd07f243a0-mentioned:before {
+  background: var(--FO-accentCol);
+}
+
+._5126c0cd07f243a0-mentioned, ._5126c0cd07f243a0-mentioned:hover {
+  background: var(--FO-accentB) !important;
+}
+
+._740174f3d6a2c8fe-themedBackground {
+  background: var(--FO-msgBar);
+}
+
+._740174f3d6a2c8fe-channelTextArea:not(._740174f3d6a2c8fe-highlighted) {
+  border: none;
+}
+
+._740174f3d6a2c8fe-channelTextArea:not(._740174f3d6a2c8fe-highlighted):hover {
+  border: none;
+  box-shadow: 0px 0px 3px color-mix(in oklch, var(--FO-accentCol) 90%, transparent), 0px 0px 5px color-mix(in oklch, var(--FO-accentCol) 80%, transparent);
+}
+
+._36d072eab2b2e737-chatGradient {
+  background: none;
+}
+
+.aa605f19898fe32e-upload {
+  background: none;
+  backdrop-filter: blur(var(--FO-blur)); /*need to fix*/
+}
+
+._41ea06378162693a-mediaContainer > div:not([aria-expanded=false]) > div {
+  background: none;
+}
+
+._740174f3d6a2c8fe-stackedBars:not(:last-child) {
+  border: none;
+}
+
+._841c8f861f7b2704-mentionButton {
+  color: var(--FO-accentCol) !important;
+}
+
+._0f481cbbd7530492-jumpToPresentBar:active {
+  margin-bottom: var(--space-8);
+}
+
+._0f481cbbd7530492-bottomBar {
+  border: none;
+  border-radius: 8px;
+  backdrop-filter: blur(var(--FO-blur));
+}
+
+.a22cb0c66246f5d3-primary, .a22cb0c66246f5d3-primary:hover {
+  border: none;
+  color: var(--FO-txtCol);
+  background: var(--FO-accentCol) !important;
+}
+
+._841c8f861f7b2704-createThreadButton {
+  color: var(--FO-accentCol) !important;
+}
+
+._13533e3c5791980f-autocomplete {
+  background: var(--FO-accentA);
+  backdrop-filter: blur(var(--FO-blur));
+}
+
+._13533e3c5791980f-autocompleteRowContentSecondary {
+  color: var(--FO-txtCol);
+}
+
+._13533e3c5791980f-clickable[aria-disabled=false] > ._13533e3c5791980f-base:hover, ._13533e3c5791980f-clickable[aria-selected=true] > ._13533e3c5791980f-base {
+  background-color: var(--FO-accentCol);
+}
+
+.mana-text-inputs ._72c3859781ebce8f-wrapper:not([data-read-only=true]):has(input:focus, textarea:focus) {
+  outline: 2px solid var(--FO-accentCol);
+}
+
+._8ef02eea17068b73-header > .cdf8a9a2bbd98bd3-wrapper:hover {
+  background: unset;
+}
+
+._084343c4f11eaaab-contentWrapper, div[data-popout-animating=false] > #emoji-picker-tab-panel {
+  background: var(--FO-accentA);
+  backdrop-filter: blur(var(--FO-blur));
+}
+
+.fed6d32841cc2da2-container, .fed6d32841cc2da2-header, ._8ef02eea17068b73-header,
+._14245bb948377a25-wrapper, ._4106ae7c1472c1de-wrapper, .aeaaeb2a573807f0-inspector,
+.c6367b0f171ba6d7-stickerInspected .c6367b0f171ba6d7-inspectedIndicator,
+.c0e32c5cffed3d9f-wrapper, .c0e32c5cffed3d9f-wrapper.c0e32c5cffed3d9f-isBurstReactionPicker,
+.c0e32c5cffed3d9f-header, .c0e32c5cffed3d9f-emojiPicker, ._4e6cebf8beed1ad8-wrapper {
+  border: none;
+  background: none;
+}
+
+.d02962a38047ac3c-categoryFade:hover, ._2dc39186a9b98da4-result:hover {
+  border: none;
+  box-shadow: none;
+}
+
+._3ad28b0867fa3fad-standardStickerShortcut, .b9ee0c229bc0b6bb-unicodeShortcut {
+  border: none;
+  color: var(--FO-icon);
+}
+
+.fc7141859aaa98b7-emojiItem.fc7141859aaa98b7-emojiItemSelected {
+  transition: 0.2s;
+  background: var(--FO-accentA);
+}
+
+.aeaaeb2a573807f0-topGuildEmojiBadge {
+  background: linear-gradient(268.26deg, #bf5151, #db803f 102.45%);
+}
+
+._3ad28b0867fa3fad-stickerCategoryGenericSelected, .b9ee0c229bc0b6bb-categoryItemDefaultCategorySelected {
+  background: none;
+}
+
+._0f481cbbd7530492-newMessagesBar {
+  color: var(--FO-txtCol);
+}
+
+._0f481cbbd7530492-barBase {
+  border: none;
+}
+
+.e8b59c4b335dd2fc-messagesPopoutWrap {
+  background: var(--FO-accentA);
+  backdrop-filter: blur(var(--FO-blur));
+}
+
+.e8b59c4b335dd2fc-header, .e8b59c4b335dd2fc-messageGroupWrapper {
+  border: none;
+  background: none;
+}
+
+.jumpButton_e8b59c {
+  border: none;
+  color: var(--FO-txtCol);
+  background: var(--FO-accentB);
+}
+
+._23977d5b7cef7361-reaction._23977d5b7cef7361-reactionMe {
+  background: var(--FO-accentA);
+  border-color: var(--FO-accentCol);
+}
+
+@keyframes grad {
+  0% {
+    background-position: 0% 100%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+._10651c5cfe637db6-chipletContainerInner, ._10651c5cfe637db6-clickable:hover {
+  background: var(--FO-grad);
+  background-size: 400% auto;
+  animation: grad 5s linear infinite;
+}
+
+._299eb87491f4b6d1-spoilerContent._299eb87491f4b6d1-hidden {
+  background: var(--FO-accentA);
+  --__current--spoiler-content-opacity: 1;
+  --__current--spoiler-text-color: var($txt);
+}
+
+._299eb87491f4b6d1-spoilerMarkdownContent._299eb87491f4b6d1-hidden {
+  filter: blur(3px);
+}
+
+._6c706db0523bd9a7-obscured._6c706db0523bd9a7-hiddenMosaicItem._6c706db0523bd9a7-hiddenSpoiler {
+  filter: blur(--FO-spoiler);
+}
+
+._299eb87491f4b6d1-spoilerContainer {
+  background-color: var(--FO-accentCol);
+}
+
+.d9c8822889d1d4a1-container {
+  background: var(--FO-accentA);
+  backdrop-filter: blur(var(--FO-blur));
+}
+
+.d9c8822889d1d4a1-header, ._6764bd76e0340219-container {
+  border: none;
+  background: none;
+}
+
+._6764bd76e0340219-container:hover {
+  background: var(--FO-accentB);
+}
+
+.d9c8822889d1d4a1-closeIcon, .d9c8822889d1d4a1-threadIcon {
+  color: var(--FO-icon);
+}
+
+._72c3859781ebce8f-wrapper {
+  border: none;
+  background: rgba(0, 0, 0, 0.1333333333);
+}
+
+.c38106a3f0c3ca76-bar {
+  background: var(--FO-mainCol);
+}
+
+.visual-refresh .f75fb00fb7356cbe-title {
+  border: none;
+  background: var(--FO-mainCol);
+}
+
+.theme-dark ._9293f6b2fc12398a-children:after {
+  background: none;
+}
+
+.visual-refresh .f75fb00fb7356cbe-chat[data-has-border=true] {
+  border: none;
+}
+
+.visual-refresh ._974928fe84ca9647-searchBar {
+  border: none;
+}
+
+.bfe55a0aaaf62375-root {
+  background: var(--FO-vidBg);
+}
+
+.visual-refresh ._2637a2609f343032-container {
+  background: var(--FO-mainCol);
+  padding-bottom: unset;
+}
+
+.visual-refresh ._5e434347c823b592-sidebarList {
+  border: none;
+}
+
+.visual-refresh ._5e434347c823b592-sidebar:after {
+  background: none;
+}
+
+._2ea32c412048f708-wrapper:hover ._2ea32c412048f708-link {
+  background: var(--FO-secCol);
+  transition: 0.3s;
+}
+._2ea32c412048f708-wrapper:hover ._2ea32c412048f708-name, ._2ea32c412048f708-wrapper:hover ._2ea32c412048f708-icon, ._2ea32c412048f708-wrapper:hover .c69b6db0641110f6-actionIcon {
+  color: var(--FO-txtCol);
+  transition: 0.3s;
+}
+
+._2ea32c412048f708-modeUnreadImportant ._2ea32c412048f708-name, ._2ea32c412048f708-modeUnreadImportant:hover ._2ea32c412048f708-name,
+._2ea32c412048f708-modeUnreadImportant ._2ea32c412048f708-icon, ._2ea32c412048f708-modeUnreadImportant:hover ._2ea32c412048f708-icon,
+._2ea32c412048f708-modeUnreadImportant .c69b6db0641110f6-actionIcon {
+  color: var(--FO-accentCol) !important;
+}
+
+._2ea32c412048f708-unreadImportant {
+  background: var(--FO-accentCol);
+}
+
+._2ea32c412048f708-modeSelected ._2ea32c412048f708-link {
+  color: var(--FO-txtCol);
+  background: var(--FO-accentA);
+}
+._2ea32c412048f708-modeSelected ._2ea32c412048f708-link:hover {
+  color: var(--FO-txtCol);
+  background: var(--FO-accentA);
+  transition: 0.3s;
+}
+
+._76f047ded9fef6d4-popout {
+  background: var(--FO-accentA);
+  backdrop-filter: blur(var(--FO-blur));
+}
+
+/*--------------------thread list--------------------*/
+._5b40bdd67543ba35-spine {
+  color: var(--FO-accentCol);
+}
+
+._5b40bdd67543ba35-spineBorder {
+  background: var(--FO-accentCol);
+}
+
+/*---------------------------------------------------*/
+._3b95d7d910416e54-unread {
+  background: var(--FO-accentA);
+  backdrop-filter: blur(var(--FO-blur));
+}
+
+.visual-refresh .e6b7699ce8339e1c-privateChannels {
+  background: var(--FO-mainCol);
+}
+
+.visual-refresh ._99e7cad8d4c55236-scroller {
+  background: var(--FO-mainCol);
+}
+
+._82f0793afa59e5dc-botTagRegular {
+  background: var(--FO-accentCol);
+}
+
+._972a0d22c8afa7f0-interactiveSelected {
+  color: var(--FO-txtCol);
+  background: var(--FO-accentA);
+}
+
+._972a0d22c8afa7f0-interactiveSelected:hover {
+  background: var(--FO-accentCol);
+}
+
+.user-profile-sidebar {
+  background: var(--FO-mainCol);
+}
+
+._99e7cad8d4c55236-scroller {
+  margin-bottom: none;
+}
+
+.visual-refresh .ef3116c2da186559-wrapper {
+  background: var(--FO-mainCol);
+  margin-bottom: unset;
+}
+
+.dbd2630aec71879b-stack.ef3116c2da186559-scroller.d125d22cdfd32cfe-none.d125d22cdfd32cfe-scrollerBase:after {
+  color: transparent;
+  background: none;
+  white-space: pre-wrap;
+  font-family: var(--FO-code);
+  content: "By TNT4\aME ඞ :D\a 1234567";
+}
+
+._6e9f8dce4cc18de3-wrapper._6e9f8dce4cc18de3-selected ._6e9f8dce4cc18de3-childWrapper {
+  background: var(--FO-accentCol);
+}
+
+._48112cbe77dc5022-folderGroupBackground {
+  border: none;
+}
+
+._581051df43c5ebb6-item {
+  background: var(--FO-accentCol);
+}
+
+._5bc7ed9d4097f6b5-circleIconButton._5bc7ed9d4097f6b5-selected, ._5bc7ed9d4097f6b5-circleIconButton:hover:not(.disabled__5bc7e) {
+  background: var(--FO-accentCol);
+}
+
+._5bc7ed9d4097f6b5-circleIconButton, ._5bc7ed9d4097f6b5-circleIconButton._5bc7ed9d4097f6b5-selected {
+  color: var(--FO-icon);
+  background: var(--FO-secCol);
+}
+
+._8a031a135bfcb9ba-container {
+  border: none;
+  background: var(--FO-accentA);
+  backdrop-filter: blur(var(--FO-blur));
+}
+
+.abd9a8b9030934e3-container {
+  color: var(--FO-txtCol);
+}
+
+._409aa1aeee28d5f7-fixedContent:after {
+  content: none;
+}
+
+._409aa1aeee28d5f7-section {
+  border-bottom: 2px solid var(--FO-accentCol);
+}
+
+._409aa1aeee28d5f7-label,
+.caf372efc4d47562-item {
+  color: var(--FO-txtCol) !important;
+}
+
+.caf372efc4d47562-item.caf372efc4d47562-active,
+.caf372efc4d47562-item:hover {
+  color: var(--FO-accentCol) !important;
+}
+
+.bd-text-muted {
+  color: var(--FO-accentCol);
+}
+
+.edefb8e22d63c542-anchor {
+  color: var(--FO-linkCol);
+}
+
+.e9e3ed8b8badfe05-content {
+  background: none;
+  border-left: 2px solid var(--FO-accentCol);
+}
+
+.e9e3ed8b8badfe05-contentHeader {
+  border: none;
+  background: none;
+}
+
+.aa8da23faa27393c-top .aa8da23faa27393c-item.aa8da23faa27393c-brand {
+  --selected-tab-item-color: var($acc);
+}
+
+._1fed1dd06c7aabf7-accountProfileCard {
+  background: none;
+  border: 2px solid var(--FO-accentCol);
+}
+
+._1fed1dd06c7aabf7-background {
+  background: var(--FO-accentA);
+}
+
+._1fed1dd06c7aabf7-fieldList {
+  background: none;
+}
+
+._7a01bdafdcb0e727-primary {
+  color: var(--FO-accentCol);
+}
+
+.a22cb0c66246f5d3-critical-secondary {
+  border: none;
+}
+
+._49fc18ba07c5025f-root:has(div > div > form) {
+  background: var(--FO-accentA);
+  backdrop-filter: blur(var(--FO-blur));
+}
+
+._49fc18ba07c5025f-footer {
+  background: none;
+}
+
+.floating-window-content,
+#bd-editor-panel,
+.floating-window #bd-editor-controls,
+.floating-window-titlebar,
+.monaco-editor:not(.rename-box),
+.monaco-editor-background,
+.monaco-editor .margin,
+.monaco-editor .sticky-widget {
+  background: none;
+}
+
+#floating-editor-window {
+  background: var(--FO-accentA);
+  backdrop-filter: blur(var(--FO-blur));
+}
+
+.bd-switch input:checked + .bd-switch-body {
+  --switch-color: var(--FO-accentCol);
+}
+
+.monaco-editor .suggest-details,
+.monaco-editor .suggest-widget {
+  background: var(--FO-accentC);
+}
+
+.monaco-list.list_id_2 .monaco-list-row.focused {
+  background: var(--FO-accentCol) !important;
+}
+
+.monaco-list.list_id_2:not(.drop-target):not(.dragging) .monaco-list-row:hover:not(.selected):not(.focused) {
+  background: var(--FO-accentA) !important;
+}
+
+.bd-button.bd-button-icon svg {
+  color: var(--FO-icon);
+}
+
+/*# sourceMappingURL=import.css.map */
