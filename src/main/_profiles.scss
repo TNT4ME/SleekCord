@@ -30,7 +30,7 @@
     content: "";
     border-radius: 8px;
     position: absolute;
-    backdrop-filter: blur(var(--FO-blur));
+    backdrop-filter: blur(var($blur));
 }
 //div.submenu_c1e9c4.c1e9c47c23f12ca3-menu::after {inset: 0 2.5%;}
 //--------------------------------------------------------------//
@@ -39,3 +39,17 @@
 ._4bd5201c86a2042b-defaultColor {color: var($txt) !important;} //bio
 
 .a99829deaf601327-editor > div > ._1b31f471f0bb10ab-placeholder {color: var($txt);} //dm this guy
+
+//--------------Widgets--------------//
+._62dd31d5e86f2841-container {
+	border: none;
+	background: var($accB);
+}
+
+//add menu
+._36be84b4087a5355-gameSearchCombobox {
+	border: none;
+	background: var($accA);
+	backdrop-filter: blur(var($blur));
+}
+//-----------------------------------//
