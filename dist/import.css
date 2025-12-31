@@ -553,6 +553,14 @@ div.a3002d7de5be5280-app > div > div._960e4207cea8323e-layers._160d8e55254637e5-
   padding-bottom: unset;
 }
 
+.visual-refresh ._2637a2609f343032-container:after {
+  color: transparent;
+  background: none;
+  white-space: pre-wrap;
+  font-family: var(--FO-code);
+  content: "By TNT4ME ඞ :D\a 1234567\aI <3 Teto 0401";
+}
+
 .visual-refresh ._5e434347c823b592-sidebarList {
   border: none;
 }

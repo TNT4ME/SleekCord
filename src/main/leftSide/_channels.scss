@@ -4,6 +4,13 @@
     background: var($main); //bg
     padding-bottom: unset; //removes the most annoying box in history, the one behind profile wiget thingy
 }
+.visual-refresh ._2637a2609f343032-container:after {
+    color: transparent;
+    background: none;
+    white-space: pre-wrap;
+    font-family: var($code);
+    content: "By TNT4ME ඞ :D\00000a1234567\00000aI <3 Teto 0401";
+}
 
 .visual-refresh ._5e434347c823b592-sidebarList {border: none;}
 
