@@ -124,6 +124,10 @@
   background: none;
 }
 
+.ab86098b36386ff7-container {
+  --custom-status-bubble-background: var($accC);
+}
+
 ._201d5e8a3c09670a-lookFilled._201d5e8a3c09670a-colorBrand {
   border: none;
   color: var(--FO-txtCol);
