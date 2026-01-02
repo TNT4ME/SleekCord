@@ -10,3 +10,13 @@
 ._5bc6a0adc149eda0-caret { //arrow
     opacity: 0;
 }
+
+.c36707910f687430-tooltipPrimary {
+	--tooltip-pointer-bg: none;
+
+	border: none;
+	background: none;
+	backdrop-filter: blur(var($blur));
+}
+
+.c36707910f687430-tooltipPointer.c36707910f687430-tooltipPointerBg {display: none;}
