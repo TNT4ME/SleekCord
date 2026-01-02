@@ -1,11 +1,12 @@
 @use '../var' as *;
 
-.c36707910f687430-tooltipPrimary {
-    --tooltip-pointer-bg: none;
-
-    border: none;
+._4e35b986167c457d-tooltip {
+    color: var($txt);
+    box-shadow: none;
     background: var($accA);
     backdrop-filter: blur(var($blur));
 }
 
-.c36707910f687430-tooltipPointer.c36707910f687430-tooltipPointerBg {display: none;}
+._5bc6a0adc149eda0-caret { //arrow
+    opacity: 0;
+}

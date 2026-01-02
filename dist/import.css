@@ -230,15 +230,15 @@ div.a3002d7de5be5280-app > div > div._960e4207cea8323e-layers._160d8e55254637e5-
   color: var(--FO-accentCol);
 }
 
-.c36707910f687430-tooltipPrimary {
-  --tooltip-pointer-bg: none;
-  border: none;
+._4e35b986167c457d-tooltip {
+  color: var(--FO-txtCol);
+  box-shadow: none;
   background: var(--FO-accentA);
   backdrop-filter: blur(var(--FO-blur));
 }
 
-.c36707910f687430-tooltipPointer.c36707910f687430-tooltipPointerBg {
-  display: none;
+._5bc6a0adc149eda0-caret {
+  opacity: 0;
 }
 
 ._201d5e8a3c09670a-button {
