@@ -124,7 +124,8 @@
   background: none;
 }
 
-.ab86098b36386ff7-container {
+.ab86098b36386ff7-container,
+.ab86098b36386ff7-container:hover {
   --custom-status-bubble-background: var(--FO-accentC);
 }
 
