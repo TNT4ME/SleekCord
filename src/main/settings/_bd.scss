@@ -1,0 +1,33 @@
+@use '../../var' as *;
+
+.bd-addon-list .bd-addon-card,
+.bd-addon-list .bd-addon-header,
+.bd-store-card, .bd-store-card-icon {
+	border: none;
+	color: var($txt);
+	background: var($accB);
+}
+.bd-button-filled.bd-button-color-brand,
+.bd-button-filled.bd-button-color-brand:hover {
+	background: var($acc);
+}
+
+.bd-modal-root {
+	background: var($accA);
+	backdrop-filter: blur(var($blur));
+}
+
+.bd-modal-footer {background: none;}
+
+._3f21e80f8677ec40-checked,
+._3f21e80f8677ec40-checked > svg > svg > path {
+	background: var($acc) !important;
+	fill: var($acc);
+}
+
+.bd-addon-store-card {
+	background: var($accB) !important;
+}
+.bd-addon-store-card-author-mask {
+	background: var($accC) !important;
+}

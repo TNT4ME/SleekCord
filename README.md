@@ -7,9 +7,9 @@ Thanks to @skamt. for fixing 'More > Invite to Server' bug <3
 
 
 # Todo
-- [x] Tooltips
-- [ ] BD Plugins
-- [ ] BD Plugin Store
+- [x] ~~Tooltips~~
+- [x] ~~BD Plugins~~
+- [x] ~~BD Plugin Store~~
 - [ ] Transparent Popup menus
 - [ ] Search menu
 - [ ] Text color in menus
