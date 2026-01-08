@@ -1,0 +1,23 @@
+@use '../var' as *;
+
+//------------Search Bar------------//
+.b6544fb09f373e60-container {
+	border: none;
+	background: var($accA);
+	backdrop-filter: blur(var($blur));
+}
+.bd818628221af7aa-searchToken {
+	border: none;
+	background: var($accC);
+}
+//----------------------------------//
+
+.a98f3b020416ad54-searchResultsWrap {background: var($main);}
+.a22cb0c66246f5d3-button:hover {background: var($acc);}
+
+._80bf8435713f6adb-searchResult {
+	border: none;
+	background: var($accB);
+}
+._80bf8435713f6adb-button {background: var($accC);}
+._80bf8435713f6adb-button:hover {background: var($acc);}

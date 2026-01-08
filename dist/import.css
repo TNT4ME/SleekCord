@@ -212,6 +212,38 @@
   fill: transparent;
 }
 
+.b6544fb09f373e60-container {
+  border: none;
+  background: var(--FO-accentA);
+  backdrop-filter: blur(var(--FO-blur));
+}
+
+.bd818628221af7aa-searchToken {
+  border: none;
+  background: var(--FO-accentC);
+}
+
+.a98f3b020416ad54-searchResultsWrap {
+  background: var(--FO-mainCol);
+}
+
+.a22cb0c66246f5d3-button:hover {
+  background: var(--FO-accentCol);
+}
+
+._80bf8435713f6adb-searchResult {
+  border: none;
+  background: var(--FO-accentB);
+}
+
+._80bf8435713f6adb-button {
+  background: var(--FO-accentC);
+}
+
+._80bf8435713f6adb-button:hover {
+  background: var(--FO-accentCol);
+}
+
 .dca174a2baed7ac1-container, .d3846c099147bad3-spinnerContainer {
   border: none;
   background: var(--FO-accentA);
