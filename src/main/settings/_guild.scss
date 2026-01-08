@@ -1,0 +1,12 @@
+@use '../../var' as *;
+
+//left
+._23e6b439306f125a-sidebarRegionScroller {
+	background: var($main);
+}
+.aa8da23faa27393c-side .aa8da23faa27393c-themed.aa8da23faa27393c-selected.aa8da23faa27393c-item {
+	background: var($accA); //sel
+}
+.aa8da23faa27393c-side .aa8da23faa27393c-themed.aa8da23faa27393c-item:hover:not(.aa8da23faa27393c-disabled) {
+	background: var($accB); //hov
+}

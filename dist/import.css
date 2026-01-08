@@ -767,6 +767,18 @@ div.a3002d7de5be5280-app > div > div._960e4207cea8323e-layers._160d8e55254637e5-
   background: var(--FO-accentC) !important;
 }
 
+._23e6b439306f125a-sidebarRegionScroller {
+  background: var(--FO-mainCol);
+}
+
+.aa8da23faa27393c-side .aa8da23faa27393c-themed.aa8da23faa27393c-selected.aa8da23faa27393c-item {
+  background: var(--FO-accentA);
+}
+
+.aa8da23faa27393c-side .aa8da23faa27393c-themed.aa8da23faa27393c-item:hover:not(.aa8da23faa27393c-disabled) {
+  background: var(--FO-accentB);
+}
+
 ._8a031a135bfcb9ba-container {
   border: none;
   background: var(--FO-accentA);

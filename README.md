@@ -13,4 +13,4 @@ Thanks to @skamt. for fixing 'More > Invite to Server' bug <3
 - [x] ~~Transparent Popup menus~~
 - [x] ~~Search menu~~
 - [x] ~~Text color in menus~~
-- [ ] Guild Settings
+- [x] ~~Guild Settings~~
