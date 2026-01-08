@@ -101,7 +101,8 @@
   background: var(--FO-accentA);
 }
 
-.d6f39bdbd19328a0-popover, .d6f39bdbd19328a0-popoverGradientWrapper {
+.d6f39bdbd19328a0-popover,
+.d6f39bdbd19328a0-popoverGradientWrapper {
   border: none;
   background: var(--FO-accentA);
   backdrop-filter: blur(var(--FO-blur));
@@ -110,6 +111,11 @@
 .a22cb0c66246f5d3-secondary {
   border: none;
   background: var(--FO-accentA);
+}
+
+._49fc18ba07c5025f-focusLock > ._49fc18ba07c5025f-root {
+  background: var(--FO-accentA);
+  backdrop-filter: blur(var(--FO-blur));
 }
 
 .c0bea05627c5dc35-outer {

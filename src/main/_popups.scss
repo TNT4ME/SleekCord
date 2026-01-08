@@ -1,7 +1,9 @@
 @use '../var' as *;
 
 //delete btn
-.c1e9c47c23f12ca3-colorDanger.c1e9c47c23f12ca3-focused {background: linear-gradient(oklab(0.71 0.17 0.16 / 0.15), oklab(0.65 0.26 0.14 / 0.15));}
+.c1e9c47c23f12ca3-colorDanger.c1e9c47c23f12ca3-focused {
+    background: linear-gradient(oklab(0.71 0.17 0.16 / 0.15), oklab(0.65 0.26 0.14 / 0.15));
+}
 
 .c1e9c47c23f12ca3-menu {
     border: none;
@@ -9,7 +11,8 @@
 }
 
 //----------------new server tag----------------//
-.d6f39bdbd19328a0-popover, .d6f39bdbd19328a0-popoverGradientWrapper {
+.d6f39bdbd19328a0-popover,
+.d6f39bdbd19328a0-popoverGradientWrapper {
     border: none;
     background: var($accA);
     backdrop-filter: blur(var($blur));
@@ -20,3 +23,10 @@
     background: var($accA);
 }
 //----------------------------------------------//
+
+//-----------------------Popups-----------------------//
+._49fc18ba07c5025f-focusLock > ._49fc18ba07c5025f-root {
+	background: var($accA);
+	backdrop-filter: blur(var($blur));
+}
+//----------------------------------------------------//
