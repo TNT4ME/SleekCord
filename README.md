@@ -12,5 +12,5 @@ Thanks to @skamt. for fixing 'More > Invite to Server' bug <3
 - [x] ~~BD Plugin Store~~
 - [x] ~~Transparent Popup menus~~
 - [x] ~~Search menu~~
-- [ ] Text color in menus
+- [x] ~~Text color in menus~~
 - [ ] Guild Settings
