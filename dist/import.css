@@ -693,6 +693,42 @@ div.a3002d7de5be5280-app > div > div._960e4207cea8323e-layers._160d8e55254637e5-
   background: var(--FO-secCol);
 }
 
+.bd-addon-list .bd-addon-card,
+.bd-addon-list .bd-addon-header,
+.bd-store-card, .bd-store-card-icon {
+  border: none;
+  color: var(--FO-txtCol);
+  background: var(--FO-accentB);
+}
+
+.bd-button-filled.bd-button-color-brand,
+.bd-button-filled.bd-button-color-brand:hover {
+  background: var(--FO-accentCol);
+}
+
+.bd-modal-root {
+  background: var(--FO-accentA);
+  backdrop-filter: blur(var(--FO-blur));
+}
+
+.bd-modal-footer {
+  background: none;
+}
+
+._3f21e80f8677ec40-checked,
+._3f21e80f8677ec40-checked > svg > svg > path {
+  background: var(--FO-accentCol) !important;
+  fill: var(--FO-accentCol);
+}
+
+.bd-addon-store-card {
+  background: var(--FO-accentB) !important;
+}
+
+.bd-addon-store-card-author-mask {
+  background: var(--FO-accentC) !important;
+}
+
 ._8a031a135bfcb9ba-container {
   border: none;
   background: var(--FO-accentA);
@@ -773,40 +809,41 @@ div.a3002d7de5be5280-app > div > div._960e4207cea8323e-layers._160d8e55254637e5-
   background: none;
 }
 
-.bd-addon-list .bd-addon-card,
-.bd-addon-list .bd-addon-header,
-.bd-store-card, .bd-store-card-icon {
-  border: none;
-  color: var(--FO-txtCol);
-  background: var(--FO-accentB);
+.floating-window-content,
+#bd-editor-panel,
+.floating-window #bd-editor-controls,
+.floating-window-titlebar,
+.monaco-editor:not(.rename-box),
+.monaco-editor-background,
+.monaco-editor .margin,
+.monaco-editor .sticky-widget {
+  background: none;
 }
 
-.bd-button-filled.bd-button-color-brand,
-.bd-button-filled.bd-button-color-brand:hover {
-  background: var(--FO-accentCol);
-}
-
-.bd-modal-root {
+#floating-editor-window {
   background: var(--FO-accentA);
   backdrop-filter: blur(var(--FO-blur));
 }
 
-.bd-modal-footer {
-  background: none;
+.bd-switch input:checked + .bd-switch-body {
+  --switch-color: var(--FO-accentCol);
 }
 
-._3f21e80f8677ec40-checked,
-._3f21e80f8677ec40-checked > svg > svg > path {
+.monaco-editor .suggest-details,
+.monaco-editor .suggest-widget {
+  background: var(--FO-accentC);
+}
+
+.monaco-list.list_id_2 .monaco-list-row.focused {
   background: var(--FO-accentCol) !important;
-  fill: var(--FO-accentCol);
 }
 
-.bd-addon-store-card {
-  background: var(--FO-accentB) !important;
+.monaco-list.list_id_2:not(.drop-target):not(.dragging) .monaco-list-row:hover:not(.selected):not(.focused) {
+  background: var(--FO-accentA) !important;
 }
 
-.bd-addon-store-card-author-mask {
-  background: var(--FO-accentC) !important;
+.bd-button.bd-button-icon svg {
+  color: var(--FO-icon);
 }
 
 /*# sourceMappingURL=import.css.map */
