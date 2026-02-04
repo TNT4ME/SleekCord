@@ -1,6 +1,7 @@
 # SleekCord
 A pitch black discord theme that's sleek and modern in every way.
 
+![Banner](/site/banner-raw.png)
 
 # Credits
 Thanks to @skamt. for fixing 'More > Invite to Server' bug <3 
