@@ -1,11 +1,11 @@
 @use '../../var' as *;
 
-.e8b59c4b335dd2fc-messagesPopoutWrap {
+.messagesPopoutWrap_e8b59c {
     background: var($accA);
     backdrop-filter: blur(var($blur));
 }
 
-.e8b59c4b335dd2fc-header, .e8b59c4b335dd2fc-messageGroupWrapper {
+.header_e8b59c, .messageGroupWrapper_e8b59c {
     border: none;
     background: none;
 }

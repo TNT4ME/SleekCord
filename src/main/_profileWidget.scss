@@ -1,30 +1,30 @@
 @use '../var' as *;
 
 //-------bg-------//
-._37e49614b9f110a9-container {
+.container__37e49 {
     border: none;
     background: var($accA);
     backdrop-filter: blur(var($blur));
 }
 
-._5e434347c823b592-panels  {
+.panels__5e434  {
     border: none;
     background: none;
 }
 //----------------//
 
-:where(.c0bea05627c5dc35-overlay) {background: none;}
+:where(._c0bea05627c5dc35-overlay) {background: none;}
 
 //---------stupid bar at bottom---------//
-._5e434347c823b592-sidebar:after {background: none;}
+.sidebar__5e434:after {background: none;}
 //--------------------------------------//
 
 //-----------------activity panel-----------------//
-._5e434347c823b592-activityPanel {border: none;}
+.activityPanel__5e434 {border: none;}
 
 .showMoreButton__84832 {background: var($accB);}
 
-._5dec784a68542d60-panel {background: none}
+.panel__5dec7 {background: none}
 //------------------------------------------------//
 
 //-------------------online n stuff-------------------//

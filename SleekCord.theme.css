@@ -2,7 +2,7 @@
  * @name Sleekcord
  * @author TNT4ME
  * @description A pitch black theme that's sleek and modern in every way.
- * @version 1
+ * @version 1.0.1
  * @invite G2YfSm3Md4
  * @authorId 790463558625918999
  * @source https://github.com/TNT4ME/SleekCord
@@ -48,7 +48,4 @@ LICENSE
     --FO-icon: var(--FO-txtCol); /*Icon color | Default value: --FO-txtCol*/
 
     --FO-msgBar: #111; /*Message bar color | Default value: #111*/
-}
-small .emojiContainerClickable_bae8cb {
-    color: #f0f;
 }

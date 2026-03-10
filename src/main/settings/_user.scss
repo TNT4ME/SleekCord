@@ -1,34 +1,34 @@
 @use '../../var' as *;
 
 //---------------------------My Account---------------------------//
-.aa8da23faa27393c-top .aa8da23faa27393c-item.aa8da23faa27393c-brand
+.top_aa8da2 .item_aa8da2.brand_aa8da2
 {--selected-tab-item-color: var($acc);} //Security  Standing
 
 
 // ################ Profile Preview ################ //
-._1fed1dd06c7aabf7-accountProfileCard {
+.accountProfileCard__1fed1 {
 	background: none;
 	border: 2px solid var($acc); //border
 }
 
 //bg
-._1fed1dd06c7aabf7-background {background: var($accA);}
-._1fed1dd06c7aabf7-fieldList {background: none;}
+.background__1fed1 {background: var($accA);}
+.fieldList__1fed1 {background: none;}
 
-._7a01bdafdcb0e727-primary {color: var($acc);} //Reveal
+.primary__7a01b {color: var($acc);} //Reveal
 // ################################################# //
 
 
 //remove buttons
-.a22cb0c66246f5d3-critical-secondary {border: none;}
+.critical-secondary_a22cb0 {border: none;}
 
 
 // ########## security key menu ########## //
-._49fc18ba07c5025f-root:has(div > div > form) {
+.root__49fc1:has(div > div > form) {
 	background: var($accA);
 	backdrop-filter: blur(var($blur));
 }
-._49fc18ba07c5025f-footer {background: none;}
+.footer__49fc1 {background: none;}
 // ####################################### //
 
 //----------------------------------------------------------------//

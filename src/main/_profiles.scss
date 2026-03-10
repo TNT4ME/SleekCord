@@ -1,35 +1,35 @@
 @use '../var' as *;
 
-.c0bea05627c5dc35-outer { //bg
+.outer_c0bea0 { //bg
     border: none;
     background: var($profile);
     backdrop-filter: blur(var($blur));
 }
 
-._9c3bea41fd465666-profile { //full profile
+.profile__9c3be { //full profile
     outline: none;
     box-shadow: none;
     background: none;
 }
 
-.ab86098b36386ff7-container,
-.ab86098b36386ff7-container:hover { //status
+.container_ab8609,
+.container_ab8609:hover { //status
 	--custom-status-bubble-background: var(--FO-accentC);
 }
 
-._201d5e8a3c09670a-lookFilled._201d5e8a3c09670a-colorBrand { //add friend
+.lookFilled__201d5.colorBrand__201d5 { //add friend
     border: none;
     color: var($txt);
     background: var($acc);
 }
 
-._9bfb9a25604068f0-platformIconContainer { //connections
+.platformIconContainer__9bfb9 { //connections
     border: none;
     background: var($accA);
 }
 
 //------------Fixes bug in 'More > Invite to Server'------------//
-.c1e9c47c23f12ca3-menu:after { // Thanks to @skamt. for fixing this bug <3
+.menu_c1e9c4:after { // Thanks to @skamt._ for fixing this bug <3
     inset: 0;
     z-index: -1;
     content: "";
@@ -37,22 +37,22 @@
     position: absolute;
     backdrop-filter: blur(var($blur));
 }
-//div.submenu_c1e9c4.c1e9c47c23f12ca3-menu::after {inset: 0 2.5%;}
+//div.submenu_c1e9c4.menu_c1e9c4::after {inset: 0 2.5%;}
 //--------------------------------------------------------------//
 
 //improves readability
-._4bd5201c86a2042b-defaultColor {color: var($txt) !important;} //bio
+.defaultColor__4bd52 {color: var($txt) !important;} //bio
 
-.a99829deaf601327-editor > div > ._1b31f471f0bb10ab-placeholder {color: var($txt);} //dm this guy
+.editor_a99829 > div > .placeholder__1b31f {color: var($txt);} //dm this guy
 
 //--------------Widgets--------------//
-._62dd31d5e86f2841-container {
+.container__62dd3 {
 	border: none;
 	background: var($accB);
 }
 
 //add menu
-._36be84b4087a5355-gameSearchCombobox {
+.gameSearchCombobox__36be8 {
 	border: none;
 	background: var($accA);
 	backdrop-filter: blur(var($blur));

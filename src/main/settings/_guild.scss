@@ -1,12 +1,12 @@
 @use '../../var' as *;
 
 //left
-._23e6b439306f125a-sidebarRegionScroller {
+.sidebarRegionScroller__23e6b {
 	background: var($main);
 }
-.aa8da23faa27393c-side .aa8da23faa27393c-themed.aa8da23faa27393c-selected.aa8da23faa27393c-item {
+.side_aa8da2 .themed_aa8da2.selected_aa8da2.item_aa8da2 {
 	background: var($accA); //sel
 }
-.aa8da23faa27393c-side .aa8da23faa27393c-themed.aa8da23faa27393c-item:hover:not(.aa8da23faa27393c-disabled) {
+.side_aa8da2 .themed_aa8da2.item_aa8da2:hover:not(.disabled_aa8da2) {
 	background: var($accB); //hov
 }

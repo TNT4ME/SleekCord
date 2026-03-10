@@ -1,30 +1,30 @@
 @use '../var' as *;
 
-.fc561d3c125f6a2f-container { //bg
+.container_fc561d { //bg
 	border: none;
 	background: var($accA);
 	backdrop-filter: blur(var($blur));
 }
 
-.fc561d3c125f6a2f-container .e8b59c4b335dd2fc-messagesPopoutWrap,
-._35a7ecf3aba351b2-channelHeader, ._0f7115b4703f7b3a-container {
+.container_fc561d .messagesPopoutWrap_e8b59c,
+.channelHeader__35a7e, .container__0f711 {
 	border: none;
 	background: none;
 	backdrop-filter: none;
 }
 
-._957962c2bd49881b-messageContainer,
-._1ccd1ba5cb2270c2-messages { //fg
+.messageContainer__95796,
+.messages__1ccd1 { //fg
 	border: none;
 	background: var($accB);
 }
 
-.ed0c8cb44ff95773-jumpButton { //jump button
+.jumpButton_ed0c8c { //jump button
 	border: none;
 	color: var($txt);
 	background: var($acc);
 }
 
-.aa8da23faa27393c-top .aa8da23faa27393c-item.aa8da23faa27393c-brand {
+.top_aa8da2 .item_aa8da2.brand_aa8da2 {
 	--selected-tab-item-color: var($acc); //for u, unreads, mentions
 }

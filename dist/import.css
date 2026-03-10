@@ -185,7 +185,7 @@
   background: none;
 }
 
-:where(.overlay_c0bea0) {
+:where(._c0bea05627c5dc35-overlay) {
   background: none;
 }
 
@@ -212,7 +212,7 @@
   fill: transparent;
 }
 
-.b6544fb09f373e60-container {
+.container_b6544f {
   border: none;
   background: var(--FO-accentA);
   backdrop-filter: blur(var(--FO-blur));
@@ -223,7 +223,7 @@
   background: var(--FO-accentC);
 }
 
-.a98f3b020416ad54-searchResultsWrap {
+.searchResultsWrap_a98f3b {
   background: var(--FO-mainCol);
 }
 
@@ -231,16 +231,16 @@
   background: var(--FO-accentCol);
 }
 
-._80bf8435713f6adb-searchResult {
+.searchResult__80bf8 {
   border: none;
   background: var(--FO-accentB);
 }
 
-._80bf8435713f6adb-button {
+.button__80bf8 {
   background: var(--FO-accentC);
 }
 
-._80bf8435713f6adb-button:hover {
+.button__80bf8:hover {
   background: var(--FO-accentCol);
 }
 
@@ -308,7 +308,8 @@ div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.b
   border: none;
 }
 
-.hoverButtonGroup__06ab4, .gifFavoriteButton__43deb {
+.hoverButtonGroup__06ab4,
+.gifFavoriteButton__43deb {
   outline: none;
   background: var(--FO-accentB);
   backdrop-filter: blur(var(--FO-blur));
@@ -334,7 +335,7 @@ div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.b
   border: none;
 }
 
-.wrapper_c19a55:hover {
+.wrapper_c19a5:hover {
   transition: 0.25s;
 }
 
@@ -358,8 +359,7 @@ div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.b
   background: var(--FO-mainCol);
 }
 
-.wrapper_cdf8a9,
-.wrapper_f61d60 {
+.wrapper_cdf8a9, .wrapper_f61d60 {
   color: var(--FO-mentionCol);
   background: var(--FO-mentionColBg);
 }
@@ -440,11 +440,12 @@ div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.b
   color: var(--FO-txtCol);
 }
 
-.clickable__13533[aria-disabled=false] > .base__13533:hover, .clickable__13533[aria-selected=true] > .base__13533 {
+.clickable__13533[aria-disabled=false] > .base__13533:hover,
+.clickable__13533[aria-selected=true] > .base__13533 {
   background-color: var(--FO-accentCol);
 }
 
-.mana-text-inputs .wrapper__72c38:not([data-read-only=true]):has(input:focus, textarea:focus) {
+._mana-text-inputs .wrapper__72c38:not([data-read-only=true]):has(input:focus, textarea:focus) {
   outline: 2px solid var(--FO-accentCol);
 }
 
@@ -577,7 +578,7 @@ div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.b
   background: var(--FO-mainCol);
 }
 
-.visual-refresh .title_f75fb0 {
+._visual-refresh .title_f75fb0 {
   border: none;
   background: var(--FO-mainCol);
 }

@@ -1,9 +1,9 @@
 @use '../../var' as *;
 
-.c19a557985eb7793-wrapper:hover {transition: 0.25s;}
+.wrapper_c19a5:hover {transition: 0.25s;}
 
 //---------------buttons----------------//
-.f7ecaca5c80dbf3a-wrapper, .f7ecaca5c80dbf3a-wrapper:hover {
+.wrapper_f7ecac, .wrapper_f7ecac:hover {
     border: none;
     box-shadow: none !important;
     backdrop-filter: blur(var($blur));
@@ -12,7 +12,7 @@
 //--------------------------------------//
 
 //------------reaction hover------------//
-.b49891f8a231dbff-reactionTooltip {
+.reactionTooltip_b49891 {
     background: var($accA);
     backdrop-filter: blur(var($blur));
 }
