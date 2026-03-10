@@ -35,7 +35,7 @@ LICENSE
 
     --SL-spoiler: 20px; /*Spoiler blur amount | Default value: 20px*/
 
-    --SL-profileCol: oklch(0.7073 0.1808 291.18 / /*Profile Opacity*/ 20%);
+    --SL-profileCol: var(--SL-accentA); /*Profile background | Default value: --SL-accentA*/
 
     --SL-mentionCol: var(--SL-accentCol); /*Mention color | Default value: --SL-accentCol*/
 

@@ -123,9 +123,19 @@ a {
   backdrop-filter: blur(var(--SL-blur));
 }
 
+.focusLock__49fc1 > .root__49fc1 > div > .outer_c0bea0 {
+  background: none;
+  backdrop-filter: none;
+}
+
 .outer_c0bea0 {
   border: none;
   background: var(--SL-profileCol);
+  backdrop-filter: blur(var(--SL-blur));
+}
+
+:where(.overlay_c0bea0) {
+  background: none;
   backdrop-filter: blur(var(--SL-blur));
 }
 

@@ -5,6 +5,10 @@
     background: var($profile);
     backdrop-filter: blur(var($blur));
 }
+:where(.overlay_c0bea0) {
+    background: none;
+    backdrop-filter: blur(var($blur));
+}
 
 .profile__9c3be { //full profile
     outline: none;
