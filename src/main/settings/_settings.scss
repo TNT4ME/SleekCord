@@ -22,8 +22,10 @@
 {color: var($txt) !important;} //txt
 
 .item_caf372.active_caf372,
-.item_caf372:hover
-{color: var($acc) !important;} //sel/hov
+.item_caf372:hover {
+	background: var($accB);
+	color: var($acc) !important;
+} //sel/hov
 
 .bd-text-muted {color: var($acc);} //bd debug info
 .anchor_edefb8 {color: var($link);} //link

@@ -14,6 +14,7 @@
   --background-surface-higher: var(--FO-msgBar);
   --background-surface-highest: var(--FO-accentA);
   --brand-500: var(--FO-accentCol);
+  --primary-400: var(--FO-accentB);
   --modal-background: none;
   --autocomplete-bg: var(--FO-accentA);
   --border-normal: var(--FO-accentCol);
@@ -34,6 +35,10 @@
   --FO-accentC: color-mix(in oklch, var(--FO-accentCol), black 25%);
   --FO-mentionColBg: color-mix(in oklch, var(--FO-mentionCol), transparent 85%);
   --FO-grad: linear-gradient(45deg, var(--FO-gradCol1), var(--FO-gradCol2), var(--FO-gradCol1), var(--FO-gradCol2));
+}
+
+a {
+  color: var(--FO-linkCol);
 }
 
 .backdrop__78332, .withLayer__78332 {
@@ -805,6 +810,7 @@ div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.b
 
 .item_caf372.active_caf372,
 .item_caf372:hover {
+  background: var(--FO-accentB);
   color: var(--FO-accentCol) !important;
 }
 
@@ -858,6 +864,48 @@ div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.b
 
 .footer__49fc1 {
   background: none;
+}
+
+.vc-card-normal, .vc-card-base {
+  border: none;
+  background: var(--FO-accentB);
+}
+
+.vc-settings-quickActions-pill,
+.vc-settings-quickActions-pill:hover {
+  background: var(--FO-accentB);
+}
+
+.vc-btn-primary {
+  border: none;
+  background: var(--FO-accentA);
+}
+
+.vc-btn-primary:hover {
+  background: var(--FO-accentCol);
+}
+
+.vc-card-warning {
+  border: 1.5px solid var(--icon-status-idle);
+}
+
+.popout_a16aea {
+  border: none;
+  background: var(--FO-accentB);
+  backdrop-filter: blur(var(--FO-blur));
+}
+
+.option_a16aea[aria-selected=true]:not(.option_a16aea.multi_a16aea) {
+  background: var(--FO-accentA);
+}
+
+.vc-addon-card {
+  border: none;
+  background: var(--FO-accentB);
+}
+
+.vc-settings-modal-link-icon {
+  border: none;
 }
 
 .floating-window-content,

@@ -17,6 +17,7 @@
     --background-surface-highest: var(--FO-accentA);
     
     --brand-500: var(--FO-accentCol);
+    --primary-400: var(--FO-accentB);
 
     --modal-background: none;
     --autocomplete-bg: var(--FO-accentA);
@@ -48,3 +49,5 @@
 
     --FO-grad: linear-gradient(45deg, var(--FO-gradCol1), var(--FO-gradCol2), var(--FO-gradCol1), var(--FO-gradCol2));
 }
+
+a {color: var(--FO-linkCol);}
