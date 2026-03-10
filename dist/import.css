@@ -26,8 +26,8 @@
   --info-warning-foreground: var(--SL-accentCol);
   --text-normal: var(--SL-txtCol);
   --text-default: var(--SL-txtCol);
-  --SLnt-primary: var(--SL-font);
-  --SLnt-code: var(--SL-code);
+  --font-primary: var(--SL-font);
+  --font-code: var(--SL-code);
   --interactive-normal: var(--SL-icon);
   --background-modifier-hover: none;
   --SL-accentA: color-mix(in oklch, var(--SL-accentCol), transparent 70%);
