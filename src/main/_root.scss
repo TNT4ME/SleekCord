@@ -2,52 +2,52 @@
 //@use '../var' as *;
 
 ::selection {
-    background: var(--FO-accentCol);
-    color: var(--FO-mainCol) !important;
+    background: var(--SL-accentCol);
+    color: var(--SL-mainCol) !important;
 }
 
 :root {
-    --bg-overlay-2: var(--FO-mainCol);
-    --bg-base-secondary: var(--FO-mainCol);
-    --background-acc: var(--FO-accentA);
-    --background-base-low: var(--FO-mainCol);
-    --background-base-lower: var(--FO-mainCol);
-    --background-surface-high: var(--FO-secCol);
-    --background-surface-higher: var(--FO-msgBar);
-    --background-surface-highest: var(--FO-accentA);
+    --bg-overlay-2: var(--SL-mainCol);
+    --bg-base-secondary: var(--SL-mainCol);
+    --background-acc: var(--SL-accentA);
+    --background-base-low: var(--SL-mainCol);
+    --background-base-lower: var(--SL-mainCol);
+    --background-surface-high: var(--SL-secCol);
+    --background-surface-higher: var(--SL-msgBar);
+    --background-surface-highest: var(--SL-accentA);
     
-    --brand-500: var(--FO-accentCol);
-    --primary-400: var(--FO-accentB);
+    --brand-500: var(--SL-accentCol);
+    --primary-400: var(--SL-accentB);
 
     --modal-background: none;
-    --autocomplete-bg: var(--FO-accentA);
+    --autocomplete-bg: var(--SL-accentA);
 
-    --border-normal: var(--FO-accentCol);
+    --border-normal: var(--SL-accentCol);
     
-    --chat-background-default: var(--FO-msgBar) !important;
+    --chat-background-default: var(--SL-msgBar) !important;
 
-    --mention-background: color-mix(in oklch, var(--FO-mentionCol) 20%, transparent) !important;
-    --mention-foreground: var(--FO-mentionCol);
-    --background-mentioned: var(--FO-accentB);
-    --background-message-hover: var(--FO-secCol);
+    --mention-background: color-mix(in oklch, var(--SL-mentionCol) 20%, transparent) !important;
+    --mention-foreground: var(--SL-mentionCol);
+    --background-mentioned: var(--SL-accentB);
+    --background-message-hover: var(--SL-secCol);
 
-    --info-warning-foreground: var(--FO-accentCol);
+    --info-warning-foreground: var(--SL-accentCol);
 
-    --text-normal: var(--FO-txtCol);
-    --text-default: var(--FO-txtCol);
-    --font-primary: var(--FO-font);
-    --font-code: var(--FO-code);
+    --text-normal: var(--SL-txtCol);
+    --text-default: var(--SL-txtCol);
+    --SLnt-primary: var(--SL-font);
+    --SLnt-code: var(--SL-code);
 
-    --interactive-normal: var(--FO-icon);
+    --interactive-normal: var(--SL-icon);
     --background-modifier-hover: none;
     
-    --FO-accentA: color-mix(in oklch, var(--FO-accentCol), transparent 70%);
-    --FO-accentB: color-mix(in oklch, var(--FO-accentCol), transparent 85%);
-    --FO-accentC: color-mix(in oklch, var(--FO-accentCol), black 25%);
+    --SL-accentA: color-mix(in oklch, var(--SL-accentCol), transparent 70%);
+    --SL-accentB: color-mix(in oklch, var(--SL-accentCol), transparent 85%);
+    --SL-accentC: color-mix(in oklch, var(--SL-accentCol), black 25%);
 
-    --FO-mentionColBg: color-mix(in oklch, var(--FO-mentionCol), transparent 85%);
+    --SL-mentionColBg: color-mix(in oklch, var(--SL-mentionCol), transparent 85%);
 
-    --FO-grad: linear-gradient(45deg, var(--FO-gradCol1), var(--FO-gradCol2), var(--FO-gradCol1), var(--FO-gradCol2));
+    --SL-grad: linear-gradient(45deg, var(--SL-gradCol1), var(--SL-gradCol2), var(--SL-gradCol1), var(--SL-gradCol2));
 }
 
-a {color: var(--FO-linkCol);}
+a {color: var(--SL-linkCol);}
