@@ -33,7 +33,7 @@
 
 //----------------------------------------------------------------//
 
-//Content & Social//
+//------------------------------------Content & Social------------------------------------//
 .top_aa8da2 .item_aa8da2.brand_aa8da2 {
 	--selected-tab-item-color: var($acc);
 }
@@ -59,3 +59,69 @@
 }
 .iconContainer__5cea9 {background: var($accB);}
 .iconContainer__5cea9 > svg > path {fill: var($acc);}
+//----------------------------------------------------------------------------------------//
+
+//-----Family Center-----//
+.box_f8c98c, .row__0624f {
+	border: none;
+	box-shadow: none;
+	background: var($accA);
+}
+.iconContainer__0624f {
+	border: none;
+	background: var($accB);
+}
+//-----------------------//
+
+//----------------Authorized Apps----------------//
+.cardPrimary__73069,
+.cardPrimary__73069.editable__73069 {
+	border: none;
+	--__card-accent-color: var($accA);
+}
+.authedAppV2__50a54, .headerV2__50a54 {
+	background: var($accB);
+}
+.appAvatarV2__50a54 {border: none;}
+.actionMenuButton_d84e0f {background: var($accA);}
+//-----------------------------------------------//
+
+//---------------------Nitro---------------------//
+.perkCard_b62c4e {
+	border: none;
+	background: var($accA);
+}
+.innerWrapperBase__553fd {background: var($accA);}
+//-----------------------------------------------//
+
+//---------Keybinds---------//
+.container__7700a,
+.defaultKeybindGroup__740f2 {
+	background: var($accA);
+}
+//--------------------------//
+
+//------------Activity Privacy------------//
+.headerContainer__7db08 {background: none;}
+.iconContainer__0ecc4 > foreignObject {
+    background: var($accB);
+}
+.selectDropdown__0edde {
+	border: none;
+	background: var($accC);
+}
+//----------------------------------------//
+
+//-------------Registered Games-------------//
+.notDetected_cc46f0 {background: var($accA);}
+.game_cc46f0 {background: var($accA);}
+.lastPlayed_cc46f0 {color: var($acc);}
+//------------------------------------------//
+
+//----------Game Overlay----------//
+.groupContainer__9d98d,
+.mainCollapseableContainer__9d98d {
+	border: none;
+	background: var($accA);
+}
+//--------------------------------//

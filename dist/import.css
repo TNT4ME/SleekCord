@@ -914,6 +914,80 @@ div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.b
   fill: var(--SL-accentCol);
 }
 
+.box_f8c98c, .row__0624f {
+  border: none;
+  box-shadow: none;
+  background: var(--SL-accentA);
+}
+
+.iconContainer__0624f {
+  border: none;
+  background: var(--SL-accentB);
+}
+
+.cardPrimary__73069,
+.cardPrimary__73069.editable__73069 {
+  border: none;
+  --__card-accent-color: var($accA);
+}
+
+.authedAppV2__50a54, .headerV2__50a54 {
+  background: var(--SL-accentB);
+}
+
+.appAvatarV2__50a54 {
+  border: none;
+}
+
+.actionMenuButton_d84e0f {
+  background: var(--SL-accentA);
+}
+
+.perkCard_b62c4e {
+  border: none;
+  background: var(--SL-accentA);
+}
+
+.innerWrapperBase__553fd {
+  background: var(--SL-accentA);
+}
+
+.container__7700a,
+.defaultKeybindGroup__740f2 {
+  background: var(--SL-accentA);
+}
+
+.headerContainer__7db08 {
+  background: none;
+}
+
+.iconContainer__0ecc4 > foreignObject {
+  background: var(--SL-accentB);
+}
+
+.selectDropdown__0edde {
+  border: none;
+  background: var(--SL-accentC);
+}
+
+.notDetected_cc46f0 {
+  background: var(--SL-accentA);
+}
+
+.game_cc46f0 {
+  background: var(--SL-accentA);
+}
+
+.lastPlayed_cc46f0 {
+  color: var(--SL-accentCol);
+}
+
+.groupContainer__9d98d,
+.mainCollapseableContainer__9d98d {
+  border: none;
+  background: var(--SL-accentA);
+}
+
 .vc-card-normal, .vc-card-base {
   border: none;
   background: var(--SL-accentB);
