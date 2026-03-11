@@ -33,3 +33,29 @@
 
 //----------------------------------------------------------------//
 
+//Content & Social//
+.top_aa8da2 .item_aa8da2.brand_aa8da2 {
+	--selected-tab-item-color: var($acc);
+}
+.tab_f8303a.vertical_f8303a.selected_f8303a {
+    border-inline-color: var($acc);
+}
+.tab_f8303a.vertical_f8303a.selected_f8303a,
+.radioGroupOption__64e61[data-selected] .outerRadioFill__64e61,
+.standaloneRadioIndicator__64e61[data-selected=true] .outerRadioFill__64e61,
+.radioGroupOption__64e61[data-selected]:not([data-disabled]):hover .outerRadioBase__64e61,
+.radioGroupOption__64e61[data-selected]:not([data-disabled]):hover .outerRadioFill__64e61 {
+    fill: var($acc);
+    color: var($acc);
+}
+.switchIndicator_a28278 {
+    background: var($acc) !important;
+}
+
+.card__5cea9 {background: var($accB);}
+.header__5cea9 {
+    backdrop-filter: blur(var($blur));
+    background: none;
+}
+.iconContainer__5cea9 {background: var($accB);}
+.iconContainer__5cea9 > svg > path {fill: var($acc);}
