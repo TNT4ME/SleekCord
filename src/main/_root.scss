@@ -7,18 +7,6 @@
 }
 
 :root {
-    --bg-overlay-2: var(--SL-mainCol);
-    --bg-base-secondary: var(--SL-mainCol);
-    --background-acc: var(--SL-accentA);
-    --background-base-low: var(--SL-mainCol);
-    --background-base-lower: var(--SL-mainCol);
-    --background-surface-high: var(--SL-secCol);
-    --background-surface-higher: var(--SL-msgBar);
-    --background-surface-highest: var(--SL-accentA);
-    
-    --brand-500: var(--SL-accentCol);
-    --primary-400: var(--SL-accentB);
-
     --modal-background: none;
     --autocomplete-bg: var(--SL-accentA);
 
@@ -38,7 +26,6 @@
     --font-primary: var(--SL-font);
     --font-code: var(--SL-code);
 
-    --interactive-normal: var(--SL-icon);
     --background-modifier-hover: none;
     
     --SL-accentA: color-mix(in oklch, var(--SL-accentCol), transparent 70%);

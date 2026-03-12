@@ -39,4 +39,7 @@
 @use 'main/settings/user' as *;
 @use 'main/settings/ven' as *;
 
+@use 'main/themes/dark' as *;
+@use 'main/themes/light' as *;
+
 @use 'bd' as *;

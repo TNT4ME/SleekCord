@@ -1,7 +1,6 @@
 @use '../../var' as *;
 
 .visual-refresh .container__2637a {
-    background: var($main); //bg
     padding-bottom: unset; //removes the most annoying box in history, the one behind profile wiget thingy
 }
 .visual-refresh .container__2637a:after {

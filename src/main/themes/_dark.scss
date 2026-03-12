@@ -1,0 +1,21 @@
+@use '../../var' as *;
+
+.theme-dark {
+    --background-dark-base: var($main);
+    --background-base-lower: var($main);
+    --background-base-lowest: var($main);
+    --__header-bar-background: var($main);
+    
+    --background-surface-higher: var($msgBar);
+    
+    --text-brand: var($acc);
+    --blurple-50: var($acc);
+    --input-border-active: var($acc);
+    --icon-feedback-warning: var($acc);
+    --interactive-background-hover: var($acc);
+    --control-primary-background-default: var($acc);
+
+    --background-mod-normal: var($accA);
+    --background-surface-high: var($accA);
+    --background-surface-highest: var($accA);
+}

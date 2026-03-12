@@ -2,7 +2,7 @@
  * @name Sleekcord
  * @author TNT4ME
  * @description A pitch black theme that's sleek and modern in every way.
- * @version 1.0.6
+ * @version 2.0.0
  * @invite G2YfSm3Md4
  * @authorId 790463558625918999
  * @source https://github.com/TNT4ME/SleekCord
@@ -43,9 +43,25 @@ LICENSE
     --SL-txtCol: #eee; /*Text color | Default value: #eee*/
     --SL-font: 'Nunito'; /*Font | Default value: 'Nunito'*/
     --SL-code: 'Jetbrains Mono', monospace; /*Code font | Default value: 'Jetbrains Mono'*/
-    --SL-linkCol: oklch(0.6836 0.1563 194.769); /*Link color | Default value: */
+    --SL-linkCol: oklch(0.6836 0.1563 194.769); /*Link color | Default value: oklch(0.6836 0.1563 194.769)*/
 
     --SL-icon: var(--SL-txtCol); /*Icon color | Default value: --SL-txtCol*/
 
     --SL-msgBar: #111; /*Message bar color | Default value: #111*/
+
+    /*Light Theme*/
+    --SL-mainCol-light: #eee; /*Main background color | Default value: #eee*/
+    --SL-secCol-light: #e3e3e3; /*Secondary background color | Default value: #e3e3e3*/
+    --SL-accentCol-light: oklch(0.7059 0.1952 234.6); /*Secondary background color | Default value: oklch(0.7059 0.1952 234.6)*/
+
+    --SL-profileCol-light: var(--SL-accentA-light); /*Profile background | Default value: --SL-accentA-light*/
+
+    --SL-mentionCol-light: var(--SL-accentCol-light); /*Mention color | Default value: --SL-accentCol-light*/
+
+    --SL-txtCol-light: #222; /*Text color | Default value: #eee*/
+    --SL-linkCol-light: oklch(0.5671 0.1297 194.769); /*Link color | Default value: oklch(0.5671 0.1297 194.769)*/
+
+    --SL-icon-light: var(--SL-txtCol); /*Icon color | Default value: --SL-txtCol*/
+
+    --SL-msgBar-light: #bbb; /*Message bar color | Default value: #bbb*/
 }
