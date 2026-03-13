@@ -990,37 +990,37 @@ div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.b
 }
 
 .theme-dark {
-  --background-dark-base: var($main);
-  --background-base-lower: var($main);
-  --background-base-lowest: var($main);
-  --__header-bar-background: var($main);
-  --background-surface-higher: var($msgBar);
-  --text-brand: var($acc);
-  --blurple-50: var($acc);
-  --input-border-active: var($acc);
-  --icon-feedback-warning: var($acc);
-  --interactive-background-hover: var($acc);
-  --control-primary-background-default: var($acc);
-  --background-mod-normal: var($accA);
-  --background-surface-high: var($accA);
-  --background-surface-highest: var($accA);
+  --background-dark-base: var(--SL-mainCol);
+  --background-base-lower: var(--SL-mainCol);
+  --background-base-lowest: var(--SL-mainCol);
+  --__header-bar-background: var(--SL-mainCol);
+  --background-surface-higher: var(--SL-msgBar);
+  --text-brand: var(--SL-accentCol);
+  --blurple-50: var(--SL-accentCol);
+  --input-border-active: var(--SL-accentCol);
+  --icon-feedback-warning: var(--SL-accentCol);
+  --interactive-background-hover: var(--SL-accentCol);
+  --control-primary-background-default: var(--SL-accentCol);
+  --background-mod-normal: var(--SL-accentA);
+  --background-surface-high: var(--SL-accentA);
+  --background-surface-highest: var(--SL-accentA);
 }
 
 .theme-dark {
-  --background-dark-base: var($mainL);
-  --background-base-lower: var($mainL);
-  --background-base-lowest: var($mainL);
-  --__header-bar-background: var($mainL);
-  --background-surface-higher: var($msgBarL);
-  --text-brand: var($accL);
-  --blurple-50: var($accL);
-  --input-border-active: var($accL);
-  --icon-feedback-warning: var($accL);
-  --interactive-background-hover: var($accL);
-  --control-primary-background-default: var($accL);
-  --background-mod-normal: var($accAl);
-  --background-surface-high: var($accAl);
-  --background-surface-highest: var($accAl);
+  --background-dark-base: var(--SL-mainColL);
+  --background-base-lower: var(--SL-mainColL);
+  --background-base-lowest: var(--SL-mainColL);
+  --__header-bar-background: var(--SL-mainColL);
+  --background-surface-higher: var(--SL-msgBarL);
+  --text-brand: var(--SL-accentColL);
+  --blurple-50: var(--SL-accentColL);
+  --input-border-active: var(--SL-accentColL);
+  --icon-feedback-warning: var(--SL-accentColL);
+  --interactive-background-hover: var(--SL-accentColL);
+  --control-primary-background-default: var(--SL-accentColL);
+  --background-mod-normal: var(--SL-accentAl);
+  --background-surface-high: var(--SL-accentAl);
+  --background-surface-highest: var(--SL-accentAl);
 }
 
 .floating-window-content,

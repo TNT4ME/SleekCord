@@ -1,21 +1,22 @@
-@use '../../var' as *;
+//var not working here either
+//@use '../../var' as *;
 
 .theme-dark {
-    --background-dark-base: var($main);
-    --background-base-lower: var($main);
-    --background-base-lowest: var($main);
-    --__header-bar-background: var($main);
+    --background-dark-base: var(--SL-mainCol);
+    --background-base-lower: var(--SL-mainCol);
+    --background-base-lowest: var(--SL-mainCol);
+    --__header-bar-background: var(--SL-mainCol);
     
-    --background-surface-higher: var($msgBar);
+    --background-surface-higher: var(--SL-msgBar);
     
-    --text-brand: var($acc);
-    --blurple-50: var($acc);
-    --input-border-active: var($acc);
-    --icon-feedback-warning: var($acc);
-    --interactive-background-hover: var($acc);
-    --control-primary-background-default: var($acc);
+    --text-brand: var(--SL-accentCol);
+    --blurple-50: var(--SL-accentCol);
+    --input-border-active: var(--SL-accentCol);
+    --icon-feedback-warning: var(--SL-accentCol);
+    --interactive-background-hover: var(--SL-accentCol);
+    --control-primary-background-default: var(--SL-accentCol);
 
-    --background-mod-normal: var($accA);
-    --background-surface-high: var($accA);
-    --background-surface-highest: var($accA);
+    --background-mod-normal: var(--SL-accentA);
+    --background-surface-high: var(--SL-accentA);
+    --background-surface-highest: var(--SL-accentA);
 }
