@@ -1004,23 +1004,25 @@ div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.b
   --background-mod-normal: var(--SL-accentA);
   --background-surface-high: var(--SL-accentA);
   --background-surface-highest: var(--SL-accentA);
+  --text-default: var(--SL-txtCol);
 }
 
 .theme-light {
-  --background-dark-base: var(--SL-mainColL);
-  --background-base-lower: var(--SL-mainColL);
-  --background-base-lowest: var(--SL-mainColL);
-  --__header-bar-background: var(--SL-mainColL);
-  --background-surface-higher: var(--SL-msgBarL);
-  --text-brand: var(--SL-accentColL);
-  --blurple-50: var(--SL-accentColL);
-  --input-border-active: var(--SL-accentColL);
-  --icon-feedback-warning: var(--SL-accentColL);
-  --interactive-background-hover: var(--SL-accentColL);
-  --control-primary-background-default: var(--SL-accentColL);
-  --background-mod-normal: var(--SL-accentAl);
-  --background-surface-high: var(--SL-accentAl);
-  --background-surface-highest: var(--SL-accentAl);
+  --background-dark-base: var(--SL-mainCol-light);
+  --background-base-lower: var(--SL-mainCol-light);
+  --background-base-lowest: var(--SL-mainCol-light);
+  --__header-bar-background: var(--SL-mainCol-light);
+  --background-surface-higher: var(--SL-msgBar-light);
+  --text-brand: var(--SL-accentCol-light);
+  --blurple-50: var(--SL-accentCol-light);
+  --input-border-active: var(--SL-accentCol-light);
+  --icon-feedback-warning: var(--SL-accentCol-light);
+  --interactive-background-hover: var(--SL-accentCol-light);
+  --control-primary-background-default: var(--SL-accentCol-light);
+  --background-mod-normal: var(--SL-accentA-light);
+  --background-surface-high: var(--SL-accentA-light);
+  --background-surface-highest: var(--SL-accentA-light);
+  --text-default: var(--SL-txtCol-light);
 }
 
 .floating-window-content,
