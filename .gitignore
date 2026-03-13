@@ -1,3 +1,4 @@
 *.exe
 site/tailwind.py
 *.DS_Store
+*.json
