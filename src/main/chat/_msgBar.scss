@@ -1,8 +1,6 @@
 @use '../../var' as *;
 
 //-------------------------------------bg-------------------------------------//
-.themedBackground__74017 {background: var($msgBar);}
-
 .channelTextArea__74017:not(.highlighted__74017) {border: none;} //msg bar
 
 .channelTextArea__74017:not(.highlighted__74017):hover {

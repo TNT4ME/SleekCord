@@ -370,10 +370,6 @@ div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.b
   background: var(--SL-accentB) !important;
 }
 
-.themedBackground__74017 {
-  background: var(--SL-msgBar);
-}
-
 .channelTextArea__74017:not(.highlighted__74017) {
   border: none;
 }
