@@ -9,32 +9,43 @@
     --interactive-text-default: var(--SL-mainCol);
     --control-primary-text-default: var(--SL-mainCol);
 
-    --background-mod-subtle: var(--SL-secCol);
-
     --chat-background-default: var(--SL-msgBar);
-    --background-surface-higher: var(--SL-msgBar);
     
     --text-brand: var(--SL-accentCol);
     --blurple-50: var(--SL-accentCol);
+    --primary-400: var(--SL-accentCol);
     --spine-default: var(--SL-accentCol);
     --border-normal: var(--SL-accentCol);
+    --guild-boosting-pink: var(--SL-accentCol);
     --input-border-active: var(--SL-accentCol);
     --icon-feedback-warning: var(--SL-accentCol);
     --control-brand-foreground: var(--SL-accentCol);
     --interactive-background-hover: var(--SL-accentCol);
     --control-primary-background-hover: var(--SL-accentCol);
     --control-primary-background-default: var(--SL-accentCol);
+    --control-secondary-background-hover: var(--SL-accentCol);
 
     --blurple-1: var(--SL-accentA);
+    --modal-background: var(--SL-accentA);
     --background-base-low: var(--SL-accentA);
     --background-mod-normal: var(--SL-accentA);
     --background-mod-strong: var(--SL-accentA);
     --background-surface-high: var(--SL-accentA);
+    --card-background-default: var(--SL-accentA);
     --input-background-default: var(--SL-accentA);
+    --background-surface-higher: var(--SL-accentA);
     --background-surface-highest: var(--SL-accentA);
     --interactive-background-selected: var(--SL-accentA);
 
     --accB: var(--SL-accentB);
+    --primary-600-hsl: var(--SL-accentB);
+    --background-mod-muted: var(--SL-accentB);
+    --background-mod-subtle: var(--SL-accentB);
+    --interactive-background-active: var(--SL-accentB);
+    --gradient-progress-pill-background: var(--SL-accentB);
+    --control-secondary-background-default: var(--SL-accentB);
+
+    --accC: var(--SL-accentC);
 
     --mention-foreground: var(--SL-mentionCol);
     --mention-background: var(--SL-mentionColBg);
@@ -44,4 +55,6 @@
     --icon-subtle: var(--SL-txtCol);
     --icon-strong: var(--SL-txtCol);
     --text-default: var(--SL-txtCol);
+    --interactive-text-default: var(--SL-txtCol);
+    --control-secondary-text-default: var(--SL-mainCol);
 }

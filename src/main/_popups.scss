@@ -5,28 +5,20 @@
     background: linear-gradient(oklab(0.71 0.17 0.16 / 0.15), oklab(0.65 0.26 0.14 / 0.15));
 }
 
-.menu_c1e9c4 {
-    border: none;
-    background: var($accA);
-}
+.menu_c1e9c4 {border: none;}
 
 //----------------new server tag----------------//
 .popover_d6f39b,
 .popoverGradientWrapper_d6f39b {
     border: none;
-    background: var($accA);
     backdrop-filter: blur(var($blur));
 }
 
-.secondary_a22cb0 {
-    border: none;
-    background: var($accA);
-}
+.secondary_a22cb0 {border: none;}
 //----------------------------------------------//
 
 //-----------------------Popups-----------------------//
 .focusLock__49fc1 > .root__49fc1 {
-	background: var($accA);
 	backdrop-filter: blur(var($blur));
 }
 .focusLock__49fc1 > .root__49fc1 > div > .outer_c0bea0 {

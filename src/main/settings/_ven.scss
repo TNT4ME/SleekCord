@@ -1,31 +1,24 @@
 @use '../../var' as *;
 
-.vc-card-normal, .vc-card-base {
-    border: none;
-    background: var($accB);
-}
-.vc-settings-quickActions-pill,
+.vc-card-normal, .vc-card-base {border: none;}
+
 .vc-settings-quickActions-pill:hover {
-    background: var($accB);
+    background: var(--accB);
 }
 .vc-btn-primary {
     border: none;
-    background: var($accA);
+    background: var(--blurple-1);
 }
-.vc-btn-primary:hover {background: var($acc);}
 
 //Plugins
 .vc-card-warning {border: 1.5px solid var(--icon-status-idle);}
 .popout_a16aea {
     border: none;
-    background: var($accB);
+    background: var(--accB);
     backdrop-filter: blur(var($blur));
-}
-.option_a16aea[aria-selected=true]:not(.option_a16aea.multi_a16aea) {
-    background: var($accA);
 }
 .vc-addon-card {
     border: none;
-    background: var($accB);
+    background: var(--accB);
 }
 .vc-settings-modal-link-icon {border: none;}

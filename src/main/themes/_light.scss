@@ -9,32 +9,44 @@
     --interactive-text-default: var(--SL-mainCol-light);
     --control-primary-text-default: var(--SL-mainCol-light);
 
-    --background-mod-subtle: var(--SL-secCol-light);
-    
     --chat-background-default: var(--SL-msgBar-light);
-    --background-surface-higher: var(--SL-msgBar-light);
     
     --text-brand: var(--SL-accentCol-light);
     --blurple-50: var(--SL-accentCol-light);
     --spine-default: var(--SL-accentCol-light);
     --border-normal: var(--SL-accentCol-light);
+    --guild-boosting-pink: var(--SL-accentCol-light);
     --input-border-active: var(--SL-accentCol-light);
     --icon-feedback-warning: var(--SL-accentCol-light);
     --control-brand-foreground: var(--SL-accentCol-light);
     --interactive-background-hover: var(--SL-accentCol-light);
     --control-primary-background-hover: var(--SL-accentCol-light);
     --control-primary-background-default: var(--SL-accentCol-light);
+    --control-secondary-background-hover: var(--SL-accentCol-light);
 
     --blurple-1: var(--SL-accentA-light);
+    --primary-400: var(--SL-accentCol-light);
+    --modal-background: var(--SL-accentA-light);
     --background-base-low: var(--SL-accentA-light);
     --background-mod-normal: var(--SL-accentA-light);
     --background-mod-strong: var(--SL-accentA-light);
     --background-surface-high: var(--SL-accentA-light);
+    --card-background-default: var(--SL-accentA-light);
     --input-background-default: var(--SL-accentA-light);
+    --background-surface-higher: var(--SL-accentA-light);
     --background-surface-highest: var(--SL-accentA-light);
     --interactive-background-selected: var(--SL-accentA-light);
+    --gradient-progress-pill-background: var(--SL-accentA-light);
 
     --accB: var(--SL-accentB-light);
+    --primary-600-hsl: var(--SL-accentB-light);
+    --background-mod-muted: var(--SL-accentB-light);
+    --background-mod-subtle: var(--SL-accentB-light);
+    --interactive-background-active: var(--SL-accentB-light);
+    --gradient-progress-pill-background: var(--SL-accentB-light);
+    --control-secondary-background-default: var(--SL-accentB-light);
+    
+    --accC: var(--SL-accentC-light);
 
     --mention-foreground: var(--SL-mentionCol-light);
     --mention-background: var(--SL-mentionColBg-light);
@@ -44,4 +56,6 @@
     --icon-subtle: var(--SL-txtCol-light);
     --icon-strong: var(--SL-txtCol-light);
     --text-default: var(--SL-txtCol-light);
+    --interactive-text-default: var(--SL-txtCol-light);
+    --control-secondary-text-default: var(--SL-mainCol-light);
 }

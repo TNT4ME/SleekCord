@@ -1,0 +1,38 @@
+@use '../../var' as *;
+
+//------------Activity Privacy------------//
+.headerContainer__7db08 {background: none;}
+.iconContainer__0ecc4 > foreignObject {
+    background: var(--accB);
+}
+//----------------------------------------//
+
+
+//---------------Registered Games---------------//
+.notDetected_cc46f0 {background: var(--blurple-1)}
+//----------------------------------------------//
+
+
+//-----------------Game Overlay-----------------//
+.collapseable__9d98d, .collapseable__217b7:active,
+.collapseable__217b7.toggled__217b7:active {
+    border: none;
+    background: var(--blurple-1);
+}
+.groupContainer__9d98d,
+.groupCollapsedContainer__9d98d,
+.mainCollapseableContainer__9d98d {
+	border: none;
+	background: none;
+}
+
+.voiceWidgetContainer__9d98d {
+    background: var(--accB);
+    border-color: var(--blurple-1);
+}
+.username_adebba, .bgShade__6d791 {
+    border: none;
+    box-shadow: none;
+    background: var(--blurple-1);
+}
+//----------------------------------------------//

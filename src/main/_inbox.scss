@@ -2,7 +2,6 @@
 
 .container_fc561d { //bg
 	border: none;
-	background: var($accA);
 	backdrop-filter: blur(var($blur));
 }
 
@@ -16,15 +15,8 @@
 .messageContainer__95796,
 .messages__1ccd1 { //fg
 	border: none;
-	background: var($accB);
 }
 
 .jumpButton_ed0c8c { //jump button
-	border: none;
-	color: var($txt);
-	background: var($acc);
-}
-
-.top_aa8da2 .item_aa8da2.brand_aa8da2 {
-	--selected-tab-item-color: var($acc); //for u, unreads, mentions
+	border: none
 }

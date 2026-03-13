@@ -1,6 +1,10 @@
 @use '../../var' as *;
 
-//---------------------------My Account---------------------------//
+//toggles
+.switchIndicator_a28278 {background: var(--text-brand) !important;}
+
+
+//-------------------My Account-------------------//
 // - - - - - - Profile Preview - - - - - - //
 .accountProfileCard__1fed1 {
 	background: none;
@@ -11,113 +15,62 @@
 .background__1fed1 {background: var(--blurple-1);}
 .fieldList__1fed1 {background: none;}
 
-.primary__7a01b {color: var(--text-brand);} //Reveal
+//Reveal
+.primary__7a01b {color: var(--text-brand);}
 // - - - - - - - - - - - - - - - - - - - - //
-
 
 //remove buttons
 .critical-secondary_a22cb0 {border: none;}
 
-
-// ########## security key menu ########## //
-.root__49fc1:has(div > div > form) {
-	background: var(--blurple-1);
-	backdrop-filter: blur(var($blur));
-}
+//2FA menu
 .footer__49fc1 {background: none;}
-// ####################################### //
+//------------------------------------------------//
 
-//----------------------------------------------------------------//
 
-//------------------------------------Content & Social------------------------------------//
-.top_aa8da2 .item_aa8da2.brand_aa8da2 {
-	--selected-tab-item-color: var(--text-brand);
+//-------------------------Content & Social-------------------------//
+.card__5cea9 {
+	box-shadow: none;
+	background: var(--accB);
 }
-.tab_f8303a.vertical_f8303a.selected_f8303a {
-    border-inline-color: var(--text-brand);
-}
-.tab_f8303a.vertical_f8303a.selected_f8303a,
-.radioGroupOption__64e61[data-selected] .outerRadioFill__64e61,
-.standaloneRadioIndicator__64e61[data-selected=true] .outerRadioFill__64e61,
-.radioGroupOption__64e61[data-selected]:not([data-disabled]):hover .outerRadioBase__64e61,
-.radioGroupOption__64e61[data-selected]:not([data-disabled]):hover .outerRadioFill__64e61 {
-    fill: var(--text-brand);
-    color: var(--text-brand);
-}
-.switchIndicator_a28278 {
-    background: var(--text-brand) !important;
-}
+.header__5cea9 {border-radius: var(--radius-sm) var(--radius-sm) 0 0;}
 
-.card__5cea9 {background: var(--accB);}
-.header__5cea9 {
-    backdrop-filter: blur(var($blur));
-    background: none;
-}
-.iconContainer__5cea9 {background: var(--accB);}
+//icons
 .iconContainer__5cea9 > svg > path {fill: var(--text-brand);}
-//----------------------------------------------------------------------------------------//
+//------------------------------------------------------------------//
 
-//-----Family Center-----//
+
+//----------Family Center----------//
 .box_f8c98c, .row__0624f {
 	border: none;
 	box-shadow: none;
 	background: var(--blurple-1);
 }
-.iconContainer__0624f {
-	border: none;
-	background: var(--accB);
-}
-//-----------------------//
+.iconContainer__0624f {border: none;}
+//---------------------------------//
+
 
 //----------------Authorized Apps----------------//
 .cardPrimary__73069,
-.cardPrimary__73069.editable__73069 {
-	border: none;
-	--__card-accent-color: var(--blurple-1);
-}
-.authedAppV2__50a54, .headerV2__50a54 {
-	background: var(--accB);
-}
+.cardPrimary__73069.editable__73069 {border: none;}
+
 .appAvatarV2__50a54 {border: none;}
-.actionMenuButton_d84e0f {background: var(--blurple-1);}
+
+.actionMenuButton_12cd0 {background: var(--blurple-1);}
 //-----------------------------------------------//
 
-//---------------------Nitro---------------------//
-.perkCard_b62c4e {
-	border: none;
+
+//----------------------Devices----------------------//
+.sessionIcon__803f2 {background: var(--text-default);}
+//---------------------------------------------------//
+
+
+//------------------------Connections------------------------//
+.accountButtonInner__4109d, .connection__4109d {border: none;}
+//-----------------------------------------------------------//
+
+
+//----------------Notifications----------------//
+.baseControlItem_dbfbe0:hover.clickable_dbfbe0 {
 	background: var(--blurple-1);
 }
-.innerWrapperBase__553fd {background: var(--blurple-1);}
-//-----------------------------------------------//
-
-//---------Keybinds---------//
-.container__7700a,
-.defaultKeybindGroup__740f2 {
-	background: var(--blurple-1);
-}
-//--------------------------//
-
-//------------Activity Privacy------------//
-.headerContainer__7db08 {background: none;}
-.iconContainer__0ecc4 > foreignObject {
-    background: var(--accB);
-}
-.selectDropdown__0edde {
-	border: none;
-	background: var(--text-brandC);
-}
-//----------------------------------------//
-
-//-------------Registered Games-------------//
-.notDetected_cc46f0 {background: var(--blurple-1);}
-.game_cc46f0 {background: var(--blurple-1);}
-.lastPlayed_cc46f0 {color: var(--text-brand);}
-//------------------------------------------//
-
-//----------Game Overlay----------//
-.groupContainer__9d98d,
-.mainCollapseableContainer__9d98d {
-	border: none;
-	background: var(--blurple-1);
-}
-//--------------------------------//
+//---------------------------------------------//
