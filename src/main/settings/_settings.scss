@@ -1,43 +1,37 @@
 @use '../../var' as *;
 
-//--------------main bg--------------//
+//main bg
 .container__8a031 {
 	border: none;
-	background: var($accA);
+	background: var(--blurple-1);
 	backdrop-filter: blur(var($blur));
 }
-.container_abd9a8
-{color: var($txt);}
-//-----------------------------------//
 
 //----------------------------left----------------------------//
-.fixedContent__409aa:after //ugly grad below search
-{content: none;}
+//ugly grad below search
+.fixedContent__409aa:after{content: none;}
 
-.section__409aa
-{border-bottom: 2px solid var($acc);} //section lines
+//section lines
+.section__409aa {border-bottom: 2px solid var(--text-brand);}
 
-.label__409aa,
-.item_caf372
-{color: var($txt) !important;} //txt
+//txt
+.label__409aa, .item_caf372 {color: var(--text-default) !important;}
 
+//sel/hov
 .item_caf372.active_caf372,
 .item_caf372:hover {
-	background: var($accB);
-	color: var($acc) !important;
-} //sel/hov
-
-.bd-text-muted {color: var($acc);} //bd debug info
-.anchor_edefb8 {color: var($link);} //link
+	background: var(--accB);
+	color: var(--text-brand) !important;
+}
 //------------------------------------------------------------//
 
-//---------------right---------------//
+//------------------right------------------//
 .content_e9e3ed { //bg
 	background: none;
-	border-left: 2px solid var($acc);
+	border-left: 2px solid var(--text-brand);
 }
 .contentHeader_e9e3ed { //top
 	border: none;
 	background: none;
 }
-//-----------------------------------//
+//-----------------------------------------//

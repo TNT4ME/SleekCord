@@ -6,19 +6,42 @@
     --background-base-lower: var(--SL-mainCol-light);
     --background-base-lowest: var(--SL-mainCol-light);
     --__header-bar-background: var(--SL-mainCol-light);
+    --interactive-text-default: var(--SL-mainCol-light);
+    --control-primary-text-default: var(--SL-mainCol-light);
+
+    --background-mod-subtle: var(--SL-secCol-light);
     
     --chat-background-default: var(--SL-msgBar-light);
+    --background-surface-higher: var(--SL-msgBar-light);
     
     --text-brand: var(--SL-accentCol-light);
     --blurple-50: var(--SL-accentCol-light);
+    --spine-default: var(--SL-accentCol-light);
+    --border-normal: var(--SL-accentCol-light);
     --input-border-active: var(--SL-accentCol-light);
     --icon-feedback-warning: var(--SL-accentCol-light);
+    --control-brand-foreground: var(--SL-accentCol-light);
     --interactive-background-hover: var(--SL-accentCol-light);
+    --control-primary-background-hover: var(--SL-accentCol-light);
     --control-primary-background-default: var(--SL-accentCol-light);
 
+    --blurple-1: var(--SL-accentA-light);
+    --background-base-low: var(--SL-accentA-light);
     --background-mod-normal: var(--SL-accentA-light);
+    --background-mod-strong: var(--SL-accentA-light);
     --background-surface-high: var(--SL-accentA-light);
+    --input-background-default: var(--SL-accentA-light);
     --background-surface-highest: var(--SL-accentA-light);
+    --interactive-background-selected: var(--SL-accentA-light);
 
+    --accB: var(--SL-accentB-light);
+
+    --mention-foreground: var(--SL-mentionCol-light);
+    --mention-background: var(--SL-mentionColBg-light);
+    --messaged-mentioned-background-default: var(--SL-mentionColBg-light);
+
+    --text-link: var(--SL-linkCol-light);
+    --icon-subtle: var(--SL-txtCol-light);
+    --icon-strong: var(--SL-txtCol-light);
     --text-default: var(--SL-txtCol-light);
 }

@@ -1,22 +1,18 @@
 @use '../../var' as *;
 
 //---------------------------My Account---------------------------//
-.top_aa8da2 .item_aa8da2.brand_aa8da2
-{--selected-tab-item-color: var($acc);} //Security  Standing
-
-
-// ################ Profile Preview ################ //
+// - - - - - - Profile Preview - - - - - - //
 .accountProfileCard__1fed1 {
 	background: none;
-	border: 2px solid var($acc); //border
+	border: 2px solid var(--text-brand); //border
 }
 
 //bg
-.background__1fed1 {background: var($accA);}
+.background__1fed1 {background: var(--blurple-1);}
 .fieldList__1fed1 {background: none;}
 
-.primary__7a01b {color: var($acc);} //Reveal
-// ################################################# //
+.primary__7a01b {color: var(--text-brand);} //Reveal
+// - - - - - - - - - - - - - - - - - - - - //
 
 
 //remove buttons
@@ -25,7 +21,7 @@
 
 // ########## security key menu ########## //
 .root__49fc1:has(div > div > form) {
-	background: var($accA);
+	background: var(--blurple-1);
 	backdrop-filter: blur(var($blur));
 }
 .footer__49fc1 {background: none;}
@@ -35,41 +31,41 @@
 
 //------------------------------------Content & Social------------------------------------//
 .top_aa8da2 .item_aa8da2.brand_aa8da2 {
-	--selected-tab-item-color: var($acc);
+	--selected-tab-item-color: var(--text-brand);
 }
 .tab_f8303a.vertical_f8303a.selected_f8303a {
-    border-inline-color: var($acc);
+    border-inline-color: var(--text-brand);
 }
 .tab_f8303a.vertical_f8303a.selected_f8303a,
 .radioGroupOption__64e61[data-selected] .outerRadioFill__64e61,
 .standaloneRadioIndicator__64e61[data-selected=true] .outerRadioFill__64e61,
 .radioGroupOption__64e61[data-selected]:not([data-disabled]):hover .outerRadioBase__64e61,
 .radioGroupOption__64e61[data-selected]:not([data-disabled]):hover .outerRadioFill__64e61 {
-    fill: var($acc);
-    color: var($acc);
+    fill: var(--text-brand);
+    color: var(--text-brand);
 }
 .switchIndicator_a28278 {
-    background: var($acc) !important;
+    background: var(--text-brand) !important;
 }
 
-.card__5cea9 {background: var($accB);}
+.card__5cea9 {background: var(--accB);}
 .header__5cea9 {
     backdrop-filter: blur(var($blur));
     background: none;
 }
-.iconContainer__5cea9 {background: var($accB);}
-.iconContainer__5cea9 > svg > path {fill: var($acc);}
+.iconContainer__5cea9 {background: var(--accB);}
+.iconContainer__5cea9 > svg > path {fill: var(--text-brand);}
 //----------------------------------------------------------------------------------------//
 
 //-----Family Center-----//
 .box_f8c98c, .row__0624f {
 	border: none;
 	box-shadow: none;
-	background: var($accA);
+	background: var(--blurple-1);
 }
 .iconContainer__0624f {
 	border: none;
-	background: var($accB);
+	background: var(--accB);
 }
 //-----------------------//
 
@@ -77,51 +73,51 @@
 .cardPrimary__73069,
 .cardPrimary__73069.editable__73069 {
 	border: none;
-	--__card-accent-color: var($accA);
+	--__card-accent-color: var(--blurple-1);
 }
 .authedAppV2__50a54, .headerV2__50a54 {
-	background: var($accB);
+	background: var(--accB);
 }
 .appAvatarV2__50a54 {border: none;}
-.actionMenuButton_d84e0f {background: var($accA);}
+.actionMenuButton_d84e0f {background: var(--blurple-1);}
 //-----------------------------------------------//
 
 //---------------------Nitro---------------------//
 .perkCard_b62c4e {
 	border: none;
-	background: var($accA);
+	background: var(--blurple-1);
 }
-.innerWrapperBase__553fd {background: var($accA);}
+.innerWrapperBase__553fd {background: var(--blurple-1);}
 //-----------------------------------------------//
 
 //---------Keybinds---------//
 .container__7700a,
 .defaultKeybindGroup__740f2 {
-	background: var($accA);
+	background: var(--blurple-1);
 }
 //--------------------------//
 
 //------------Activity Privacy------------//
 .headerContainer__7db08 {background: none;}
 .iconContainer__0ecc4 > foreignObject {
-    background: var($accB);
+    background: var(--accB);
 }
 .selectDropdown__0edde {
 	border: none;
-	background: var($accC);
+	background: var(--text-brandC);
 }
 //----------------------------------------//
 
 //-------------Registered Games-------------//
-.notDetected_cc46f0 {background: var($accA);}
-.game_cc46f0 {background: var($accA);}
-.lastPlayed_cc46f0 {color: var($acc);}
+.notDetected_cc46f0 {background: var(--blurple-1);}
+.game_cc46f0 {background: var(--blurple-1);}
+.lastPlayed_cc46f0 {color: var(--text-brand);}
 //------------------------------------------//
 
 //----------Game Overlay----------//
 .groupContainer__9d98d,
 .mainCollapseableContainer__9d98d {
 	border: none;
-	background: var($accA);
+	background: var(--blurple-1);
 }
 //--------------------------------//

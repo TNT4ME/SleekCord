@@ -2,25 +2,18 @@
 //@use '../var' as *;
 
 ::selection {
-    background: var(--SL-accentCol);
-    color: var(--SL-mainCol) !important;
+    background: var(--text-brand);
+    color: var(--background-dark-base) !important;
 }
 
 :root {
     --modal-background: none;
-    --autocomplete-bg: var(--SL-accentA);
 
-    --border-normal: var(--SL-accentCol);
-
-    --mention-background: color-mix(in oklch, var(--SL-mentionCol) 20%, transparent) !important;
-    --mention-foreground: var(--SL-mentionCol);
     --background-mentioned: var(--SL-accentB);
     --background-message-hover: var(--SL-secCol);
 
     --info-warning-foreground: var(--SL-accentCol);
 
-    --text-normal: var(--SL-txtCol);
-    --text-default: var(--SL-txtCol);
     --font-primary: var(--SL-font);
     --font-code: var(--SL-code);
 
@@ -34,5 +27,3 @@
 
     --SL-grad: linear-gradient(45deg, var(--SL-gradCol1), var(--SL-gradCol2), var(--SL-gradCol1), var(--SL-gradCol2));
 }
-
-a {color: var(--SL-linkCol);}

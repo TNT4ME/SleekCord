@@ -15,41 +15,31 @@
 
 .visual-refresh .sidebar__5e434:after {background: none;}
 
-//---------------------------------channel sel & hov---------------------------------//
-.wrapper__2ea32:hover { //hov
-    .link__2ea32 {background: var($sec); transition: 0.3s;}
-    .name__2ea32, .icon__2ea32, .actionIcon_c69b6d {color: var($txt); transition: 0.3s;}
+//-------------------------channel sel & hov-------------------------//
+//hov
+.wrapper__2ea32:hover .link__2ea32 {
+    transition: 0.3s;
+    background: var(--accB);
 }
 
-//----------unread----------//
+// - - - - - - - - - - - - unread - - - - - - - - - - - - //
 .modeUnreadImportant__2ea32 {
     .name__2ea32, &:hover .name__2ea32,
     .icon__2ea32, &:hover .icon__2ea32,
-    .actionIcon_c69b6d {color: var($acc) !important;}
+    .actionIcon_c69b6d {color: var(--text-brand) !important;}
 }
-.unreadImportant__2ea32 {background: var($acc)}; //dot
-//--------------------------//
+//dot
+.unreadImportant__2ea32 {background: var(--text-brand)};
+// - - - - - - - - - - - - - -- - - - - - - - - - - - - - //
 
 .modeSelected__2ea32 { //sel
-    .link__2ea32 {color: var($txt); background: var($accA);}
-    .link__2ea32:hover {color: var($txt); background: var($accA); transition: 0.3s;}
+    .link__2ea32 {color: var(--text-default);}
+    .link__2ea32:hover {color: var(--text-default); transition: 0.3s;}
 }
+//-------------------------------------------------------------------//
 
-.popout__76f04 { //threads
-    background: var($accA);
-    backdrop-filter: blur(var($blur));
-}
-//-----------------------------------------------------------------------------------//
-
-/*--------------------thread list--------------------*/
-.spine__5b40b {color: var($acc);}
-
-.spineBorder__5b40b {background: var($acc);}
-/*---------------------------------------------------*/
-
-//------------New Unreads------------//
+//New Unreads
 .unread__3b95d {
-    background: var($accA);
+    border: none;
     backdrop-filter: blur(var($blur));
 }
-//-----------------------------------//

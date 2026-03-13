@@ -1,19 +1,21 @@
 @use '../../var' as *;
 
-//-----------------------txt-----------------------//
+//-----------------------------txt-----------------------------//
 .spoilerContent__299eb.hidden__299eb {
-    background: var($accA);
+    background: var(--blurple-1);
     
     --__current--spoiler-content-opacity: 1;
-    --__current--spoiler-text-color: var($txt);
+    --__current--spoiler-text-color: var(--text-default);
 }
 
 .spoilerMarkdownContent__299eb.hidden__299eb {filter: blur(3px);}
-//-------------------------------------------------//
+//-------------------------------------------------------------//
 
 
 //--------------------------------------------img--------------------------------------------//
-.obscured__6c706.hiddenMosaicItem__6c706.hiddenSpoiler__6c706 {filter: blur($spoiler);} //blur
+//blur
+.obscured__6c706.hiddenMosaicItem__6c706.hiddenSpoiler__6c706 {filter: blur($spoiler);}
 
-.spoilerContainer__299eb {background-color: var($acc);} //edge col
+//edge col
+.spoilerContainer__299eb {background-color: var(--text-brand);}
 //-------------------------------------------------------------------------------------------//

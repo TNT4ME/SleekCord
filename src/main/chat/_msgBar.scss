@@ -3,16 +3,18 @@
 //-------------------------------------bg-------------------------------------//
 .channelTextArea__74017:not(.highlighted__74017) {border: none;} //msg bar
 
+/*Cool glow border
+thanks to someone for the idea
+i saw it somewhere on dc but i cant find it anymore*/
 .channelTextArea__74017:not(.highlighted__74017):hover {
     border: none;
-    box-shadow: 0px 0px 3px color-mix(in oklch, var($acc) 90%, transparent),
-    0px 0px 5px color-mix(in oklch, var($acc) 80%, transparent);
+    box-shadow: 0px 0px 3px color-mix(in oklch, var(--border-normal) 90%, transparent),
+    0px 0px 5px color-mix(in oklch, var(--border-normal) 80%, transparent);
 }
 //----------------------------------------------------------------------------//
 
-//--------useless gradient bar--------//
+//useless gradient bar
 .chatGradient__36d07 {background: none;}
-//------------------------------------//
 
 //---------------------------------file upload---------------------------------//
 .upload_aa605f {
@@ -25,56 +27,30 @@
 //reply
 .stackedBars__74017:not(:last-child) {border: none;}
 
-.mentionButton__841c8 {color: var($acc) !important;} //ping on/off
+//ping on/off
+.mentionButton__841c8 {color: var(--text-brand) !important;}
 //-----------------------------------------------------------------------------//
 
 
-//-----------------------jump to present-----------------------//
-.jumpToPresentBar__0f481:active {margin-bottom: var(--space-8);}
-
+//------------------jump to present------------------//
 .bottomBar__0f481 {
     border: none;
     border-radius: 8px;
     backdrop-filter: blur(var($blur));
 }
 
-.primary_a22cb0, .primary_a22cb0:hover { //button
-    border: none;
-    color: var($txt);
-    background: var($acc) !important;
-}
-//-------------------------------------------------------------//
+//button
+.primary_a22cb0, .primary_a22cb0:hover {border: none;}
+//---------------------------------------------------//
 
 .createThreadButton__841c8 {color: var($acc) !important;}
 
-//------------------emoji picker :shiggy:------------------//
-.autocomplete__13533 {
-    background: var($accA);
-    backdrop-filter: blur(var($blur));
-}
-
-.autocompleteRowContentSecondary__13533 {color: var($txt);}
-
-//hov
-.clickable__13533[aria-disabled=false]>.base__13533:hover,
-.clickable__13533[aria-selected=true]>.base__13533 {
-    background-color: var($acc);
-}
-//---------------------------------------------------------//
+//emoji picker :shiggy:
+.autocomplete__13533 {backdrop-filter: blur(var($blur));}
 
 //------------------------------------gif, sticker, :emoji: menus------------------------------------//
-// - - - - - - - - - - - - - - - - - - search bar - - - - - - - - - - - - - - - - - - //
-._mana-text-inputs
-.wrapper__72c38:not([data-read-only=true]):has(input:focus,textarea:focus) {
-	outline: 2px solid var($acc);
-}
-.header__8ef02 > .wrapper_cdf8a9:hover { //hov
-	background: unset;
-}
-// - - - - - - - - - - - - - - - - - - - - -- - - - - - - - - - - - - - - - - - - - - //
-
-.contentWrapper__08434, div[data-popout-animating=false] > #emoji-picker-tab-panel {
-    background: var($accA);
+.contentWrapper__08434,
+div[data-popout-animating=false] > #emoji-picker-tab-panel {
     backdrop-filter: blur(var($blur));
 }
 
@@ -87,22 +63,22 @@
     background: none;
 }
 
-.categoryFade_d02962:hover, .result__2dc39:hover { //hov
+//hov
+.categoryFade_d02962:hover, .result__2dc39:hover {
     border: none;
     box-shadow: none;
 }
 
 .standardStickerShortcut__3ad28, .unicodeShortcut_b9ee0c {
     border: none;
-    color: var($icon);
+    color: var(--text-default);
 }
 
-.emojiItem_fc7141.emojiItemSelected_fc7141  { //hov
+//hov
+.emojiItem_fc7141.emojiItemSelected_fc7141  {
     transition: 0.2s;
-    background: var($accA);
+    box-shadow: none;
 }
-
-.topGuildEmojiBadge_aeaaeb {background: linear-gradient(268.26deg,#bf5151,#db803f 102.45%);}
 
 .stickerCategoryGenericSelected__3ad28, .categoryItemDefaultCategorySelected_b9ee0c {background: none;}
 //---------------------------------------------------------------------------------------------------//

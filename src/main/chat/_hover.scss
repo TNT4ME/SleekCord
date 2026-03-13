@@ -2,18 +2,12 @@
 
 .wrapper_c19a5:hover {transition: 0.25s;}
 
-//---------------buttons----------------//
+//buttons
 .wrapper_f7ecac, .wrapper_f7ecac:hover {
     border: none;
     box-shadow: none !important;
     backdrop-filter: blur(var($blur));
-    background: var($accA);
 }
-//--------------------------------------//
 
-//------------reaction hover------------//
-.reactionTooltip_b49891 {
-    background: var($accA);
-    backdrop-filter: blur(var($blur));
-}
-//--------------------------------------//
+//reaction hover
+.reactionTooltip_b49891 {backdrop-filter: blur(var($blur));}

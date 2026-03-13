@@ -1,18 +1,7 @@
 @use '../../var' as *;
 
-//-------@User #Channel-------//
-.wrapper_cdf8a9, .wrapper_f61d60 {
-    color: var($mention);
-    background: var($mentionBg);
-}
+//@User #Channel
+.interactive:hover {color: var(--background-dark-base);}
 
-.wrapper_cdf8a9:hover { //hov
-    color: var($txt);
-    background: var($mention);
-}
-//----------------------------//
-
-//----------------------------------reply bg----------------------------------//
-.mentioned__5126c:before {background: var($acc);}
-.mentioned__5126c, .mentioned__5126c:hover {background: var($accB) !important;}
-//----------------------------------------------------------------------------//
+//reply bg
+.mentioned__5126c::before {background: var(--mention-foreground);}

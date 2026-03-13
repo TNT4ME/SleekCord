@@ -1,20 +1,20 @@
 @use '../../var' as *;
 
-.guildInviteContainer__083ae, .footerContent__083ae { //invites
+//invites
+.guildInviteContainer__083ae, .footerContent__083ae {
     background: none;
     border: none;
 }
 
-.visual-refresh .embedFull__623de { //embeds
-    border: none;
-    border-left: 4px solid var($acc);
-}
+//embeds
+.visual-refresh .embedFull__623de {border: none;}
 
-.file__0ccae {border: none;} //files
+//files
+.file__0ccae {border: none;}
 
+//the tooltip buttons
 .hoverButtonGroup__06ab4,
-.gifFavoriteButton__43deb { // the tooltip buttons
+.gifFavoriteButton__43deb {
     outline: none;
-    background: var($accB);
     backdrop-filter: blur(var($blur));
 }

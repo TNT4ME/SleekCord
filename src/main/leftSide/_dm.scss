@@ -1,19 +1,4 @@
 @use '../../var' as *;
 
-//dc official bot
-.botTagRegular__82f07 {background: var($acc);}
-
-//-------------------------hover-------------------------//
-.interactiveSelected__972a0 {
-    color: var($txt);
-    background: var($accA);
-}
-
-.interactiveSelected__972a0:hover {background: var($acc);}
-//-------------------------------------------------------//
-
-//profile sidebar (right)
-.user-profile-sidebar {background: var($main);}
-
 //stupid box behind profile wiget
 .scroller__99e7c {margin-bottom: none;}
