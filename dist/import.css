@@ -994,7 +994,7 @@ div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.b
   --background-base-lower: var(--SL-mainCol);
   --background-base-lowest: var(--SL-mainCol);
   --__header-bar-background: var(--SL-mainCol);
-  --background-surface-higher: var(--SL-msgBar);
+  --chat-background-default: var(--SL-msgbar);
   --text-brand: var(--SL-accentCol);
   --blurple-50: var(--SL-accentCol);
   --input-border-active: var(--SL-accentCol);
@@ -1012,7 +1012,7 @@ div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.b
   --background-base-lower: var(--SL-mainCol-light);
   --background-base-lowest: var(--SL-mainCol-light);
   --__header-bar-background: var(--SL-mainCol-light);
-  --background-surface-higher: var(--SL-msgBar-light);
+  --chat-background-default: var(--SL-msgBar-light);
   --text-brand: var(--SL-accentCol-light);
   --blurple-50: var(--SL-accentCol-light);
   --input-border-active: var(--SL-accentCol-light);
