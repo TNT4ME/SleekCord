@@ -8,7 +8,6 @@
   --modal-background: none;
   --autocomplete-bg: var(--SL-accentA);
   --border-normal: var(--SL-accentCol);
-  --chat-background-default: var(--SL-msgBar) !important;
   --mention-background: color-mix(in oklch, var(--SL-mentionCol) 20%, transparent) !important;
   --mention-foreground: var(--SL-mentionCol);
   --background-mentioned: var(--SL-accentB);
@@ -990,7 +989,7 @@ div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.b
   --background-base-lower: var(--SL-mainCol);
   --background-base-lowest: var(--SL-mainCol);
   --__header-bar-background: var(--SL-mainCol);
-  --chat-background-default: var(--SL-msgbar);
+  --chat-background-default: var(--SL-msgBar);
   --text-brand: var(--SL-accentCol);
   --blurple-50: var(--SL-accentCol);
   --input-border-active: var(--SL-accentCol);
