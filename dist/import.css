@@ -1006,7 +1006,7 @@ div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.b
   --background-surface-highest: var(--SL-accentA);
 }
 
-.theme-dark {
+.theme-light {
   --background-dark-base: var(--SL-mainColL);
   --background-base-lower: var(--SL-mainColL);
   --background-base-lowest: var(--SL-mainColL);
