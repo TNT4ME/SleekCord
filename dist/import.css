@@ -5,9 +5,6 @@
 }
 
 :root {
-  --background-mentioned: var(--SL-accentB);
-  --background-message-hover: var(--SL-secCol);
-  --info-warning-foreground: var(--SL-accentCol);
   --font-primary: var(--SL-font);
   --font-code: var(--SL-code);
   --background-modifier-hover: none;
@@ -18,6 +15,7 @@
   --SL-accentB-light: color-mix(in oklch, var(--SL-accentCol-light), transparent 85%);
   --SL-accentC-light: color-mix(in oklch, var(--SL-accentCol-light), black 25%);
   --SL-mentionColBg: color-mix(in oklch, var(--SL-mentionCol), transparent 85%);
+  --SL-mentionColBg-light: color-mix(in oklch, var(--SL-mentionCol), transparent 85%);
   --SL-grad: linear-gradient(45deg, var(--SL-gradCol1), var(--SL-gradCol2), var(--SL-gradCol1), var(--SL-gradCol2));
 }
 
