@@ -10,7 +10,7 @@ Thanks to @skamt. for fixing 'More > Invite to Server' bug <3
 
 
 # Todo
-- [ ] Update everything
+- [x] Update everything
 - [x] Light theme support
 - [ ] Transparent background support
 - [ ] Image background support
