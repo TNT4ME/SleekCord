@@ -7,7 +7,6 @@
     --background-base-lowest: var(--SL-mainCol-light);
     --__header-bar-background: var(--SL-mainCol-light);
     --interactive-text-default: var(--SL-mainCol-light);
-    --control-primary-text-default: var(--SL-mainCol-light);
 
     --chat-background-default: var(--SL-msgBar-light);
     
@@ -60,5 +59,6 @@
     --icon-strong: var(--SL-txtCol-light);
     --text-default: var(--SL-txtCol-light);
     --interactive-text-default: var(--SL-txtCol-light);
-    --control-secondary-text-default: var(--SL-mainCol-light);
+    --control-primary-text-default: var(--SL-txtCol-light);
+    --control-secondary-text-default: var(--SL-txtCol-light);
 }

@@ -519,6 +519,10 @@ div[data-popout-animating=false] > #emoji-picker-tab-panel {
   backdrop-filter: blur(var(--SL-blur));
 }
 
+.content_f75fb0 {
+  background: var(--background-dark-base);
+}
+
 .scroller__99e7c {
   margin-bottom: none;
 }
@@ -741,7 +745,6 @@ div[data-popout-animating=false] > #emoji-picker-tab-panel {
   --background-base-lowest: var(--SL-mainCol);
   --__header-bar-background: var(--SL-mainCol);
   --interactive-text-default: var(--SL-mainCol);
-  --control-primary-text-default: var(--SL-mainCol);
   --chat-background-default: var(--SL-msgBar);
   --text-brand: var(--SL-accentCol);
   --blurple-50: var(--SL-accentCol);
@@ -785,7 +788,8 @@ div[data-popout-animating=false] > #emoji-picker-tab-panel {
   --icon-strong: var(--SL-txtCol);
   --text-default: var(--SL-txtCol);
   --interactive-text-default: var(--SL-txtCol);
-  --control-secondary-text-default: var(--SL-mainCol);
+  --control-primary-text-default: var(--SL-txtCol);
+  --control-secondary-text-default: var(--SL-txtCol);
 }
 
 .theme-light {
@@ -794,7 +798,6 @@ div[data-popout-animating=false] > #emoji-picker-tab-panel {
   --background-base-lowest: var(--SL-mainCol-light);
   --__header-bar-background: var(--SL-mainCol-light);
   --interactive-text-default: var(--SL-mainCol-light);
-  --control-primary-text-default: var(--SL-mainCol-light);
   --chat-background-default: var(--SL-msgBar-light);
   --text-brand: var(--SL-accentCol-light);
   --blurple-50: var(--SL-accentCol-light);
@@ -839,7 +842,8 @@ div[data-popout-animating=false] > #emoji-picker-tab-panel {
   --icon-strong: var(--SL-txtCol-light);
   --text-default: var(--SL-txtCol-light);
   --interactive-text-default: var(--SL-txtCol-light);
-  --control-secondary-text-default: var(--SL-mainCol-light);
+  --control-primary-text-default: var(--SL-txtCol-light);
+  --control-secondary-text-default: var(--SL-txtCol-light);
 }
 
 .floating-window-content,
