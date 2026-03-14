@@ -779,7 +779,7 @@ div[data-popout-animating=false] > #emoji-picker-tab-panel {
   --accC: var(--SL-accentC);
   --mention-foreground: var(--SL-mentionCol);
   --mention-background: var(--SL-mentionColBg);
-  --messaged-mentioned-background-default: var(--SL-mentionColBg);
+  --message-mentioned-background-default: var(--SL-mentionColBg);
   --text-link: var(--SL-linkCol);
   --icon-subtle: var(--SL-txtCol);
   --icon-strong: var(--SL-txtCol);
@@ -833,7 +833,7 @@ div[data-popout-animating=false] > #emoji-picker-tab-panel {
   --accC: var(--SL-accentC-light);
   --mention-foreground: var(--SL-mentionCol-light);
   --mention-background: var(--SL-mentionColBg-light);
-  --messaged-mentioned-background-default: var(--SL-mentionColBg-light);
+  --message-mentioned-background-default: var(--SL-mentionColBg-light);
   --text-link: var(--SL-linkCol-light);
   --icon-subtle: var(--SL-txtCol-light);
   --icon-strong: var(--SL-txtCol-light);
