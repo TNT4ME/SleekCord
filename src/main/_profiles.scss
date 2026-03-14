@@ -2,7 +2,7 @@
 
 .outer_c0bea0 { //bg
     border: none;
-    background: var($profile);
+    background: var(--profile);
     backdrop-filter: blur(var($blur));
 }
 :where(.overlay_c0bea0) {
@@ -10,26 +10,30 @@
     backdrop-filter: blur(var($blur));
 }
 
-.profile__9c3be { //full profile
+//full profile
+.profile__9c3be {
     outline: none;
     box-shadow: none;
     background: none;
 }
 
+//status
 .container_ab8609,
-.container_ab8609:hover { //status
-	--custom-status-bubble-background: var(--SL-accentC);
+.container_ab8609:hover {
+	--custom-status-bubble-background: var(--accC);
 }
 
-.lookFilled__201d5.colorBrand__201d5 { //add friend
-    border: none;
-    color: var($txt);
-    background: var($acc);
-}
+//add friend
+//.lookFilled__201d5.colorBrand__201d5 {
+//    border: none;
+//    color: var($txt);
+//    background: var($acc);
+//}
 
-.platformIconContainer__9bfb9 { //connections
+//connections
+.platformIconContainer__9bfb9 {
     border: none;
-    background: var($accA);
+    background: var(--blurple-1);
 }
 
 //------------Fixes bug in 'More > Invite to Server'------------//
@@ -45,20 +49,19 @@
 //--------------------------------------------------------------//
 
 //improves readability
-.defaultColor__4bd52 {color: var($txt) !important;} //bio
+//.defaultColor__4bd52 {color: var($txt) !important;} //bio
 
 .editor_a99829 > div > .placeholder__1b31f {color: var($txt);} //dm this guy
 
 //--------------Widgets--------------//
 .container__62dd3 {
 	border: none;
-	background: var($accB);
+	background: var(--accB);
 }
 
 //add menu
 .gameSearchCombobox__36be8 {
 	border: none;
-	background: var($accA);
 	backdrop-filter: blur(var($blur));
 }
 //-----------------------------------//

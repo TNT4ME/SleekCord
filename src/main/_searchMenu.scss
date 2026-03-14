@@ -3,20 +3,16 @@
 //------------Search Bar------------//
 .container__16eb0 {
 	border: none;
-	background: var($accA);
 	backdrop-filter: blur(var($blur));
 }
 .searchToken_bd8186 {
 	border: none;
-	background: var($accC);
+	background: var(--accC);
 }
 //----------------------------------//
 
-.button_a22cb0:hover {background: var($acc);}
+.button_a22cb0:hover {background: var(--text-brand);}
 
-.searchResult__80bf8 {
-	border: none;
-	background: var($accB);
-}
-.button__80bf8 {background: var($accC);}
-.button__80bf8:hover {background: var($acc);}
+.searchResult__80bf8 {border: none;}
+.button__80bf8 {background: var(--accC);}
+.button__80bf8:hover {background: var(--text-brand);}
