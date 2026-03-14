@@ -14,6 +14,9 @@
   --SL-accentA: color-mix(in oklch, var(--SL-accentCol), transparent 70%);
   --SL-accentB: color-mix(in oklch, var(--SL-accentCol), transparent 85%);
   --SL-accentC: color-mix(in oklch, var(--SL-accentCol), black 25%);
+  --SL-accentA-light: color-mix(in oklch, var(--SL-accentCol-light), transparent 70%);
+  --SL-accentB-light: color-mix(in oklch, var(--SL-accentCol-light), transparent 85%);
+  --SL-accentC-light: color-mix(in oklch, var(--SL-accentCol-light), black 25%);
   --SL-mentionColBg: color-mix(in oklch, var(--SL-mentionCol), transparent 85%);
   --SL-grad: linear-gradient(45deg, var(--SL-gradCol1), var(--SL-gradCol2), var(--SL-gradCol1), var(--SL-gradCol2));
 }
