@@ -1,9 +1,9 @@
 // var isn't working??
-//@use '../var' as *;
+@use '../var' as *;
 
 ::selection {
-    background: var(--text-brand);
-    color: var(--background-dark-base) !important;
+    background: var($acc);
+    color: var($main) !important;
 }
 
 :root {

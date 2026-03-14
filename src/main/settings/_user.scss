@@ -1,22 +1,23 @@
 @use '../../var' as *;
 
 //toggles
-.switchIndicator_a28278 {background: var(--text-brand) !important;}
+.switchIndicator_a28278 {background: var($acc) !important;}
 
 
-//-------------------My Account-------------------//
+//----------------My Account----------------//
 // - - - - - - Profile Preview - - - - - - //
+//border
 .accountProfileCard__1fed1 {
 	background: none;
-	border: 2px solid var(--text-brand); //border
+	border: 2px solid var($acc);
 }
 
 //bg
-.background__1fed1 {background: var(--blurple-1);}
+.background__1fed1 {background: var($accA);}
 .fieldList__1fed1 {background: none;}
 
 //Reveal
-.primary__7a01b {color: var(--text-brand);}
+.primary__7a01b {color: var($acc);}
 // - - - - - - - - - - - - - - - - - - - - //
 
 //remove buttons
@@ -24,7 +25,7 @@
 
 //2FA menu
 .footer__49fc1 {background: none;}
-//------------------------------------------------//
+//------------------------------------------//
 
 
 //-------------------------Content & Social-------------------------//
@@ -35,7 +36,7 @@
 .header__5cea9 {border-radius: var(--radius-sm) var(--radius-sm) 0 0;}
 
 //icons
-.iconContainer__5cea9 > svg > path {fill: var(--text-brand);}
+.iconContainer__5cea9 > svg > path {fill: var($acc);}
 //------------------------------------------------------------------//
 
 
@@ -43,7 +44,7 @@
 .box_f8c98c, .row__0624f {
 	border: none;
 	box-shadow: none;
-	background: var(--blurple-1);
+	background: var($accA);
 }
 .iconContainer__0624f {border: none;}
 //---------------------------------//
@@ -55,13 +56,13 @@
 
 .appAvatarV2__50a54 {border: none;}
 
-.actionMenuButton_12cd0 {background: var(--blurple-1);}
+.actionMenuButton_12cd0 {background: var($accA);}
 //-----------------------------------------------//
 
 
-//----------------------Devices----------------------//
-.sessionIcon__803f2 {background: var(--text-default);}
-//---------------------------------------------------//
+//-----------------Devices-----------------//
+.sessionIcon__803f2 {background: var($txt);}
+//-----------------------------------------//
 
 
 //------------------------Connections------------------------//
@@ -71,6 +72,6 @@
 
 //----------------Notifications----------------//
 .baseControlItem_dbfbe0:hover.clickable_dbfbe0 {
-	background: var(--blurple-1);
+	background: var($accA);
 }
 //---------------------------------------------//

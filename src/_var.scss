@@ -1,49 +1,27 @@
-$main: --SL-mainCol;
+$main: --background-dark-base;
 $sec: --SL-secCol;
-$msgBar: --SL-msgBar;
+$msgBar: --chat-background-default;
 
-$acc: --SL-accentCol;
-$accB: --SL-accentB;
-$accA: --SL-accentA;
-$accC: --SL-accentC;
+$acc: --text-brand;
+$accA: --blurple-1;
+$accB: --primary-600-hsl;
+$accC: --accC;
 
 $grad: --SL-grad;
 $grad1: --SL-gradCol1;
 $grad2: --SL-gradCol2;
 
 $blur: --SL-blur;
-$opa: --SL-opa;
 
-$mention: --SL-mentionCol;
-$mentionBg: --SL-mentionColBg;
+$ping: --mention-foreground;
+$pingBg: --mention-background;
 
 $spoiler: --SL-spoiler;
 
-$profile: --SL-profileCol;
+$profile: --profile;
 
-$txt: --SL-txtCol;
-$link: --SL-linkCol;
+$txt: --text-default;
+$link: --text-link;
 $code: --SL-code;
 
-$icon: --SL-icon;
-
 $vidBg: --SL-vidBg;
-
-$mainL: --SL-mainCol-light;
-$secL: --SL-secCol-light;
-$msgBarL: --SL-msgBar-light;
-
-$accL: --SL-accentCol-light;
-$accBl: --SL-accentB-light;
-$accAl: --SL-accentA-light;
-$accCl: --SL-accentC-light;
-
-$profileL: --SL-profileCol-light;
-
-$mentionL: --SL-mentionCol-light;
-$mentionBgL: --SL-mentionColBg-light;
-
-$txtL: --SL-txtCol-light;
-$linkL: --SL-linkCol-light;
-
-$iconL: --SL-icon-light;

@@ -113,7 +113,7 @@
 
 .container_ab8609,
 .container_ab8609:hover {
-  --custom-status-bubble-background: var(--accC);
+  --custom-status-bubble-background: var($accC);
 }
 
 .platformIconContainer__9bfb9 {
@@ -131,12 +131,12 @@
 }
 
 .editor_a99829 > div > .placeholder__1b31f {
-  color: var(--SL-txtCol);
+  color: var(--text-default);
 }
 
 .container__62dd3 {
   border: none;
-  background: var(--accB);
+  background: var(--primary-600-hsl);
 }
 
 .gameSearchCombobox__36be8 {
@@ -146,7 +146,7 @@
 
 .container__37e49 {
   border: none;
-  background: var(--SL-accentA);
+  background: var(--blurple-1);
   backdrop-filter: blur(var(--SL-blur));
 }
 
@@ -168,7 +168,7 @@
 }
 
 .showMoreButton__84832 {
-  background: var(--SL-accentB);
+  background: var(--primary-600-hsl);
 }
 
 .panel__5dec7 {
@@ -183,7 +183,7 @@
 }
 
 .searchBar_c322aa {
-  background: var(--background-base-dark);
+  background: var(--background-dark-base);
 }
 
 .container__16eb0 {
@@ -219,13 +219,13 @@
 
 .container_dca174, .spinnerContainer_d3846c {
   border: none;
-  background: var(--SL-accentA);
+  background: var(--blurple-1);
   backdrop-filter: blur(var(--SL-blur));
 }
 
 .members__6e500 div,
 .established__6e500 div {
-  color: var(--SL-txtCol) !important;
+  color: var(--text-default) !important;
 }
 
 div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.bar_c38106.theme-dark.theme-darker.images-dark {
@@ -318,7 +318,7 @@ thanks to someone for the idea
 i saw it somewhere on dc but i cant find it anymore*/
 .channelTextArea__74017:not(.highlighted__74017):hover {
   border: none;
-  box-shadow: 0px 0px 3px color-mix(in oklch, var(--border-normal) 90%, transparent), 0px 0px 5px color-mix(in oklch, var(--border-normal) 80%, transparent);
+  box-shadow: 0px 0px 3px color-mix(in oklch, var(--text-brand) 90%, transparent), 0px 0px 5px color-mix(in oklch, var(--text-brand) 80%, transparent);
 }
 
 .chatGradient__36d07 {
@@ -353,7 +353,7 @@ i saw it somewhere on dc but i cant find it anymore*/
 }
 
 .createThreadButton__841c8 {
-  color: var(--SL-accentCol) !important;
+  color: var(--text-brand) !important;
 }
 
 .autocomplete__13533 {
@@ -427,7 +427,7 @@ div[data-popout-animating=false] > #emoji-picker-tab-panel {
 .spoilerContent__299eb.hidden__299eb {
   background: var(--blurple-1);
   --__current--spoiler-content-opacity: 1;
-  --__current--spoiler-text-color: var(--text-default);
+  --__current--spoiler-text-color: var($txt);
 }
 
 .spoilerMarkdownContent__299eb.hidden__299eb {
@@ -443,7 +443,7 @@ div[data-popout-animating=false] > #emoji-picker-tab-panel {
 }
 
 .container_d9c882 {
-  background: var(--SL-accentA);
+  background: var(--blurple-1);
   backdrop-filter: blur(var(--SL-blur));
 }
 
@@ -453,11 +453,11 @@ div[data-popout-animating=false] > #emoji-picker-tab-panel {
 }
 
 .container__6764b:hover {
-  background: var(--SL-accentB);
+  background: var(--primary-600-hsl);
 }
 
 .closeIcon_d9c882, .threadIcon_d9c882 {
-  color: var(--SL-icon);
+  color: var(--text-default);
 }
 
 .wrapper__72c38 {
@@ -506,7 +506,7 @@ div[data-popout-animating=false] > #emoji-picker-tab-panel {
 
 .wrapper__2ea32:hover .link__2ea32 {
   transition: 0.3s;
-  background: var(--accB);
+  background: var(--primary-600-hsl);
 }
 
 .modeUnreadImportant__2ea32 .name__2ea32, .modeUnreadImportant__2ea32:hover .name__2ea32,
@@ -569,7 +569,7 @@ div[data-popout-animating=false] > #emoji-picker-tab-panel {
 }
 
 .iconContainer__0ecc4 > foreignObject {
-  background: var(--accB);
+  background: var(--primary-600-hsl);
 }
 
 .notDetected_cc46f0 {
@@ -590,7 +590,7 @@ div[data-popout-animating=false] > #emoji-picker-tab-panel {
 }
 
 .voiceWidgetContainer__9d98d {
-  background: var(--accB);
+  background: var(--primary-600-hsl);
   border-color: var(--blurple-1);
 }
 
@@ -626,17 +626,17 @@ div[data-popout-animating=false] > #emoji-picker-tab-panel {
 .bd-addon-list .bd-addon-header,
 .bd-store-card, .bd-store-card-icon {
   border: none;
-  color: var(--SL-txtCol);
-  background: var(--SL-accentB);
+  color: var(--text-default);
+  background: var(--primary-600-hsl);
 }
 
 .bd-button-filled.bd-button-color-brand,
 .bd-button-filled.bd-button-color-brand:hover {
-  background: var(--SL-accentCol);
+  background: var(--text-brand);
 }
 
 .bd-modal-root {
-  background: var(--SL-accentA);
+  background: var(--blurple-1);
   backdrop-filter: blur(var(--SL-blur));
 }
 
@@ -646,16 +646,16 @@ div[data-popout-animating=false] > #emoji-picker-tab-panel {
 
 .checked__3f21e,
 .checked__3f21e > svg > svg > path {
-  background: var(--SL-accentCol) !important;
-  fill: var(--SL-accentCol);
+  background: var(--text-brand) !important;
+  fill: var(--text-brand);
 }
 
 .bd-addon-store-card {
-  background: var(--SL-accentB) !important;
+  background: var(--primary-600-hsl) !important;
 }
 
 .bd-addon-store-card-author-mask {
-  background: var(--SL-accentC) !important;
+  background: var(--accC) !important;
 }
 
 .perkCard_b62c4e {
@@ -663,11 +663,11 @@ div[data-popout-animating=false] > #emoji-picker-tab-panel {
 }
 
 .innerWrapperBase__553fd {
-  background: var(--blurple-1);
+  background: var(--text-brand);
 }
 
 .side_aa8da2 .themed_aa8da2.item_aa8da2:hover:not(.disabled_aa8da2) {
-  background: var(--accB);
+  background: var(--primary-600-hsl);
 }
 
 .selectDropdown__0edde {
@@ -695,7 +695,7 @@ div[data-popout-animating=false] > #emoji-picker-tab-panel {
 
 .item_caf372.active_caf372,
 .item_caf372:hover {
-  background: var(--accB);
+  background: var(--primary-600-hsl);
   color: var(--text-brand) !important;
 }
 
@@ -791,7 +791,7 @@ div[data-popout-animating=false] > #emoji-picker-tab-panel {
 }
 
 .vc-settings-quickActions-pill:hover {
-  background: var(--accB);
+  background: var(--primary-600-hsl);
 }
 
 .vc-btn-primary {
@@ -805,13 +805,13 @@ div[data-popout-animating=false] > #emoji-picker-tab-panel {
 
 .popout_a16aea {
   border: none;
-  background: var(--accB);
+  background: var(--primary-600-hsl);
   backdrop-filter: blur(var(--SL-blur));
 }
 
 .vc-addon-card {
   border: none;
-  background: var(--accB);
+  background: var(--primary-600-hsl);
 }
 
 .vc-settings-modal-link-icon {
@@ -851,7 +851,6 @@ div[data-popout-animating=false] > #emoji-picker-tab-panel {
   --background-surface-highest: var(--SL-accentA);
   --interactive-background-selected: var(--SL-accentA);
   --control-overlay-secondary-background-default: var(--SL-accentA);
-  --accB: var(--SL-accentB);
   --primary-600-hsl: var(--SL-accentB);
   --background-mod-muted: var(--SL-accentB);
   --background-mod-subtle: var(--SL-accentB);
@@ -908,7 +907,6 @@ div[data-popout-animating=false] > #emoji-picker-tab-panel {
   --interactive-background-selected: var(--SL-accentA-light);
   --gradient-progress-pill-background: var(--SL-accentA-light);
   --control-overlay-secondary-background-default: var(--SL-accentA-light);
-  --accB: var(--SL-accentB-light);
   --primary-600-hsl: var(--SL-accentB-light);
   --background-mod-muted: var(--SL-accentB-light);
   --background-mod-subtle: var(--SL-accentB-light);
@@ -943,7 +941,7 @@ div[data-popout-animating=false] > #emoji-picker-tab-panel {
 }
 
 #floating-editor-window {
-  background: var(--SL-accentA);
+  background: var(--blurple-1);
   backdrop-filter: blur(var(--SL-blur));
 }
 
@@ -953,19 +951,19 @@ div[data-popout-animating=false] > #emoji-picker-tab-panel {
 
 .monaco-editor .suggest-details,
 .monaco-editor .suggest-widget {
-  background: var(--SL-accentC);
+  background: var(--accC);
 }
 
 .monaco-list.list_id_2 .monaco-list-row.focused {
-  background: var(--SL-accentCol) !important;
+  background: var(--text-brand) !important;
 }
 
 .monaco-list.list_id_2:not(.drop-target):not(.dragging) .monaco-list-row:hover:not(.selected):not(.focused) {
-  background: var(--SL-accentA) !important;
+  background: var(--blurple-1) !important;
 }
 
 .bd-button.bd-button-icon svg {
-  color: var(--SL-icon);
+  color: var(--text-default);
 }
 
 /*# sourceMappingURL=import.css.map */

@@ -2,20 +2,20 @@
 
 //-----------------------------txt-----------------------------//
 .spoilerContent__299eb.hidden__299eb {
-    background: var(--blurple-1);
+    background: var($accA);
     
     --__current--spoiler-content-opacity: 1;
-    --__current--spoiler-text-color: var(--text-default);
+    --__current--spoiler-text-color: var($txt);
 }
 
 .spoilerMarkdownContent__299eb.hidden__299eb {filter: blur(3px);}
 //-------------------------------------------------------------//
 
 
-//--------------------------------------------img--------------------------------------------//
+//----------------------------------------img----------------------------------------//
 //blur
 .obscured__6c706.hiddenMosaicItem__6c706.hiddenSpoiler__6c706 {filter: blur($spoiler);}
 
 //edge col
-.spoilerContainer__299eb {background-color: var(--text-brand);}
-//-------------------------------------------------------------------------------------------//
+.spoilerContainer__299eb {background-color: var($acc);}
+//-----------------------------------------------------------------------------------//

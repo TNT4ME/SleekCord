@@ -1,14 +1,14 @@
 @use '../var' as *;
 
 //------------Search Bar------------//
-.searchBar_c322aa {background: var(--background-base-dark);}
+.searchBar_c322aa {background: var($main);}
 .container__16eb0 {
 	border: none;
 	backdrop-filter: blur(var($blur));
 }
 .searchToken_bd8186 {
 	border: none;
-	background: var(--accC);
+	background: var($accC);
 }
 .item__971b5 {
 	mask-image: none;
@@ -16,8 +16,8 @@
 }
 //----------------------------------//
 
-.button_a22cb0:hover {background: var(--text-brand);}
+.button_a22cb0:hover {background: var($acc);}
 
 .searchResult__80bf8 {border: none;}
-.button__80bf8 {background: var(--accC);}
-.button__80bf8:hover {background: var(--text-brand);}
+.button__80bf8 {background: var($accC);}
+.button__80bf8:hover {background: var($acc);}

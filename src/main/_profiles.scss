@@ -20,7 +20,7 @@
 //status
 .container_ab8609,
 .container_ab8609:hover {
-	--custom-status-bubble-background: var(--accC);
+	--custom-status-bubble-background: var($accC);
 }
 
 //add friend
@@ -33,7 +33,7 @@
 //connections
 .platformIconContainer__9bfb9 {
     border: none;
-    background: var(--blurple-1);
+    background: var($accA);
 }
 
 //------------Fixes bug in 'More > Invite to Server'------------//
@@ -56,7 +56,7 @@
 //--------------Widgets--------------//
 .container__62dd3 {
 	border: none;
-	background: var(--accB);
+	background: var($accB);
 }
 
 //add menu

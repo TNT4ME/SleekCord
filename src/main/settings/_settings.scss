@@ -2,41 +2,41 @@
 
 .selectDropdown__0edde {
 	border: none;
-	background: var(--accC);
+	background: var($accC);
 }
 
 //main bg
 .container__8a031 {
 	border: none;
-	background: var(--blurple-1);
+	background: var($accA);
 	backdrop-filter: blur(var($blur));
 }
 
-//----------------------------left----------------------------//
+//--------------------------left--------------------------//
 //ugly grad below search
 .fixedContent__409aa:after{content: none;}
 
 //section lines
-.section__409aa {border-bottom: 2px solid var(--text-brand);}
+.section__409aa {border-bottom: 2px solid var($acc);}
 
 //txt
-.label__409aa, .item_caf372 {color: var(--text-default) !important;}
+.label__409aa, .item_caf372 {color: var($txt) !important;}
 
 //sel/hov
 .item_caf372.active_caf372,
 .item_caf372:hover {
-	background: var(--accB);
-	color: var(--text-brand) !important;
+	background: var($accB);
+	color: var($acc) !important;
 }
-//------------------------------------------------------------//
+//--------------------------------------------------------//
 
-//------------------right------------------//
+//--------------right--------------//
 .content_e9e3ed { //bg
 	background: none;
-	border-left: 2px solid var(--text-brand);
+	border-left: 2px solid var($acc);
 }
 .contentHeader_e9e3ed { //top
 	border: none;
 	background: none;
 }
-//-----------------------------------------//
+//---------------------------------//

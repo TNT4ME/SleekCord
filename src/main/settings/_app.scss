@@ -1,8 +1,8 @@
 @use '../../var' as *;
 
-//-----------------------Appearance-----------------------//
+//----------------------Appearance----------------------//
 .cardPrimary__73069, .cardPrimary__73069.editable__73069 {
-    background: var(--background-dark-base);
+    background: var($main);
 }
 .defaultThemeSelection__36dee,
 .appIconSelection__8a3d7 {
@@ -10,9 +10,9 @@
 }
 
 .container_a1d343, .colorThemesBackground_fbfab6 {
-    background: var(--blurple-1);
+    background: var($accA);
 }
-//--------------------------------------------------------//
+//------------------------------------------------------//
 
 
 //------------------Accessibility------------------//

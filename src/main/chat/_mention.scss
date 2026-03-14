@@ -1,7 +1,7 @@
 @use '../../var' as *;
 
 //@User #Channel
-.interactive:hover {color: var(--background-dark-base);}
+.interactive:hover {color: var($main);}
 
 //reply bg
-.mentioned__5126c::before {background: var(--mention-foreground);}
+.mentioned__5126c::before {background: var($ping);}

@@ -1,6 +1,6 @@
 @use '../../var' as *;
 
-//-------------------------------------bg-------------------------------------//
+//-----------------------------------bg-----------------------------------//
 .channelTextArea__74017:not(.highlighted__74017) {border: none;} //msg bar
 
 /*Cool glow border
@@ -8,10 +8,10 @@ thanks to someone for the idea
 i saw it somewhere on dc but i cant find it anymore*/
 .channelTextArea__74017:not(.highlighted__74017):hover {
     border: none;
-    box-shadow: 0px 0px 3px color-mix(in oklch, var(--border-normal) 90%, transparent),
-    0px 0px 5px color-mix(in oklch, var(--border-normal) 80%, transparent);
+    box-shadow: 0px 0px 3px color-mix(in oklch, var($acc) 90%, transparent),
+    0px 0px 5px color-mix(in oklch, var($acc) 80%, transparent);
 }
-//----------------------------------------------------------------------------//
+//------------------------------------------------------------------------//
 
 //useless gradient bar
 .chatGradient__36d07 {background: none;}
@@ -28,7 +28,7 @@ i saw it somewhere on dc but i cant find it anymore*/
 .stackedBars__74017:not(:last-child) {border: none;}
 
 //ping on/off
-.mentionButton__841c8 {color: var(--text-brand) !important;}
+.mentionButton__841c8 {color: var($acc) !important;}
 //-----------------------------------------------------------------------------//
 
 
@@ -71,7 +71,7 @@ div[data-popout-animating=false] > #emoji-picker-tab-panel {
 
 .standardStickerShortcut__3ad28, .unicodeShortcut_b9ee0c {
     border: none;
-    color: var(--text-default);
+    color: var($txt);
 }
 
 //hov

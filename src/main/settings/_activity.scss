@@ -3,21 +3,21 @@
 //------------Activity Privacy------------//
 .headerContainer__7db08 {background: none;}
 .iconContainer__0ecc4 > foreignObject {
-    background: var(--accB);
+    background: var($accB);
 }
 //----------------------------------------//
 
 
-//---------------Registered Games---------------//
-.notDetected_cc46f0 {background: var(--blurple-1)}
-//----------------------------------------------//
+//------------Registered Games------------//
+.notDetected_cc46f0 {background: var($accA)}
+//----------------------------------------//
 
 
 //-----------------Game Overlay-----------------//
 .collapseable__9d98d, .collapseable__217b7:active,
 .collapseable__217b7.toggled__217b7:active {
     border: none;
-    background: var(--blurple-1);
+    background: var($accA);
 }
 .groupContainer__9d98d,
 .groupCollapsedContainer__9d98d,
@@ -27,12 +27,12 @@
 }
 
 .voiceWidgetContainer__9d98d {
-    background: var(--accB);
-    border-color: var(--blurple-1);
+    background: var($accB);
+    border-color: var($accA);
 }
 .username_adebba, .bgShade__6d791 {
     border: none;
     box-shadow: none;
-    background: var(--blurple-1);
+    background: var($accA);
 }
 //----------------------------------------------//
