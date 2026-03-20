@@ -1,23 +1,20 @@
 @use '../var' as *;
 
-//-------bg-------//
-.container__37e49 {
+//-----------------------bg-----------------------//
+.panels__5e434 {
     border: none;
     background: var($accA);
     backdrop-filter: blur(var($blur));
 }
 
-.panels__5e434  {
-    border: none;
-    background: none;
-}
-//----------------//
+.container__37e49, .container_e131a9 {border: none;}
+//------------------------------------------------//
 
 :where(._c0bea05627c5dc35-overlay) {background: none;}
 
-//---------stupid bar at bottom---------//
-.sidebar__5e434:after {background: none;}
-//--------------------------------------//
+//--------stupid bar at bottom--------//
+.sidebar__5e434:after {background: none}
+//------------------------------------//
 
 //-----------------activity panel-----------------//
 .activityPanel__5e434 {border: none;}

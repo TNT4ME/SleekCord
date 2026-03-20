@@ -142,15 +142,14 @@
   backdrop-filter: blur(var(--SL-blur));
 }
 
-.container__37e49 {
+.panels__5e434 {
   border: none;
   background: var(--blurple-1);
   backdrop-filter: blur(var(--SL-blur));
 }
 
-.panels__5e434 {
+.container__37e49, .container_e131a9 {
   border: none;
-  background: none;
 }
 
 :where(._c0bea05627c5dc35-overlay) {
