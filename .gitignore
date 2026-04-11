@@ -2,3 +2,4 @@
 site/tailwind.py
 *.DS_Store
 *.json
+*.log

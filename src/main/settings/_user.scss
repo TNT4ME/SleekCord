@@ -7,14 +7,14 @@
 //----------------My Account----------------//
 // - - - - - - Profile Preview - - - - - - //
 //border
-.accountProfileCard__1fed1 {
+.accountProfileCard__a272f8 {
 	background: none;
 	border: 2px solid var($acc);
 }
 
 //bg
-.background__1fed1 {background: var($accA);}
-.fieldList__1fed1 {background: none;}
+.background__a272f8 {background: var($accA);}
+.fieldList__a272f8, .badgeList_a272f8 {background: none;}
 
 //Reveal
 .primary__7a01b {color: var($acc);}
@@ -31,7 +31,7 @@
 //-------------------------Content & Social-------------------------//
 .card__5cea9 {
 	box-shadow: none;
-	background: var(--accB);
+	background: var($accB);
 }
 .header__5cea9 {border-radius: var(--radius-sm) var(--radius-sm) 0 0;}
 

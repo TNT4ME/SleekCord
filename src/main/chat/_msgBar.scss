@@ -63,6 +63,11 @@ div[data-popout-animating=false] > #emoji-picker-tab-panel {
     background: none;
 }
 
+//emoji picker in quick bar
+.fade_faf9c0.didRender_faf9c0 > .wrapper_c0e32c {
+    background: var($accA);
+}
+
 //hov
 .categoryFade_d02962:hover, .result__2dc39:hover {
     border: none;

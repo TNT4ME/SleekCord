@@ -2,7 +2,7 @@
 
 .outer_c0bea0 { //bg
     border: none;
-    background: var(--profile);
+    background: var($profile);
     backdrop-filter: blur(var($blur));
 }
 :where(.overlay_c0bea0) {
