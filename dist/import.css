@@ -425,6 +425,11 @@ div[data-popout-animating=false] > #emoji-picker-tab-panel {
   animation: grad 5s linear infinite;
 }
 
+.markup__75297 small:not(.inlineFormat__75297) {
+  color: color-mix(in oklab, var(--text-default), black 30%);
+  filter: grayscale(1);
+}
+
 .spoilerContent__299eb.hidden__299eb {
   background: var(--blurple-1);
   --__current--spoiler-content-opacity: 1;

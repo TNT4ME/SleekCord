@@ -1,0 +1,6 @@
+@use '../../var' as *;
+
+.markup__75297 small:not(.inlineFormat__75297) {
+    color: color-mix(in oklab, var($txt), black 30%);
+    filter: grayscale(1);
+}
