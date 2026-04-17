@@ -723,16 +723,16 @@ div[data-popout-animating=false] > #emoji-picker-tab-panel {
   background: var(--text-brand) !important;
 }
 
-.accountProfileCard__a27e58 {
+.accountProfileCard_a27e58 {
   background: none;
   border: 2px solid var(--text-brand);
 }
 
-.background__a27e58 {
+.background_a27e58 {
   background: var(--blurple-1);
 }
 
-.fieldList__a27e58, .badgeList_a27e58 {
+.fieldList_a27e58, .badgeList_a27e58 {
   background: none;
 }
 
