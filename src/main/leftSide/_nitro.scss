@@ -1,0 +1,8 @@
+@use '../../var' as *;
+
+//top
+.navBar__131a1 {
+  border: none;
+  backdrop-filter: blur(20px);
+  mask-image: linear-gradient(to top, transparent 0%, hsl(0 0% 0.75%) 75%, black 100%);
+}

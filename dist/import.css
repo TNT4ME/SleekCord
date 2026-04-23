@@ -546,6 +546,21 @@ div[data-popout-animating=false] > #emoji-picker-tab-panel {
   margin-bottom: none;
 }
 
+.navBar__131a1 {
+  border: none;
+  backdrop-filter: blur(20px);
+  mask-image: linear-gradient(to top, transparent 0%, hsl(0, 0%, 0.75%) 75%, black 100%);
+}
+
+.popout__9047f {
+  border: none;
+  backdrop-filter: blur(var(--SL-blur));
+}
+
+.contentWrapper__0829a {
+  border: none;
+}
+
 .visual-refresh .wrapper_ef3116 {
   margin-bottom: unset;
 }
@@ -848,6 +863,7 @@ div[data-popout-animating=false] > #emoji-picker-tab-panel {
   --control-primary-background-hover: var(--SL-accentCol);
   --control-primary-background-default: var(--SL-accentCol);
   --control-secondary-background-hover: var(--SL-accentCol);
+  --control-overlay-secondary-background-hover: var(--SL-accentCol);
   --profile: var(--SL-profileCol);
   --blurple-1: var(--SL-accentA);
   --modal-background: var(--SL-accentA);
@@ -902,6 +918,7 @@ div[data-popout-animating=false] > #emoji-picker-tab-panel {
   --control-primary-background-hover: var(--SL-accentCol-light);
   --control-primary-background-default: var(--SL-accentCol-light);
   --control-secondary-background-hover: var(--SL-accentCol-light);
+  --control-overlay-secondary-background-hover: var(--SL-accentCol-light);
   --profile: var(--SL-profileCol-light);
   --blurple-1: var(--SL-accentA-light);
   --primary-400: var(--SL-accentCol-light);
