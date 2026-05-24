@@ -92,6 +92,10 @@
   backdrop-filter: none;
 }
 
+.vc-notification-root {
+  backdrop-filter: blur(var(--SL-blur));
+}
+
 .outer_c0bea0 {
   border: none;
   background: var(--profile);
@@ -294,7 +298,7 @@ div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.b
   backdrop-filter: blur(var(--SL-blur));
 }
 
-.reactionTooltip_b49891 {
+.reactionTooltip_bbcccb {
   backdrop-filter: blur(var(--SL-blur));
 }
 
