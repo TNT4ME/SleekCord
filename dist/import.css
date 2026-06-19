@@ -19,6 +19,76 @@
   --SL-grad: linear-gradient(45deg, var(--SL-gradCol1), var(--SL-gradCol2), var(--SL-gradCol1), var(--SL-gradCol2));
 }
 
+body {
+  background: color-mix(in oklch, var(--background-dark-base) var(--SL-opacity), transparent);
+}
+
+.appMount__51fd7,
+.app__160d8,
+.bg__960e4, .theme-light, .theme-dark, .theme-midnight, .images-light, .images-dark,
+.container__2637a,
+.privateChannels_e6b769,
+.scroller__99e7c,
+.container__133bf,
+.tabBody__133bf,
+.chat_f75fb0,
+.theme-dark .themed__9293f,
+.theme-light .themed__9293f,
+.chatContent_f75fb0,
+.searchResultsWrap_a98f3b,
+.searchResult__80bf8,
+.channelTextArea_f75fb0,
+.searchBar_c322aa,
+.wrapper_d852db,
+.wrapper_fc8177,
+.container_f369db,
+.chatTarget__01ae2,
+.container__34c2c,
+.divider_ee23ac,
+.applicationStore_f07d62,
+.homeWrapper__0920e,
+.containerBackground__02f2d,
+.shop__6db1d,
+.shopScroll__08415,
+.shop__08415,
+.scroller__23746,
+.layer__960e4,
+.standardSidebarView__23e6b,
+.sidebarRegionScroller__23e6b,
+.mainTableContainer_fa2640 {
+  background: none;
+}
+
+.themedBackground__74017 {
+  background: color-mix(in oklch, var(--chat-background-default) 60%, transparent);
+}
+
+.container__01ae2 {
+  backdrop-filter: blur(5px);
+  background: color-mix(in oklch, var(--background-dark-base) 50%, transparent);
+}
+
+.outer_c0bea0 {
+  background: var(--profile);
+}
+
+.modalContentInner_e44912 {
+  background: var(--blurple-1);
+}
+
+.sidebarList__5e434 {
+  backdrop-filter: none;
+}
+
+.chatTypingGradientAtBottom__36d07,
+.chatTypingGradientNotAtBottom__36d07 {
+  background: none !important;
+}
+
+.scrim__40128 {
+  background: color-mix(in oklch, var(--background-dark-base) 50%, transparent);
+}
+
 .actionButtons_cc1819, .button_aec7ab {
   border: none;
 }

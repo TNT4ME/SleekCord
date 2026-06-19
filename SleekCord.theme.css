@@ -19,11 +19,13 @@ LICENSE
 /*easter eggs*/
 @import url('https://tnt4me.github.io/SleekCord/dist/easterEggs.css');/**/
 
-/*PLugin support*/
+/*Plugin support*/
 @import url('https://tnt4me.github.io/SleekCord/dist/plugins/vencord/SpotifyControls.css');
 /*-------------*/
 
 :root {
+    --SL-opacity: 100%; /*Window transparency | Default value: 100%*/
+
     --SL-mainCol: #000; /*Main background color | Default value: #000*/
     --SL-secCol: #0c0c0c; /*Secondary background color | Default value: #0c0c0c*/
     --SL-accentCol: oklch(0.7073 0.1808 291.18); /*Secondary background color | Default value: oklch(0.7073 0.1808 291.18)*/
