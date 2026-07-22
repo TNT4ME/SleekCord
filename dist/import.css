@@ -19,6 +19,34 @@
   --SL-grad: linear-gradient(45deg, var(--SL-gradCol1), var(--SL-gradCol2), var(--SL-gradCol1), var(--SL-gradCol2));
 }
 
+:root {
+  --SL-opacity: 100%;
+  --SL-font: 'Nunito';
+  --SL-code: 'Jetbrains Mono', monospace;
+  --SL-mainCol: #000;
+  --SL-secCol: #0c0c0c;
+  --SL-accentCol: oklch(0.7073 0.1808 291.18);
+  --SL-gradCol1: var(--SL-accentA);
+  --SL-gradCol2: oklch(0.8909 0.2062 191.37 / 0.3);
+  --SL-blur: 15px;
+  --SL-spoiler: 20px;
+  --SL-profileCol: var(--SL-accentA);
+  --SL-mentionCol: var(--SL-accentCol);
+  --SL-txtCol: #eee;
+  --SL-linkCol: oklch(0.6836 0.1563 194.769);
+  --SL-icon: var(--SL-txtCol);
+  --SL-msgBar: color-mix(in oklch, var(--SL-mainCol), black 25%);
+  --SL-mainCol-light:#eff1f5;
+  --SL-secCol-light: #e3e3e3;
+  --SL-accentCol-light: #d20f39;
+  --SL-profileCol-light: var(--SL-accentA-light);
+  --SL-mentionCol-light: var(--SL-accentCol-light);
+  --SL-txtCol-light: #3b3d51;
+  --SL-linkCol-light: oklch(0.5671 0.1297 194.769);
+  --SL-icon-light: var(--SL-txtCol);
+  --SL-msgBar-light: color-mix(in oklch, var(--SL-mainCol-light), white 25%);
+}
+
 body {
   background: color-mix(in oklch, var(--background-dark-base) var(--SL-opacity), transparent);
 }
@@ -46,6 +74,10 @@ body {
 .chatTarget__01ae2,
 .container__34c2c,
 .divider_ee23ac,
+.container__8a031,
+.container__7641b,
+.member_c8ffbb,
+.custom-theme-background .tree_ef3116,
 .applicationStore_f07d62,
 .homeWrapper__0920e,
 .containerBackground__02f2d,
@@ -74,7 +106,7 @@ body {
 }
 
 .modalContentInner_e44912 {
-  background: var(--blurple-1);
+  background: color-mix(in oklch, var(--background-dark-base) 30%, transparent);
 }
 
 .sidebarList__5e434 {
@@ -88,6 +120,19 @@ body {
 
 .scrim__40128 {
   background: color-mix(in oklch, var(--background-dark-base) 50%, transparent);
+}
+
+.notice_c5cd6a {
+  background: var(--accC);
+}
+
+.button_c5cd6a:hover {
+  background: var(--text-brand);
+}
+
+.markup__75297 code {
+  background: var(--primary-600-hsl);
+  border-width: 1.5px;
 }
 
 .actionButtons_cc1819, .button_aec7ab {
@@ -158,7 +203,7 @@ body {
   backdrop-filter: blur(var(--SL-blur));
 }
 
-.focusLock__49fc1 > .root__49fc1 > div > .outer_c0bea0 {
+.focusLock__49fc1 > .root__49fc1 > .outer_c0bea0 {
   background: none;
   backdrop-filter: none;
 }
@@ -201,6 +246,10 @@ body {
   border-radius: 8px;
   position: absolute;
   backdrop-filter: blur(var(--SL-blur));
+}
+
+.submenu_c1e9c4::after {
+  inset: 0 8px 0 8px;
 }
 
 .editor_a99829 > div > .placeholder__1b31f {
@@ -351,12 +400,31 @@ div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.b
   background: none;
 }
 
+.interactive_f88cfd:focus-visible, .interactive_f88cfd:has(:focus-visible) {
+  background: var(--blurple-1);
+}
+
+.linkButton__972a0:hover .linkButtonIcon__972a0 {
+  color: var(--text-default);
+}
+
 .wrapper_a45028 {
   border: none;
 }
 
+.nowPlayingColumn__133bf {
+  background: none;
+}
+
 .scroller__7d20c, .wrapper__00943, .section__00943 {
   border: none;
+}
+
+.actionButton_f8fa06.highlight_f8fa06, .actionButton_f8fa06 {
+  background: var(--blurple-1);
+}
+.actionButton_f8fa06:hover {
+  background: var(--text-brand);
 }
 
 .wrapper_c19a5:hover {
@@ -391,6 +459,10 @@ i saw it somewhere on dc but i cant find it anymore*/
 .channelTextArea__74017:not(.highlighted__74017):hover {
   border: none;
   box-shadow: 0px 0px 3px color-mix(in oklch, var(--text-brand) 90%, transparent), 0px 0px 5px color-mix(in oklch, var(--text-brand) 80%, transparent);
+}
+
+.placeholder__1b31f {
+  color: var(--text-brand);
 }
 
 .chatGradient__36d07 {
@@ -585,6 +657,10 @@ div[data-popout-animating=false] > #emoji-picker-tab-panel {
   background: none;
 }
 
+.container__13cf1, .icon__29444 {
+  color: var(--text-default);
+}
+
 .wrapper__2ea32:hover .link__2ea32 {
   transition: 0.3s;
   background: var(--primary-600-hsl);
@@ -632,7 +708,7 @@ div[data-popout-animating=false] > #emoji-picker-tab-panel {
   backdrop-filter: blur(var(--SL-blur));
 }
 
-.contentWrapper__0829a {
+.contentWrapper__0829a, .container_cec934 {
   border: none;
 }
 
@@ -918,6 +994,22 @@ div[data-popout-animating=false] > #emoji-picker-tab-panel {
   border: none;
 }
 
+.vc-plugins-info-icon:not(:hover, :focus) {
+  color: var(--accC);
+}
+
+.vc-switch-container {
+  background: var(--accC);
+}
+
+.vc-switch-checked {
+  background: var(--text-brand);
+}
+
+.vc-switch-slider > svg path {
+  --primary-400: var($accC);
+}
+
 .theme-dark {
   --background-dark-base: var(--SL-mainCol);
   --background-base-lower: var(--SL-mainCol);
@@ -972,6 +1064,9 @@ div[data-popout-animating=false] > #emoji-picker-tab-panel {
   --interactive-text-default: var(--SL-txtCol);
   --control-primary-text-default: var(--SL-txtCol);
   --control-secondary-text-default: var(--SL-txtCol);
+}
+.theme-dark .colorDefault_c1e9c4 .label_c1e9c4 {
+  color: var(--SL-txtCol);
 }
 
 .theme-light {

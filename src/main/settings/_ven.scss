@@ -22,3 +22,9 @@
     background: var($accB);
 }
 .vc-settings-modal-link-icon {border: none;}
+.vc-plugins-info-icon:not(:hover, :focus) {color: var($accC);}
+
+//Switches
+.vc-switch-container {background: var($accC);}
+.vc-switch-checked {background: var($acc);}
+.vc-switch-slider > svg path {--primary-400: var($accC);}

@@ -45,7 +45,7 @@
     position: absolute;
     backdrop-filter: blur(var($blur));
 }
-//div.submenu_c1e9c4.menu_c1e9c4::after {inset: 0 2.5%;}
+.submenu_c1e9c4::after {inset: 0 8px 0 8px;}
 //--------------------------------------------------------------//
 
 //improves readability

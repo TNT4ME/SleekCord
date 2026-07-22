@@ -1,5 +1,4 @@
 .theme-dark #vc-spotify-player {
     border: none;
-    background: var(--SL-accentA);
-    backdrop-filter: blur(var(--SL-blur));
+    background: none;
 }

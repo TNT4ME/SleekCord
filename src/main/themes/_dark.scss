@@ -63,4 +63,7 @@
     --interactive-text-default: var(--SL-txtCol);
     --control-primary-text-default: var(--SL-txtCol);
     --control-secondary-text-default: var(--SL-txtCol);
+
+    //light theme profile fix
+    & .colorDefault_c1e9c4 .label_c1e9c4 {color: var(--SL-txtCol);}
 }

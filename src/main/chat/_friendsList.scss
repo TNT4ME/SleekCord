@@ -3,8 +3,24 @@
 //Find or start convo
 .searchBar_e6b769 {background: none;}
 
+//Below ^^
+.interactive_f88cfd {
+    &:focus-visible,
+    &:has(:focus-visible) {
+        background: var($accA);
+    }
+}
+.linkButton__972a0:hover .linkButtonIcon__972a0 {color: var($txt);}
+
 //Search Bar
 .wrapper_a45028 {border: none;}
 
 //Active Now
+.nowPlayingColumn__133bf {background: none;}
 .scroller__7d20c, .wrapper__00943, .section__00943 {border: none;}
+
+//Online
+.actionButton_f8fa06 {
+    &.highlight_f8fa06, & {background: var($accA);}
+    &:hover {background: var($acc);}
+}
