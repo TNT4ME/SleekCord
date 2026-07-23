@@ -6,10 +6,10 @@
     background: var($accA);
     border: none;
 
-    &:not([data-selected]):hover:not([data-disabled]) & {
+    .checkboxOption__714a9:not([data-selected]):hover:not([data-disabled]) & {
         background: var($acc);
     }
-    &[data-selected]:hover:not([data-disabled]) & {
+    .checkboxOption__714a9[data-selected]:hover:not([data-disabled]) & {
         background: var($acc);
         border: none;
     }
