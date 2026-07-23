@@ -439,7 +439,7 @@ div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.b
   background: var(--text-brand);
 }
 
-.destinationrow_ba7598:not(.disabled_ba7598):hover {
+.destinationRow_ba7598:not(.disabled_ba7598):hover {
   background: var(--blurple-1);
 }
 
