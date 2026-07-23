@@ -377,6 +377,18 @@ div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.b
   border: none;
 }
 
+.container__551b0 {
+  background: none;
+}
+
+.gradient_e9ef78 {
+  border-radius: 15px;
+}
+
+&.theme-dark .card__84e3e, &.theme-light .card__84e3e {
+  border: none;
+}
+
 .guildInviteContainer__083ae, .footerContent__083ae {
   background: none;
   border: none;
@@ -425,6 +437,22 @@ div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.b
 }
 .actionButton_f8fa06:hover {
   background: var(--text-brand);
+}
+
+.destinationrow_ba7598:not(.disabled_ba7598):hover {
+  background: var(--blurple-1);
+}
+
+.checkboxindicator__714a9 {
+  background: var(--blurple-1);
+  border: none;
+}
+.checkboxindicator__714a9:not([data-selected]):hover:not([data-disabled]) .checkboxindicator__714a9 {
+  background: var(--text-brand);
+}
+.checkboxindicator__714a9[data-selected]:hover:not([data-disabled]) .checkboxindicator__714a9 {
+  background: var(--text-brand);
+  border: none;
 }
 
 .wrapper_c19a5:hover {
@@ -556,6 +584,13 @@ div[data-popout-animating=false] > #emoji-picker-tab-panel {
 .header_e8b59c, .messageGroupWrapper_e8b59c {
   border: none;
   background: none;
+}
+
+.reaction__23977.reactionMe__23977 {
+  background: var(--primary-600-hsl);
+}
+.reaction__23977.reactionMe__23977 .reactionCount__23977 {
+  color: var(--text-brand);
 }
 
 @keyframes grad {
