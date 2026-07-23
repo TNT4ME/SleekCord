@@ -443,14 +443,14 @@ div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.b
   background: var(--blurple-1);
 }
 
-.checkboxindicator__714a9 {
+.checkboxIndicator__714a9 {
   background: var(--blurple-1);
   border: none;
 }
-.checkboxindicator__714a9:not([data-selected]):hover:not([data-disabled]) .checkboxindicator__714a9 {
+.checkboxIndicator__714a9:not([data-selected]):hover:not([data-disabled]) .checkboxIndicator__714a9 {
   background: var(--text-brand);
 }
-.checkboxindicator__714a9[data-selected]:hover:not([data-disabled]) .checkboxindicator__714a9 {
+.checkboxIndicator__714a9[data-selected]:hover:not([data-disabled]) .checkboxIndicator__714a9 {
   background: var(--text-brand);
   border: none;
 }
