@@ -36,6 +36,9 @@
   --SL-linkCol: oklch(0.6836 0.1563 194.769);
   --SL-icon: var(--SL-txtCol);
   --SL-msgBar: color-mix(in oklch, var(--SL-mainCol), black 25%);
+  --SL-backgroundImg: url('https://raw.githubusercontent.com/rose-pine/wallpapers/refs/heads/main/illustration/block-wave-moon.png');
+  --SL-imgBlur: 0px;
+  --SL-imgOpacity: 0%;
   --SL-mainCol-light:#eff1f5;
   --SL-secCol-light: #e3e3e3;
   --SL-accentCol-light: #d20f39;
@@ -135,6 +138,18 @@ body {
   border-width: 1.5px;
 }
 
+body::after {
+  content: "";
+  inset: 0;
+  position: absolute;
+  z-index: -1;
+  background-image: var(--SL-backgroundImg);
+  filter: blur(var(--SL-imgBlur));
+  opacity: var(--SL-imgOpacity);
+  background-size: contain;
+  background-position: center;
+}
+
 .actionButtons_cc1819, .button_aec7ab {
   border: none;
 }
@@ -205,6 +220,11 @@ body {
 
 .focusLock__49fc1 > .root__49fc1 > .outer_c0bea0 {
   background: none;
+  backdrop-filter: none;
+}
+
+.focusLock__49fc1 > .root__49fc1:has(.mediaArea_e03578) {
+  border: none;
   backdrop-filter: none;
 }
 
@@ -609,7 +629,7 @@ div[data-popout-animating=false] > #emoji-picker-tab-panel {
 
 .markup__75297 small:not(.inlineFormat__75297) {
   color: color-mix(in oklab, var(--text-default), black 30%);
-  filter: grayscale(1);
+  filter: saturate(0.25);
 }
 
 .spoilerContent__299eb.hidden__299eb {

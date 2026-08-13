@@ -2,7 +2,7 @@
  * @name Sleekcord
  * @author TNT4ME
  * @description A pitch black theme that's sleek and modern in every way.
- * @version 3.1
+ * @version 4
  * @invite G2YfSm3Md4
  * @authorId 790463558625918999
  * @source https://github.com/TNT4ME/SleekCord
@@ -41,6 +41,10 @@ LICENSE
 
     --SL-mentionCol: var(--SL-accentCol); /*Mention color | Default value: --SL-accentCol*/
 
+    /*Background Image | Default image: */
+    --SL-backgroundImg: url('https://raw.githubusercontent.com/rose-pine/wallpapers/refs/heads/main/illustration/block-wave-moon.png');
+    --SL-imgBlur: 0px; /*Background Image Blur | Default value: 0px*/ 
+    --SL-imgOpacity: 0%; /*Background Image Opacity | 0%*/
 
     --SL-txtCol: #eee; /*Text color | Default value: #eee*/
     --SL-font: 'Nunito'; /*Font | Default value: 'Nunito'*/

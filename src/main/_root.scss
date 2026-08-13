@@ -53,6 +53,9 @@
 
     --SL-msgBar: color-mix(in oklch, var(--SL-mainCol), black 25%);
 
+    --SL-backgroundImg: url('https://raw.githubusercontent.com/rose-pine/wallpapers/refs/heads/main/illustration/block-wave-moon.png');
+    --SL-imgBlur: 0px;
+    --SL-imgOpacity: 0%;
 
     --SL-mainCol-light:#eff1f5;
     --SL-secCol-light: #e3e3e3;
@@ -160,4 +163,19 @@ body {background: color-mix(in oklch, var($main) var($opa), transparent);}
 .markup__75297 code {
     background: var($accB);
     border-width: 1.5px;
+}
+
+//bg img
+body::after {
+    content: "";
+    inset: 0;
+    position: absolute;
+    z-index: -1;
+
+    background-image: var($bgImg);
+    filter: blur(var($bgBlur));
+    opacity: var($bgOpa);
+
+    background-size: contain;
+    background-position: center;
 }
