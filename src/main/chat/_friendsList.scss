@@ -15,6 +15,22 @@
 //Search Bar
 .wrapper_a45028 {border: none;}
 
+//Above ^^
+.tabBar__133bf .addFriend__133bf.addFriend__133bf.addFriend__133bf {
+    color: var($acc);
+    background: var($accA);
+
+    &[aria-selected=true] {
+        color: var($txt);
+        background: var($acc);
+    }
+}
+.addFriendInputWrapper__72ba7 {border: none;} //add friend user
+.container_a14595 { //explore servers
+    border: none;
+    background: var($accA);
+}
+
 //Active Now
 .nowPlayingColumn__133bf {background: none;}
 .scroller__7d20c, .wrapper__00943, .section__00943 {border: none;}

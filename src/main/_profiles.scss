@@ -38,7 +38,7 @@
 
 //------------Fixes bug in 'More > Invite to Server'------------//
 .menu_c1e9c4:after { // Thanks to @skamt._ for fixing this bug <3
-    inset: 0;
+    inset: 0 12px;
     z-index: -1;
     content: "";
     border-radius: 8px;

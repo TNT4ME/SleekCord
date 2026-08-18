@@ -260,7 +260,7 @@ body::after {
 }
 
 .menu_c1e9c4:after {
-  inset: 0;
+  inset: 0 12px;
   z-index: -1;
   content: "";
   border-radius: 8px;
@@ -444,6 +444,24 @@ div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.b
   border: none;
 }
 
+.tabBar__133bf .addFriend__133bf.addFriend__133bf.addFriend__133bf {
+  color: var(--text-brand);
+  background: var(--blurple-1);
+}
+.tabBar__133bf .addFriend__133bf.addFriend__133bf.addFriend__133bf[aria-selected=true] {
+  color: var(--text-default);
+  background: var(--text-brand);
+}
+
+.addFriendInputWrapper__72ba7 {
+  border: none;
+}
+
+.container_a14595 {
+  border: none;
+  background: var(--blurple-1);
+}
+
 .nowPlayingColumn__133bf {
   background: none;
 }
@@ -459,6 +477,7 @@ div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.b
   background: var(--text-brand);
 }
 
+.destinationRow_ba7598.pressable_ba7598:not(.disabled_ba7598):hover,
 .destinationRow_ba7598:not(.disabled_ba7598):hover {
   background: var(--blurple-1);
 }
@@ -744,7 +763,7 @@ div[data-popout-animating=false] > #emoji-picker-tab-panel {
   backdrop-filter: blur(var(--SL-blur));
 }
 
-.content_f75fb0 .outer_c0bea0, .footerButton__272c7 {
+.content_f75fb0 .outer_c0bea0, .footerButton__272c7, .aside_f58343 {
   background: none;
 }
 
