@@ -260,12 +260,16 @@ body::after {
 }
 
 .menu_c1e9c4:after {
-  inset: 0 12px;
+  inset: 0;
   z-index: -1;
   content: "";
   border-radius: 8px;
   position: absolute;
   backdrop-filter: blur(var(--SL-blur));
+}
+
+.fixed_c1e9c4:not(#devtools-popout)::after {
+  inset: 0 12px;
 }
 
 .submenu_c1e9c4::after {
