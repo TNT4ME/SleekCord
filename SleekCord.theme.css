@@ -2,7 +2,7 @@
  * @name Sleekcord
  * @author TNT4ME
  * @description A pitch black theme that's sleek and modern in every way.
- * @version 4.1.1
+ * @version 4.2
  * @invite G2YfSm3Md4
  * @authorId 790463558625918999
  * @source https://github.com/TNT4ME/SleekCord
@@ -22,6 +22,16 @@ LICENSE
 /*Plugin support*/
 @import url('https://tnt4me.github.io/SleekCord/dist/plugins/vencord/SpotifyControls.css');
 /*-------------*/
+
+/*
+Note for MacOS (Vencord)
+
+To enable background transparency in MacOS, go to 'Settings > Vencord > Window Vibrancy Style' and set it to one of the following:
+
+- Selection - Transparency even when unfocused but has no blur
+- HUD - No transparency when unfocused but has blur
+- Titlebar - Same as HUD but has a darker tint
+*/
 
 :root {
     --SL-opacity: 100%; /*Window transparency | Default value: 100%*/

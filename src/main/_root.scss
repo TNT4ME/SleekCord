@@ -11,7 +11,7 @@
     --font-code: var(--SL-code);
 
     --background-modifier-hover: none;
-    
+
     --SL-accentA: color-mix(in oklab, var(--SL-accentCol), transparent 70%);
     --SL-accentB: color-mix(in oklab, var(--SL-accentCol), transparent 85%);
     --SL-accentC: color-mix(in oklab, var(--SL-accentCol), black 25%);
@@ -122,7 +122,9 @@ body {background: color-mix(in oklab, var($main) var($opa), transparent);}
 .layer__960e4,
 .standardSidebarView__23e6b,
 .sidebarRegionScroller__23e6b,
-.mainTableContainer_fa2640 {
+.mainTableContainer_fa2640,
+
+.scroller_f35c3c {
     background: none;
 }
 

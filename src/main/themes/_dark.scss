@@ -1,7 +1,7 @@
 //var not working here either
 //@use '../../var' as *;
 
-.theme-dark {
+.theme-dark, .theme-darker, .theme-midnight {
     --background-dark-base: var(--SL-mainCol);
     --background-base-lower: var(--SL-mainCol);
     --background-base-lowest: var(--SL-mainCol);

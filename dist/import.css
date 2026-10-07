@@ -91,7 +91,8 @@ body {
 .layer__960e4,
 .standardSidebarView__23e6b,
 .sidebarRegionScroller__23e6b,
-.mainTableContainer_fa2640 {
+.mainTableContainer_fa2640,
+.scroller_f35c3c {
   background: none;
 }
 
@@ -1088,7 +1089,7 @@ div[data-popout-animating=false] > #emoji-picker-tab-panel {
   --primary-400: var($accC);
 }
 
-.theme-dark {
+.theme-dark, .theme-darker, .theme-midnight {
   --background-dark-base: var(--SL-mainCol);
   --background-base-lower: var(--SL-mainCol);
   --background-base-lowest: var(--SL-mainCol);
@@ -1143,7 +1144,7 @@ div[data-popout-animating=false] > #emoji-picker-tab-panel {
   --control-primary-text-default: var(--SL-txtCol);
   --control-secondary-text-default: var(--SL-txtCol);
 }
-.theme-dark .colorDefault_c1e9c4 .label_c1e9c4 {
+.theme-dark .colorDefault_c1e9c4 .label_c1e9c4, .theme-darker .colorDefault_c1e9c4 .label_c1e9c4, .theme-midnight .colorDefault_c1e9c4 .label_c1e9c4 {
   color: var(--SL-txtCol);
 }
 
