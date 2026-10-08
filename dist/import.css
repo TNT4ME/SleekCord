@@ -126,6 +126,10 @@ body {
   background: color-mix(in oklab, var(--background-dark-base) 50%, transparent);
 }
 
+.theme-light .page__5e434, .theme-dark .page__5e434, .theme-darker .page__5e434, .theme-midnight .page__5e434 {
+  border: none;
+}
+
 .notice_c5cd6a {
   background: var(--accC);
 }
@@ -433,8 +437,13 @@ div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.b
   backdrop-filter: blur(var(--SL-blur));
 }
 
+.container__133bf {
+  border: none;
+}
+
 .searchBar_e6b769 {
   background: none;
+  border: none;
 }
 
 .interactive_f88cfd:focus-visible, .interactive_f88cfd:has(:focus-visible) {
@@ -480,6 +489,10 @@ div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.b
 }
 .actionButton_f8fa06:hover {
   background: var(--text-brand);
+}
+
+.header__94b08 {
+  border: none;
 }
 
 .destinationRow_ba7598.pressable_ba7598:not(.disabled_ba7598):hover,
@@ -700,6 +713,10 @@ div[data-popout-animating=false] > #emoji-picker-tab-panel {
   border: none;
 }
 
+.theme-dark .container__9293f, .theme-darker .container__9293f, .theme-midnight .container__9293f {
+  border: none;
+}
+
 .theme-dark .children__9293f:after {
   background: none;
 }
@@ -726,6 +743,10 @@ div[data-popout-animating=false] > #emoji-picker-tab-panel {
   white-space: pre-wrap;
   font-family: var(--SL-code);
   content: "By TNT4ME ඞ :D\a 1234567\aI <3 Teto 0401\a cool mc shader\ahttps://modrin\ath.com/shader/\apaintbound\aJamie Paige ma\akes cool music\a Cadmium Colors";
+}
+
+.header_f37cb1 {
+  border: none;
 }
 
 .visual-refresh .sidebarList__5e434 {

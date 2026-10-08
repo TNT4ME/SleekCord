@@ -157,6 +157,12 @@ body {background: color-mix(in oklab, var($main) var($opa), transparent);}
     background: color-mix(in oklab, var($main) 50%, transparent);
 }
 
+.page__5e434 {
+    .theme-light &, .theme-dark &, .theme-darker &, .theme-midnight & {
+        border: none;
+    }
+}
+
 //Server join preview
 .notice_c5cd6a {background: var($accC);}
 .button_c5cd6a:hover {background: var($acc);}

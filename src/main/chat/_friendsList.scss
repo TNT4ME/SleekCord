@@ -1,7 +1,12 @@
 @use '../../var' as *;
 
+.container__133bf {border: none;}
+
 //Find or start convo
-.searchBar_e6b769 {background: none;}
+.searchBar_e6b769 {
+    background: none;
+    border: none;
+}
 
 //Below ^^
 .interactive_f88cfd {
@@ -40,3 +45,6 @@
     &.highlight_f8fa06, & {background: var($accA);}
     &:hover {background: var($acc);}
 }
+
+//in add friend button
+.header__94b08 {border: none;}
