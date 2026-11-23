@@ -1,3 +1,6 @@
+> [!NOTE]
+> I know the theme is broken rn, im a bit busy so fixes will take some time. Expect a fix sometime about Dec 15.
+
 # SleekCord
 
 A pitch black discord theme that's sleek and modern in every way.
