@@ -1,5 +1,10 @@
 @use '../../var' as *;
 
+.container_H5ozaj,
+.privateChannels_u88IQl, .scroller_Bce46W {
+    background: none;
+}
+
 .visual-refresh .container__2637a {
     padding-bottom: unset; //removes the most annoying box in history, the one behind profile wiget thingy
 }
@@ -23,29 +28,52 @@
 
 //--------------------channel sel & hov--------------------//
 //hov
-.wrapper__2ea32:hover .link__2ea32 {
-    transition: 0.3s;
-    background: var($accB);
+.wrapper_TNyK-N {
+    &:hover .link_TNyK-N {
+        transition: 0.3s;
+        background: var($accB);
+    }
+    &:hover .icon_TNyK-N {
+        color: var($txt);
+    }
 }
 
 // - - - - - - - - - - - unread - - - - - - - - - - - //
-.modeUnreadImportant__2ea32 {
-    .name__2ea32, &:hover .name__2ea32,
-    .icon__2ea32, &:hover .icon__2ea32,
+.modeUnreadImportant_TNyK-N {
+    .name_TNyK-N, &:hover .name_TNyK-N,
+    .icon_TNyK-N, &:hover .icon_TNyK-N,
     .actionIcon_c69b6d {color: var($acc) !important;}
 }
+
 //dot
-.unreadImportant__2ea32 {background: var($acc)};
+.unreadImportant_TNyK-N {background: var($acc)};
 // - - - - - - - - - - - - -- - - - - - - - - - - - - //
 
-.modeSelected__2ea32 { //sel
-    .link__2ea32 {color: var($txt);}
-    .link__2ea32:hover {color: var($txt); transition: 0.3s;}
+.modeSelected_TNyK-N { //sel
+    .link_TNyK-N {color: var($txt);}
+    .link_TNyK-N:hover {color: var($txt); transition: 0.3s;}
+
+    //dot
+    .unreadImportant_TNyK-N {background: var($txt)};
 }
 //---------------------------------------------------------//
 
 //New Unreads
-.unread__3b95d {
+.bar_t1P8Sn {
     border: none;
     backdrop-filter: blur(var($blur));
+}
+
+//vc counter
+.wrapper_QQRrAh {
+    background: var($accA);
+    border: 1.5px solid var($accA);
+}
+.users_QQRrAh {
+    background: none;
+}
+
+//show all
+.secondary_F7qvhY {
+    border: none;
 }

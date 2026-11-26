@@ -1,13 +1,14 @@
 @use '../../var' as *;
 
-._visual-refresh .title_f75fb0 {border: none;}
-
-.container__9293f {
-  .theme-dark &, .theme-darker &, .theme-midnight & {border: none;}
+[class*="theme-"] {
+    .themed_ybUK7Z, .children_ybUK7Z:after {background: none;}
 }
 
-.theme-dark .children__9293f:after {background: none;}
+//dm
+.container_zrUwGA {background: none;}
 
-.visual-refresh .chat_f75fb0[data-has-border=true] {border: none;}
+// >#< channel
+.icon_ybUK7Z {color: var($txt);}
 
-.visual-refresh .searchBar__97492 {border: none;} //search bar
+//search bar
+.searchBar_i16Ad0 {border: none;}

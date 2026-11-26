@@ -1,7 +1,13 @@
 @use '../var' as *;
 
-.container_c8ffbb {border: none;}
-.clickable__91a9d:hover .childContainer__91a9d {background: var($accA);}
+.container_86es0b, .members_86es0b {
+    background: none;
+}
+
+.member_86es0b {
+    background: none;
+    margin: 3px;
+}
 
 //dm & threads
 .content_f75fb0 > div {border: none;}
