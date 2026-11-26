@@ -4,3 +4,6 @@ site/tailwind.py
 *.json
 *.log
 /tmp.txt
+*.tmp
+/dist/SleekCordDev.theme.css
+/dist/SleekCordDev.theme.css.map
