@@ -1,11 +1,9 @@
 @use '../var' as *;
 
-//delete btn
-.colorDanger_c1e9c4.focused_c1e9c4 {
-    background: linear-gradient(oklab(0.71 0.17 0.16 / 0.15), oklab(0.65 0.26 0.14 / 0.15));
+.menu_M3qk4j {
+    border: none;
+    backdrop-filter: blur(var($blur));
 }
-
-.menu_c1e9c4 {border: none;}
 
 //----------------new server tag----------------//
 .popover_d6f39b,
@@ -22,7 +20,7 @@
     border: none;
     backdrop-filter: blur(var($blur));
 }
-.focusLock__49fc1 > .root__49fc1 > .outer_c0bea0 {
+.focusLock__49fc1 > .root__49fc1 > .outer_P1YEjQ {
     background: none;
     backdrop-filter: none;
 }

@@ -9,6 +9,14 @@
     margin: 3px;
 }
 
+//hov
+.clickable_J1Adu_.container_J1Adu_:hover .botTagRegular_feVUtO {
+    &, .botTagVerified_feVUtO path {
+        background: var($txt);
+        color: var($acc);
+        fill: var($acc)
+    }
+}
 //dm & threads
 .content_f75fb0 > div {border: none;}
 

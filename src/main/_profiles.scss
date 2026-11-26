@@ -1,16 +1,16 @@
 @use '../var' as *;
 
-.outer_c0bea0 { //bg
+.outer_P1YEjQ { //bg
     border: none;
     background: var($profile);
     backdrop-filter: blur(var($blur));
 }
-:where(.overlay_c0bea0) {
+:where(.overlay_P1YEjQ) {
     background: none;
     backdrop-filter: blur(var($blur));
 }
 
-//full profile
+//full profile7
 .profile__9c3be {
     outline: none;
     box-shadow: none;

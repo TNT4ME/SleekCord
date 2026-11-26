@@ -1,22 +1,12 @@
 @use '../var' as *;
 
-.container_fc561d { //bg
-	border: none;
+.container_uTMZTY { //bg
 	backdrop-filter: blur(var($blur));
 }
 
-.container_fc561d .messagesPopoutWrap_e8b59c,
-.channelHeader__35a7e, .container__0f711 {
-	border: none;
-	background: none;
-	backdrop-filter: none;
-}
+.box_0JZW4Z {border: none;} //fg
 
-.messageContainer__95796,
-.messages__1ccd1 { //fg
-	border: none;
-}
-
-.jumpButton_ed0c8c { //jump button
-	border: none
+.channelHeader_8ZcKCk {
+    background: var($accC);
+    border: none;
 }
