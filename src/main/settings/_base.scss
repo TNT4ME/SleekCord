@@ -1,0 +1,19 @@
+@use '../../var' as *;
+
+.modal__F9ieB,
+.modalContent__F9ieB,
+.modalContentInner__F9ieB,
+.sidebar_cR4ic2,
+
+.contentHeader_3Rvb29,
+.content_3Rvb29 {
+    background: none;
+}
+.container_NdjzJd {
+    background: var($accA);
+    backdrop-filter: blur(var($blur));
+}
+
+.fixedContent_cR4ic2:after {
+    background: none;
+}
