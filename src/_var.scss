@@ -1,31 +1,33 @@
-$main: --FO-mainCol;
-$sec: --FO-secCol;
-$acc: --FO-accentCol;
-$msgBar: --FO-msgBar;
+$main: --background-dark-base;
+$sec: --SL-secCol;
+$msgBar: --chat-background-default;
 
-$accB: --FO-accentB;
-$accA: --FO-accentA;
-$accC: --FO-accentC;
+$opa: --SL-opacity;
 
-$grad: --FO-grad;
-$grad1: --FO-gradCol1;
-$grad2: --FO-gradCol2;
+$acc: --text-brand;
+$accA: --blurple-1;
+$accB: --primary-600-hsl;
+$accC: --accC;
 
-$blur: --FO-blur;
-$opa: --FO-opa;
+$grad: --SL-grad;
+$grad1: --SL-gradCol1;
+$grad2: --SL-gradCol2;
 
-$mention: --FO-mentionCol;
-$mentionBg: --FO-mentionColBg;
+$blur: --SL-blur;
 
-$spoiler: --FO-spoiler;
+$ping: --mention-foreground;
+$pingBg: --mention-background;
 
-$profile: --FO-profileCol;
-$profileOpa: --FO-profileOpa;
+$spoiler: --SL-spoiler;
 
-$txt: --FO-txtCol;
-$link: --FO-linkCol;
-$code: --FO-code;
+$profile: --profile;
 
-$icon: --FO-icon;
+$txt: --text-default;
+$link: --text-link;
+$code: --SL-code;
 
-$vidBg: --FO-vidBg;
+$vidBg: --SL-vidBg;
+
+$bgImg: --SL-backgroundImg;
+$bgOpa: --SL-imgOpacity;
+$bgBlur: --SL-imgBlur;

@@ -1,2 +1,9 @@
 *.exe
 site/tailwind.py
+*.DS_Store
+*.json
+*.log
+/tmp.txt
+*.tmp
+/dist/SleekCordDev.theme.css
+/dist/SleekCordDev.theme.css.map

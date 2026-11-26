@@ -1,0 +1,17 @@
+@use '../../var' as *;
+
+.destinationRow_ba7598.pressable_ba7598:not(.disabled_ba7598):hover,
+.destinationRow_ba7598:not(.disabled_ba7598):hover {background: var($accA);}
+
+.checkboxIndicator__714a9 {
+    background: var($accA);
+    border: none;
+
+    .checkboxOption__714a9:not([data-selected]):hover:not([data-disabled]) & {
+        background: var($acc);
+    }
+    .checkboxOption__714a9[data-selected]:hover:not([data-disabled]) & {
+        background: var($acc);
+        border: none;
+    }
+}

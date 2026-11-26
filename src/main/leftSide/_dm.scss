@@ -1,23 +1,9 @@
 @use '../../var' as *;
 
-.visual-refresh .e6b7699ce8339e1c-privateChannels {background: var($main);}
-
-.visual-refresh ._99e7cad8d4c55236-scroller {background: var($main);}
-
-//dc official bot
-._82f0793afa59e5dc-botTagRegular {background: var($acc);}
-
-//-------------------------hover-------------------------//
-._972a0d22c8afa7f0-interactiveSelected {
-    color: var($txt);
-    background: var($accA);
+//right side
+.content_f75fb0 .outer_c0bea0, .footerButton__272c7, .aside_f58343 {
+    background: none;
 }
 
-._972a0d22c8afa7f0-interactiveSelected:hover {background: var($acc);}
-//-------------------------------------------------------//
-
-//profile sidebar (right)
-.user-profile-sidebar {background: var($main);}
-
 //stupid box behind profile wiget
-._99e7cad8d4c55236-scroller {margin-bottom: none;}
+.scroller__99e7c {margin-bottom: none;}

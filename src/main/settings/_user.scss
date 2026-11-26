@@ -1,35 +1,77 @@
 @use '../../var' as *;
 
-//---------------------------My Account---------------------------//
-.aa8da23faa27393c-top .aa8da23faa27393c-item.aa8da23faa27393c-brand
-{--selected-tab-item-color: var($acc);} //Security  Standing
+//toggles
+.switchIndicator_a28278 {background: var($acc) !important;}
 
 
-// ################ Profile Preview ################ //
-._1fed1dd06c7aabf7-accountProfileCard {
+//----------------My Account----------------//
+// - - - - - - Profile Preview - - - - - - //
+//border
+.accountProfileCard_a27e58 {
 	background: none;
-	border: 2px solid var($acc); //border
+	border: 2px solid var($acc);
 }
 
 //bg
-._1fed1dd06c7aabf7-background {background: var($accA);}
-._1fed1dd06c7aabf7-fieldList {background: none;}
+.background_a27e58 {background: var($accA);}
+.fieldList_a27e58, .badgeList_a27e58 {background: none;}
 
-._7a01bdafdcb0e727-primary {color: var($acc);} //Reveal
-// ################################################# //
-
+//Reveal
+.primary__7a01b {color: var($acc);}
+// - - - - - - - - - - - - - - - - - - - - //
 
 //remove buttons
-.a22cb0c66246f5d3-critical-secondary {border: none;}
+.critical-secondary_a22cb0 {border: none;}
+
+//2FA menu
+.footer__49fc1 {background: none;}
+//------------------------------------------//
 
 
-// ########## security key menu ########## //
-._49fc18ba07c5025f-root:has(div > div > form) {
-	background: var($accA);
-	backdrop-filter: blur(var($blur));
+//-------------------------Content & Social-------------------------//
+.card__5cea9 {
+	box-shadow: none;
+	background: var($accB);
 }
-._49fc18ba07c5025f-footer {background: none;}
-// ####################################### //
+.header__5cea9 {border-radius: var(--radius-sm) var(--radius-sm) 0 0;}
 
-//----------------------------------------------------------------//
+//icons
+.iconContainer__5cea9 > svg > path {fill: var($acc);}
+//------------------------------------------------------------------//
 
+
+//----------Family Center----------//
+.box_f8c98c, .row__0624f {
+	border: none;
+	box-shadow: none;
+	background: var($accA);
+}
+.iconContainer__0624f {border: none;}
+//---------------------------------//
+
+
+//----------------Authorized Apps----------------//
+.cardPrimary__73069,
+.cardPrimary__73069.editable__73069 {border: none;}
+
+.appAvatarV2__50a54 {border: none;}
+
+.actionMenuButton_12cd0 {background: var($accA);}
+//-----------------------------------------------//
+
+
+//-----------------Devices-----------------//
+.sessionIcon__803f2 {background: var($txt);}
+//-----------------------------------------//
+
+
+//------------------------Connections------------------------//
+.accountButtonInner__4109d, .connection__4109d {border: none;}
+//-----------------------------------------------------------//
+
+
+//----------------Notifications----------------//
+.baseControlItem_dbfbe0:hover.clickable_dbfbe0 {
+	background: var($accA);
+}
+//---------------------------------------------//

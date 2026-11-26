@@ -1,18 +1,8 @@
 @use '../../var' as *;
 
-.e8b59c4b335dd2fc-messagesPopoutWrap {
-    background: var($accA);
-    backdrop-filter: blur(var($blur));
-}
+.messagesPopoutWrap_e8b59c {backdrop-filter: blur(var($blur));}
 
-.e8b59c4b335dd2fc-header, .e8b59c4b335dd2fc-messageGroupWrapper {
+.header_e8b59c, .messageGroupWrapper_e8b59c {
     border: none;
     background: none;
-}
-
-//Jump to msg
-.jumpButton_e8b59c {
-    border: none;
-    color: var($txt);
-    background: var($accB);
 }

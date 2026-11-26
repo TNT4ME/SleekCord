@@ -7,22 +7,24 @@
 @use 'main/profiles' as *;
 @use 'main/profileWidget' as *;
 @use 'main/root' as *;
+@use 'main/searchMenu' as *;
 @use 'main/serverTags' as *;
 @use 'main/titleBar' as *;
 @use 'main/tooltips' as *;
 
 @use 'main/chat/buttons' as *;
+@use 'main/chat/discoverMenu' as *;
 @use 'main/chat/embed' as *;
 @use 'main/chat/friendsList' as *;
+@use 'main/chat/forwardMenu' as *;
 @use 'main/chat/hover' as *;
-@use 'main/chat/links' as *;
-@use 'main/chat/main' as *;
 @use 'main/chat/mention' as *;
 @use 'main/chat/msgBar' as *;
 @use 'main/chat/newMsg' as *;
 @use 'main/chat/pins' as *;
 @use 'main/chat/reactions' as *;
 @use 'main/chat/serverTags' as *;
+@use 'main/chat/small' as *;
 @use 'main/chat/spoiler' as *;
 @use 'main/chat/threadsList' as *;
 @use 'main/chat/topBar' as *;
@@ -30,9 +32,20 @@
 
 @use 'main/leftSide/channels' as *;
 @use 'main/leftSide/dm' as *;
+@use 'main/leftSide/nitro' as *;
+@use 'main/leftSide/quests' as *;
 @use 'main/leftSide/servers' as *;
 
+@use 'main/settings/activity' as *;
+@use 'main/settings/app' as *;
+@use 'main/settings/bd' as *;
+@use 'main/settings/billing' as *;
+@use 'main/settings/guild' as *;
 @use 'main/settings/settings' as *;
 @use 'main/settings/user' as *;
+@use 'main/settings/ven' as *;
+
+@use 'main/themes/dark' as *;
+@use 'main/themes/light' as *;
 
 @use 'bd' as *;

@@ -1,0 +1,30 @@
+@use '../../var' as *;
+
+.vc-card-normal, .vc-card-base {border: none;}
+
+.vc-settings-quickActions-pill:hover {
+    background: var($accB);
+}
+.vc-btn-primary {
+    border: none;
+    background: var($accA);
+}
+
+//Plugins
+.vc-card-warning {border: 1.5px solid var(--icon-status-idle);}
+.popout_a16aea {
+    border: none;
+    background: var($accB);
+    backdrop-filter: blur(var($blur));
+}
+.vc-addon-card {
+    border: none;
+    background: var($accB);
+}
+.vc-settings-modal-link-icon {border: none;}
+.vc-plugins-info-icon:not(:hover, :focus) {color: var($accC);}
+
+//Switches
+.vc-switch-container {background: var($accC);}
+.vc-switch-checked {background: var($acc);}
+.vc-switch-slider > svg path {--primary-400: var($accC);}

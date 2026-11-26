@@ -1,16 +1,50 @@
 @use '../../var' as *;
 
-//Find or start convo
-.e6b7699ce8339e1c-searchBar {background: var($main);}
+.container__133bf {border: none;}
 
-//Friends: Online All Pending
-.theme-dark ._9293f6b2fc12398a-themed {background: var($main);}
+//Find or start convo
+.searchBar_e6b769 {
+    background: none;
+    border: none;
+}
+
+//Below ^^
+.interactive_f88cfd {
+    &:focus-visible,
+    &:has(:focus-visible) {
+        background: var($accA);
+    }
+}
+.linkButton__972a0:hover .linkButtonIcon__972a0 {color: var($txt);}
 
 //Search Bar
 .wrapper_a45028 {border: none;}
 
-//Add Friend
-._133bf5eea8e33a34-tabBar ._133bf5eea8e33a34-addFriend._133bf5eea8e33a34-addFriend._133bf5eea8e33a34-addFriend {background: var($acc);}
+//Above ^^
+.tabBar__133bf .addFriend__133bf.addFriend__133bf.addFriend__133bf {
+    color: var($acc);
+    background: var($accA);
+
+    &[aria-selected=true] {
+        color: var($txt);
+        background: var($acc);
+    }
+}
+.addFriendInputWrapper__72ba7 {border: none;} //add friend user
+.container_a14595 { //explore servers
+    border: none;
+    background: var($accA);
+}
 
 //Active Now
-._7d20cf18f8a2784c-scroller, ._00943886e1cf89d1-wrapper, ._00943886e1cf89d1-section {border: none;}
+.nowPlayingColumn__133bf {background: none;}
+.scroller__7d20c, .wrapper__00943, .section__00943 {border: none;}
+
+//Online
+.actionButton_f8fa06 {
+    &.highlight_f8fa06, & {background: var($accA);}
+    &:hover {background: var($acc);}
+}
+
+//in add friend button
+.header__94b08 {border: none;}

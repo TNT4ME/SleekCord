@@ -1,0 +1,69 @@
+//var not working here either
+//@use '../../var' as *;
+
+.theme-dark, .theme-darker, .theme-midnight {
+    --background-dark-base: var(--SL-mainCol);
+    --background-base-lower: var(--SL-mainCol);
+    --background-base-lowest: var(--SL-mainCol);
+    --__header-bar-background: var(--SL-mainCol);
+    --interactive-text-default: var(--SL-mainCol);
+
+    --chat-background-default: var(--SL-msgBar);
+    
+    --text-brand: var(--SL-accentCol);
+    --blurple-50: var(--SL-accentCol);
+    --primary-400: var(--SL-accentCol);
+    --spine-default: var(--SL-accentCol);
+    --border-normal: var(--SL-accentCol);
+    --guild-boosting-pink: var(--SL-accentCol);
+    --input-border-active: var(--SL-accentCol);
+    --icon-feedback-warning: var(--SL-accentCol);
+    --control-brand-foreground: var(--SL-accentCol);
+    --interactive-background-hover: var(--SL-accentCol);
+    --control-primary-background-hover: var(--SL-accentCol);
+    --control-primary-background-default: var(--SL-accentCol);
+    --control-secondary-background-hover: var(--SL-accentCol);
+    --control-overlay-secondary-background-hover: var(--SL-accentCol);
+
+    --profile: var(--SL-profileCol);
+
+    --blurple-1: var(--SL-accentA);
+    --modal-background: var(--SL-accentA);
+    --background-base-low: var(--SL-accentA);
+    --background-mod-normal: var(--SL-accentA);
+    --background-mod-strong: var(--SL-accentA);
+    --background-surface-high: var(--SL-accentA);
+    --card-background-default: var(--SL-accentA);
+    --input-background-default: var(--SL-accentA);
+    --background-surface-higher: var(--SL-accentA);
+    --background-surface-highest: var(--SL-accentA);
+    --interactive-background-selected: var(--SL-accentA);
+    --control-overlay-secondary-background-default: var(--SL-accentA);
+
+    --primary-600-hsl: var(--SL-accentB);
+    --background-mod-muted: var(--SL-accentB);
+    --background-mod-subtle: var(--SL-accentB);
+    --interactive-background-active: var(--SL-accentB);
+    --gradient-progress-pill-background: var(--SL-accentB);
+    --control-secondary-background-default: var(--SL-accentB);
+
+    --accC: var(--SL-accentC);
+
+    --mention-foreground: var(--SL-mentionCol);
+    --mention-background: var(--SL-mentionColBg);
+    --message-mentioned-background-hover: var(--SL-mentionColBg);
+    --message-mentioned-background-default: var(--SL-mentionColBg);
+
+    --text-link: var(--SL-linkCol);
+    --icon-subtle: var(--SL-txtCol);
+    --icon-strong: var(--SL-txtCol);
+    --text-subtle: var(--SL-txtCol);
+    --text-strong: var(--SL-txtCol);
+    --text-default: var(--SL-txtCol);
+    --interactive-text-default: var(--SL-txtCol);
+    --control-primary-text-default: var(--SL-txtCol);
+    --control-secondary-text-default: var(--SL-txtCol);
+
+    //light theme profile fix
+    & .colorDefault_c1e9c4 .label_c1e9c4 {color: var(--SL-txtCol);}
+}

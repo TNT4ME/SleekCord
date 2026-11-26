@@ -2,7 +2,7 @@
  * @name Sleekcord
  * @author TNT4ME
  * @description A pitch black theme that's sleek and modern in every way.
- * @version 1
+ * @version 4.2.1
  * @invite G2YfSm3Md4
  * @authorId 790463558625918999
  * @source https://github.com/TNT4ME/SleekCord
@@ -19,36 +19,65 @@ LICENSE
 /*easter eggs*/
 @import url('https://tnt4me.github.io/SleekCord/dist/easterEggs.css');/**/
 
-/*PLugin support*/
+/*Plugin support*/
 @import url('https://tnt4me.github.io/SleekCord/dist/plugins/vencord/SpotifyControls.css');
 /*-------------*/
 
+/*
+Note for MacOS (Vencord)
+
+To enable background transparency in MacOS, go to 'Settings > Vencord > Window Vibrancy Style' and set it to one of the following:
+
+- Selection - Transparency even when unfocused but has no blur
+- HUD - No transparency when unfocused but has blur
+- Titlebar - Same as HUD but has a darker tint
+*/
+
 :root {
-    --FO-mainCol: #000; /*Main background color | Default value: #000*/
-    --FO-secCol: #0c0c0c; /*Secondary background color | Default value: #0c0c0c*/
-    --FO-accentCol: oklch(0.7073 0.1808 291.18); /*Secondary background color | Default value: oklch(0.7073 0.1808 291.18)*/
+    --SL-opacity: 100%; /*Window transparency | Default value: 100%*/
 
-    --FO-gradCol1: var(--FO-accentA); /*Gradient color | Default value: --FO-accentA*/
-    --FO-gradCol2: oklch(0.8909 0.2062 191.37 / 0.3); /*Gradient color 2| Default value: oklch(0.8909 0.2062 191.37 / 0.3)*/
+    --SL-mainCol: #000; /*Main background color | Default value: #000*/
+    --SL-secCol: #0c0c0c; /*Secondary background color | Default value: #0c0c0c*/
+    --SL-accentCol: oklch(0.7073 0.1808 291.18); /*Secondary background color | Default value: oklch(0.7073 0.1808 291.18)*/
 
-    --FO-blur: 15px; /*Controls the blur amount of everything | Default value: 15px*/ 
+    --SL-gradCol1: var(--SL-accentA); /*Gradient color | Default value: --SL-accentA*/
+    --SL-gradCol2: oklch(0.8909 0.2062 191.37 / 0.3); /*Gradient color 2| Default value: oklch(0.8909 0.2062 191.37 / 0.3)*/
 
-    --FO-spoiler: 20px; /*Spoiler blur amount | Default value: 20px*/
+    --SL-blur: 15px; /*Controls the blur amount of everything | Default value: 15px*/ 
 
-    --FO-profileCol: oklch(0.7073 0.1808 291.18 / /*Profile Opacity*/ 20%);
+    --SL-spoiler: 20px; /*Spoiler blur amount | Default value: 20px*/
 
-    --FO-mentionCol: var(--FO-accentCol); /*Mention color | Default value: --FO-accentCol*/
+    --SL-profileCol: var(--SL-accentA); /*Profile background | Default value: --SL-accentA*/
 
+    --SL-mentionCol: var(--SL-accentCol); /*Mention color | Default value: --SL-accentCol*/
 
-    --FO-txtCol: #eee; /*Text color | Default value: #eee*/
-    --FO-font: 'Nunito'; /*Font | Default value: 'Nunito'*/
-    --FO-code: 'Jetbrains Mono', monospace; /*Code font | Default value: 'Jetbrains Mono'*/
-    --FO-linkCol: oklch(0.6836 0.1563 194.769); /*Link color | Default value: */
+    /*Background Image | Default image: */
+    --SL-backgroundImg: url('https://raw.githubusercontent.com/rose-pine/wallpapers/refs/heads/main/illustration/block-wave-moon.png');
+    --SL-imgBlur: 0px; /*Background Image Blur | Default value: 0px*/ 
+    --SL-imgOpacity: 0%; /*Background Image Opacity | 0%*/
 
-    --FO-icon: var(--FO-txtCol); /*Icon color | Default value: --FO-txtCol*/
+    --SL-txtCol: #eee; /*Text color | Default value: #eee*/
+    --SL-font: 'Nunito'; /*Font | Default value: 'Nunito'*/
+    --SL-code: 'Jetbrains Mono', monospace; /*Code font | Default value: 'Jetbrains Mono'*/
+    --SL-linkCol: oklch(0.6836 0.1563 194.769); /*Link color | Default value: oklch(0.6836 0.1563 194.769)*/
 
-    --FO-msgBar: #111; /*Message bar color | Default value: #111*/
-}
-small .emojiContainerClickable__75abc {
-    color: #f0f;
+    --SL-icon: var(--SL-txtCol); /*Icon color | Default value: --SL-txtCol*/
+
+    --SL-msgBar: color-mix(in oklch, var(--SL-mainCol), black 25%); /*Message bar color | Default value: color-mix(in oklch, var(--SL-mainCol), black 25%)*/
+
+    /*Light Theme*/
+    --SL-mainCol-light: #eff1f5; /*Main background color | Default value: #eff1f5;*/
+    --SL-secCol-light: #e3e3e3; /*Secondary background color | Default value: #e3e3e3*/
+    --SL-accentCol-light: #d20f39; /*Secondary background color | Default value: #d20f39*/
+
+    --SL-profileCol-light: var(--SL-accentA-light); /*Profile background | Default value: --SL-accentA-light*/
+
+    --SL-mentionCol-light: var(--SL-accentCol-light); /*Mention color | Default value: --SL-accentCol-light*/
+
+    --SL-txtCol-light: #3b3d51; /*Text color | Default value: #3b3d51*/
+    --SL-linkCol-light: oklch(0.5671 0.1297 194.769); /*Link color | Default value: oklch(0.5671 0.1297 194.769)*/
+
+    --SL-icon-light: var(--SL-txtCol); /*Icon color | Default value: --SL-txtCol*/
+
+    --SL-msgBar-light: color-mix(in oklch, var(--SL-mainCol-light), white 25%); /*Message bar color | Default value: color-mix(in oklch, var(--SL-mainCol-light), white 25%)*/
 }
