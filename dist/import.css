@@ -54,45 +54,12 @@ body {
   background: color-mix(in oklab, var(--background-dark-base) var(--SL-opacity), transparent);
 }
 
-.appMount__51fd7,
-.app__160d8,
-.bg__960e4, .theme-light, .theme-dark, .theme-midnight, .images-light, .images-dark,
-.container__2637a,
-.privateChannels_e6b769,
-.scroller__99e7c,
-.container__133bf,
-.tabBody__133bf,
-.chat_f75fb0,
-.theme-dark .themed__9293f,
-.theme-light .themed__9293f,
-.container_c8ffbb,
-.chatContent_f75fb0,
-.searchResultsWrap_a98f3b,
-.searchResult__80bf8,
-.channelTextArea_f75fb0,
-.searchBar_c322aa,
-.wrapper_d852db,
-.wrapper_fc8177,
-.container_f369db,
-.chatTarget__01ae2,
-.container__34c2c,
-.divider_ee23ac,
-.container__8a031,
-.container__7641b,
-.member_c8ffbb,
-.custom-theme-background .tree_ef3116,
-.applicationStore_f07d62,
-.homeWrapper__0920e,
-.containerBackground__02f2d,
-.shop__6db1d,
-.shopScroll__08415,
-.shop__08415,
-.scroller__23746,
-.layer__960e4,
-.standardSidebarView__23e6b,
-.sidebarRegionScroller__23e6b,
-.mainTableContainer_fa2640,
-.scroller_f35c3c {
+.appMount_gEkNtR,
+.app_QbT-Jy,
+.chat_z_gUBg,
+.chatContent_z_gUBg,
+.tabBody_zrUwGA,
+.nowPlayingColumn_zrUwGA {
   background: none;
 }
 
@@ -184,12 +151,13 @@ body::after {
   border: none;
 }
 
-.container_c8ffbb {
-  border: none;
+.container_86es0b, .members_86es0b {
+  background: none;
 }
 
-.clickable__91a9d:hover .childContainer__91a9d {
-  background: var(--blurple-1);
+.member_86es0b {
+  background: none;
+  margin: 3px;
 }
 
 .content_f75fb0 > div {
@@ -705,28 +673,29 @@ div[data-popout-animating=false] > #emoji-picker-tab-panel {
   border: none;
 }
 
-._visual-refresh .title_f75fb0 {
-  border: none;
-}
-
-.theme-dark .container__9293f, .theme-darker .container__9293f, .theme-midnight .container__9293f {
-  border: none;
-}
-
-.theme-dark .children__9293f:after {
+[class*=theme-] .themed_ybUK7Z, [class*=theme-] .children_ybUK7Z:after {
   background: none;
 }
 
-.visual-refresh .chat_f75fb0[data-has-border=true] {
-  border: none;
+.container_zrUwGA {
+  background: none;
 }
 
-.visual-refresh .searchBar__97492 {
+.icon_ybUK7Z {
+  color: var(--text-default);
+}
+
+.searchBar_i16Ad0 {
   border: none;
 }
 
 .root_bfe55a {
   background: var(--SL-vidBg);
+}
+
+.container_H5ozaj,
+.privateChannels_u88IQl, .scroller_Bce46W {
+  background: none;
 }
 
 .visual-refresh .container__2637a {
@@ -757,32 +726,51 @@ div[data-popout-animating=false] > #emoji-picker-tab-panel {
   color: var(--text-default);
 }
 
-.wrapper__2ea32:hover .link__2ea32 {
+.wrapper_TNyK-N:hover .link_TNyK-N {
   transition: 0.3s;
   background: var(--primary-600-hsl);
 }
+.wrapper_TNyK-N:hover .icon_TNyK-N {
+  color: var(--text-default);
+}
 
-.modeUnreadImportant__2ea32 .name__2ea32, .modeUnreadImportant__2ea32:hover .name__2ea32,
-.modeUnreadImportant__2ea32 .icon__2ea32, .modeUnreadImportant__2ea32:hover .icon__2ea32,
-.modeUnreadImportant__2ea32 .actionIcon_c69b6d {
+.modeUnreadImportant_TNyK-N .name_TNyK-N, .modeUnreadImportant_TNyK-N:hover .name_TNyK-N,
+.modeUnreadImportant_TNyK-N .icon_TNyK-N, .modeUnreadImportant_TNyK-N:hover .icon_TNyK-N,
+.modeUnreadImportant_TNyK-N .actionIcon_c69b6d {
   color: var(--text-brand) !important;
 }
 
-.unreadImportant__2ea32 {
+.unreadImportant_TNyK-N {
   background: var(--text-brand);
 }
 
-.modeSelected__2ea32 .link__2ea32 {
+.modeSelected_TNyK-N .link_TNyK-N {
   color: var(--text-default);
 }
-.modeSelected__2ea32 .link__2ea32:hover {
+.modeSelected_TNyK-N .link_TNyK-N:hover {
   color: var(--text-default);
   transition: 0.3s;
 }
+.modeSelected_TNyK-N .unreadImportant_TNyK-N {
+  background: var(--text-default);
+}
 
-.unread__3b95d {
+.bar_t1P8Sn {
   border: none;
   backdrop-filter: blur(var(--SL-blur));
+}
+
+.wrapper_QQRrAh {
+  background: var(--blurple-1);
+  border: 1.5px solid var(--blurple-1);
+}
+
+.users_QQRrAh {
+  background: none;
+}
+
+.secondary_F7qvhY {
+  border: none;
 }
 
 .content_f75fb0 .outer_c0bea0, .footerButton__272c7, .aside_f58343 {
@@ -888,6 +876,19 @@ div[data-popout-animating=false] > #emoji-picker-tab-panel {
 .container__7700a,
 .defaultKeybindGroup__740f2 {
   border: none;
+}
+
+.container_NdjzJd {
+  background: var(--SL-accentA);
+  backdrop-filter: blur(var(--SL-blur));
+}
+
+.content_3Rvb29 {
+  background: none;
+}
+
+.fixedContent_cR4ic2:after {
+  background: none;
 }
 
 .bd-addon-list .bd-addon-card,
