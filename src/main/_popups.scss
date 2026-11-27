@@ -1,37 +1,37 @@
 @use '../var' as *;
-
+//
 .menu_M3qk4j {
     border: none;
     backdrop-filter: blur(var($blur));
 }
-
-//----------------new server tag----------------//
-.popover_d6f39b,
-.popoverGradientWrapper_d6f39b {
-    border: none;
-    backdrop-filter: blur(var($blur));
-}
-
-.secondary_a22cb0 {border: none;}
-//----------------------------------------------//
-
-//-----------------------Popups-----------------------//
-.focusLock__49fc1 > .root__49fc1 {
-    border: none;
-    backdrop-filter: blur(var($blur));
-}
-.focusLock__49fc1 > .root__49fc1 > .outer_P1YEjQ {
-    background: none;
-    backdrop-filter: none;
-}
-.focusLock__49fc1 > .root__49fc1:has(.mediaArea_e03578) {
-    border: none;
-    backdrop-filter: none;
-}
-//----------------------------------------------------//
-
-//--------------ven notif--------------//
-.vc-notification-root {
-    backdrop-filter: blur(var($blur))
-}
-//-------------------------------------//
+//
+// //----------------new server tag----------------//
+// .popover_d6f39b,
+// .popoverGradientWrapper_d6f39b {
+//     border: none;
+//     backdrop-filter: blur(var($blur));
+// }
+//
+// .secondary_a22cb0 {border: none;}
+// //----------------------------------------------//
+//
+// //-----------------------Popups-----------------------//
+// .focusLock__49fc1 > .root__49fc1 {
+//     border: none;
+//     backdrop-filter: blur(var($blur));
+// }
+// .focusLock__49fc1 > .root__49fc1 > .outer_P1YEjQ {
+//     background: none;
+//     backdrop-filter: none;
+// }
+// .focusLock__49fc1 > .root__49fc1:has(.mediaArea_e03578) {
+//     border: none;
+//     backdrop-filter: none;
+// }
+// //----------------------------------------------------//
+//
+// //--------------ven notif--------------//
+// .vc-notification-root {
+//     backdrop-filter: blur(var($blur))
+// }
+// //-------------------------------------//

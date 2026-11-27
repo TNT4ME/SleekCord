@@ -1,58 +1,98 @@
 @use '../var' as *;
 
-.outer_P1YEjQ { //bg
+//bg
+.outer_P1YEjQ {
     border: none;
     background: var($profile);
     backdrop-filter: blur(var($blur));
 }
+
+//banner buttons
+.bannerButton_C4gRrZ {
+    border: none;
+    &:hover, &:active {
+        background: var($acc);
+    }
+}
+
+//server tags, etc
+.guildTagPill_C2XpHA.guildTagPill_C2XpHA,
+.managed_IqWmhA:before {
+    border: none;
+}
+
+//game collection and activity
+.breadcrumb_s6-upr:hover .innerContainer_s6-upr,
+.clickableContainer_Bu4Al8:hover > .card_Bu4Al8 {
+    background: var($accA);
+}
+
+//pvt profile
 :where(.overlay_P1YEjQ) {
-    background: none;
+    background: var($accA);
+}
+
+//roles
+.role_xL50-d, .vc-permviewer-role-button {
+    border: none;
+    color: var($txt);
+    background: var($accB);
+}
+.pillButton_xL50-d:hover,
+.vc-permviewer-role-button:hover {
+    color: var($txt);
+    background: var($accA);
+}
+
+//msg box
+.inlineContainer_2x8-Qn {border: none;}
+
+//edit profile, etc
+.menuItemInner_nitlyF:hover {background: var($accA);}
+
+
+// - full profile - //
+.profile_s3DB6Y {
+    border: none;
+    outline: none;
+}
+.editingPanelExpanded_s3DB6Y .profileContentOuter_s3DB6Y {
+    border: none;
+}
+
+//profile edit tab
+.panel_BfN7RR {
+    border: none;
+    border-right: 1.5px solid var($accC);
+    backdrop-filter: blur(var($blur));
+}
+.tabButton_BfN7RR {
+    border: 2px solid var($acc);
+    background: var($accA);
     backdrop-filter: blur(var($blur));
 }
 
-//full profile7
-.profile__9c3be {
-    outline: none;
-    box-shadow: none;
-    background: none;
-}
-
-//status
-.container_ab8609,
-.container_ab8609:hover {
-	--custom-status-bubble-background: var($accC);
-}
-
-//add friend
-//.lookFilled__201d5.colorBrand__201d5 {
-//    border: none;
-//    color: var($txt);
-//    background: var($acc);
-//}
-
 //connections
-.platformIconContainer__9bfb9 {
+.platformIconContainer_O2KI4e {
     border: none;
     background: var($accA);
 }
 
-//------------Fixes bug in 'More > Invite to Server'------------//
-.menu_c1e9c4:after { // Thanks to @skamt._ for fixing this bug <3
-    inset: 0;
-    z-index: -1;
-    content: "";
-    border-radius: 8px;
-    position: absolute;
-    backdrop-filter: blur(var($blur));
+//add note
+.container_CJLDJI:not([data-disabled=true],[data-read-only=true]):hover {
+    outline: none;
 }
-.fixed_c1e9c4:not(#devtools-popout)::after {inset: 0 12px;}
-.submenu_c1e9c4::after {inset: 0 8px 0 8px;}
-//--------------------------------------------------------------//
 
-//improves readability
-//.defaultColor__4bd52 {color: var($txt) !important;} //bio
 
-.editor_a99829 > div > .placeholder__1b31f {color: var($txt);} //dm this guy
+//games
+.container_FNEkcu {
+    border: none;
+    background: var($accA);
+}
+.tag_E5LDT0{
+    border: none;
+    background: var($accB);
+}
 
 //--------------Widgets--------------//
 .container__62dd3 {

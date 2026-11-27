@@ -1,23 +1,31 @@
 @use '../../var' as *;
 
 //-----------------------------------bg-----------------------------------//
-.channelTextArea__74017:not(.highlighted__74017) {border: none;} //msg bar
+.themedBackground_2x8-Qn {background: var($msgBar);}
+
+.channelTextArea_z_gUBg:not(.highlighted_z_gUBg) {border: none;} //msg bar
+.channelTextArea_z_gUBg:not(.highlighted_z_gUBg):hover {
+    outline: 2px solid var($acc);
+}
 
 /*Cool glow border
 thanks to someone for the idea
 i saw it somewhere on dc but i cant find it anymore*/
-.channelTextArea__74017:not(.highlighted__74017):hover {
-    border: none;
-    box-shadow: 0px 0px 3px color-mix(in oklch, var($acc) 90%, transparent),
-    0px 0px 5px color-mix(in oklch, var($acc) 80%, transparent);
-}
+// .channelTextArea_z_gUBg:not(.highlighted_z_gUBg):hover {
+//     border: none;
+//     box-shadow: 0px 0px 3px color-mix(in oklch, var($acc) 90%, transparent),
+//     0px 0px 5px color-mix(in oklch, var($acc) 80%, transparent);
+// }
 
 //Placeholder text
 .placeholder__1b31f {color: var($acc)}
 //------------------------------------------------------------------------//
 
 //useless gradient bar
-.chatGradient__36d07 {background: none;}
+.chatTypingGradientAtBottom_8AE1Qq,
+.chatTypingGradientNotAtBottom_8AE1Qq {
+    background: none;
+}
 
 //---------------------------------file upload---------------------------------//
 .upload_aa605f {
@@ -28,7 +36,7 @@ i saw it somewhere on dc but i cant find it anymore*/
 .mediaContainer__41ea0 > div:not([aria-expanded=false]) > div {background: none;}
 
 //reply
-.stackedBars__74017:not(:last-child) {border: none;}
+.stackedBars_z_gUBg:not(:last-child) {border: none;}
 
 //ping on/off
 .mentionButton__841c8 {color: var($acc) !important;}

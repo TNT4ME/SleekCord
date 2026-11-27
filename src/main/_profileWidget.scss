@@ -1,34 +1,23 @@
 @use '../var' as *;
 
-//-----------------------bg-----------------------//
-.panels__5e434 {
+.panels_pog62O {
     border: none;
-    background: var($accA);
     backdrop-filter: blur(var($blur));
 }
+.sidebar_pog62O:after {background: none;}
 
-.container__37e49, .container_e131a9 {border: none;}
-//------------------------------------------------//
-
-:where(._P1YEjQ5627c5dc35-overlay) {background: none;}
-
-//--------stupid bar at bottom--------//
-.sidebar__5e434:after {background: none}
-//------------------------------------//
+//spotify player
+#vc-spotify-player {
+    border: none;
+}
+.mini_p3RiOL .bar_p3RiOL, .slider_p3RiOL .bar_p3RiOL {
+    background: var($accB);
+}
 
 //-----------------activity panel-----------------//
-.activityPanel__5e434 {border: none;}
+.activityPanel_pog62O {border: none;}
 
 .showMoreButton__84832 {background: var($accB);}
 
 .panel__5dec7 {background: none}
 //------------------------------------------------//
-
-//-------------------online n stuff-------------------//
-#\:rm7\: > rect:nth-child(2),
-#svg-mask-status-idle > circle:nth-child(2),     //idle
-#svg-mask-status-dnd > rect,                     //dnd
-#svg-mask-status-offline > circle:nth-child(2) { //invis
-    fill: transparent;
-}
-//----------------------------------------------------//
